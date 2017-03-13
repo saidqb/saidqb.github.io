@@ -1,4 +1,8 @@
 /*
+--- Example
+#html
+<a id='autoid'>hii</a>
+#js
 window.setTimeout('clickit(data1,data2)',1000);
 */
 window.clickit = function(data1,data2){
