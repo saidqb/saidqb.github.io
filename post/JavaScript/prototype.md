@@ -1,5 +1,5 @@
 
-####Prototype
+###Prototype
 ```
 function test(){}
 
