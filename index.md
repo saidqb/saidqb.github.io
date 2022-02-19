@@ -15,9 +15,9 @@ Berikut ini tools ngoding local development
 
 ### ALL OS
 
-- Postman [Download](https://www.postman.com/downloads/) | [Module](./txt/module-sublime.txt).
+- Postman [Download](https://www.postman.com/downloads/).
 - Sublimetext [Download](https://www.sublimetext.com/download).
-- Visualstudio [Download](https://code.visualstudio.com/download).
+- Visualstudio [Download](https://code.visualstudio.com/download) | [Module](./txt/module-sublime.txt).
 
 #### Remote File Server
 - [File Zila](https://filezilla-project.org/download.php?type=client).
