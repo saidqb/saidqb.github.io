@@ -9,5 +9,5 @@ body > header{
 }
 
 .wrapper section.content{
-    top: 80px;
+    margin-top: 80px;
 }
