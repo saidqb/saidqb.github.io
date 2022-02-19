@@ -4,6 +4,11 @@ body > header{
 #banner{
     top: 0;
     width: 100%;
+    text-align: center;
+}
+#banner .fork{
+    margin-left: none;
+    position: initial;
 }
 .wrapper > nav {
     top: 80px;
