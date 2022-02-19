@@ -15,7 +15,7 @@ Berikut ini tools ngoding local development
 
 ### ALL OS
 
-- Postman [Download](https://www.postman.com/downloads/).
+- Postman [Download](https://www.postman.com/downloads/) | [Module](./txt/module-sublime.txt).
 - Sublimetext [Download](https://www.sublimetext.com/download).
 - Visualstudio [Download](https://code.visualstudio.com/download).
 
