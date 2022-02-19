@@ -1,8 +1,6 @@
 ---
-layout: default
+layout: dev
 title: package viscode
 ---
-[< back](/dev.html)
-
 # package Viscode
 

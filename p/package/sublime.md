@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: dev
 title: package Sublime
 ---
-[< back](/dev.html)
-
 # package Sublime
 
 install dulu package control [ctrl+shift+p]
