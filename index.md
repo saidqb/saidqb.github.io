@@ -15,13 +15,13 @@ Berikut ini tools ngoding local development
 
 ### ALL OS
 
-- sublimetext [Download](https://www.sublimetext.com/download).
-- visualstudio [Download](https://code.visualstudio.com/download).
+- [Download sublimetext](https://www.sublimetext.com/download).
+- [Download visualstudio](https://code.visualstudio.com/download).
 
 ### Windows
 
 ##### Local Web Server
-- laragon [Download](https://laragon.org/download/index.html).
+- [Download laragon](https://laragon.org/download/index.html).
 
 
 ### Linux
@@ -36,11 +36,14 @@ belum ada
 Tools online bermanfaat
 
 #### Tools
-- Cheatsheet [show](https://devhints.io/).
+- [json.parser](http://json.parser.online.fr/).
+
+#### Tools Generator
+- [Markdown Table generator](https://www.tablesgenerator.com/markdown_tables).
 
 #### Documentation
 
-- Cheatsheet [show](https://devhints.io/).
-- fontawesome 4.7.0 [show](https://fontawesome.com/v4.7.0/cheatsheet/).
+- [Cheatsheet](https://devhints.io/).
+- [fontawesome 4.7.0](https://fontawesome.com/v4.7.0/cheatsheet/).
 
 
