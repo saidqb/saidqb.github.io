@@ -26,9 +26,16 @@ body > header{
 
 
 }
-@media print, screen and (max-width: 1060px){
+@media print, screen and (max-width: 720px){
 
     #banner .fork{
         float: initial;
+    }
+}
+
+@media print, screen and (max-width: 480px){
+
+    #banner{
+        display: block;
     }
 }
