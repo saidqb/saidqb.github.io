@@ -2,13 +2,14 @@
 layout: default
 title: package Sublime
 ---
+
 # package Sublime
 
+install dulu package control [ctrl+shift+p]
 
 ```
 Package Control 
 ```
-install dulu package control [ctrl+shift+p]
 
 #### package development
 ```
