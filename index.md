@@ -4,7 +4,7 @@ layout: default
 
 # Hello kuy
 
-Semoga sehat ya, hajar langsung jika ada yang terbaik dan terbaru bisa kontak saya untuk nambahin
+Semoga sehat ya, hajar langsung. jika ada saran list bisa kontak saya untuk nambahin
 
 ***
 
