@@ -13,12 +13,12 @@ Semoga sehat ya, hajar langsung jika ada yang terbaik dan terbaru bisa kontak sa
 Berikut ini tools ngoding local development
 
 ## Local Web Server
-- (W) Laragon [Download](https://laragon.org/download/index.html)
+- Laragon (W) [Download](https://laragon.org/download/index.html)
 
 
 ## Text Editor
-- Sublimetext [Download](https://www.sublimetext.com/download) : [Package](./txt/package/sublime.txt)
-- Visualstudio [Download](https://code.visualstudio.com/download) : [Package](./txt/package/visualstudio.txt)
+- Sublimetext (W,L) [Download](https://www.sublimetext.com/download) : [Package](./txt/package/sublime.txt)
+- Visualstudio (W,L) [Download](https://code.visualstudio.com/download) : [Package](./txt/package/visualstudio.txt)
 
 
 ## REST API
@@ -26,11 +26,11 @@ Berikut ini tools ngoding local development
 
 
 ## Frontend
-- (L) [Color Picker Gpick](https://pkgs.org/download/gpick)
+- Color Picker Gpick (L) [Download](https://pkgs.org/download/gpick)
 
 
 ## Remote File Server
-- (W,L) [File Zila](https://filezilla-project.org/download.php?type=client)
+- File Zila (W,L) [Download](https://filezilla-project.org/download.php?type=client)
 
 
 ***
