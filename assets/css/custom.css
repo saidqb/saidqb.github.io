@@ -1,9 +1,13 @@
 body > header{
-display: none;
+    display: none;
 }
 #banner{
     top: 0;
 }
 .wrapper > nav {
-        top: 80px;
+    top: 80px;
+}
+
+.wrapper section.content{
+    top: 80px;
 }
