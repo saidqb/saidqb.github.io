@@ -12,24 +12,24 @@ Semoga sehat ya, hajar langsung jika ada yang terbaik dan terbaru bisa kontak sa
 
 Berikut ini tools ngoding local development
 
-## Local Web Server
+### Local Web Server
 - Laragon (W) [Download](https://laragon.org/download/index.html)
 
 
-## Text Editor
+### Text Editor
 - Sublimetext (W,L) [Download](https://www.sublimetext.com/download) : [Package](./txt/package/sublime.txt)
 - Visualstudio (W,L) [Download](https://code.visualstudio.com/download) : [Package](./txt/package/visualstudio.txt)
 
 
-## REST API
+### REST API
 - Postman [Download](https://www.postman.com/downloads/)
 
 
-## Frontend
+### Frontend
 - Color Picker Gpick (L) [Download](https://pkgs.org/download/gpick)
 
 
-## Remote File Server
+### Remote File Server
 - File Zila (W,L) [Download](https://filezilla-project.org/download.php?type=client)
 
 
