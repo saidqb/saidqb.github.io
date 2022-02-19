@@ -3,5 +3,5 @@ layout: default
 ---
 
 * * *
-[development](./dev.html)
+[development](./dev)
 * * * 
