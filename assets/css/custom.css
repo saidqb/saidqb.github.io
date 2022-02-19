@@ -7,8 +7,8 @@ body > header{
     text-align: center;
 }
 #banner .fork{
-    margin-right: none;
-    margin-left: none;
+    margin-right: unset;
+    margin-left: unset;
     position: initial;
 }
 .wrapper > nav {
