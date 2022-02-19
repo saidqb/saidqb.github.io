@@ -3,6 +3,7 @@ body > header{
 }
 #banner{
     top: 0;
+    width: 100%;
 }
 .wrapper > nav {
     top: 80px;
