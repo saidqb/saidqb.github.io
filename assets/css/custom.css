@@ -20,7 +20,7 @@ body > header{
 }
 
 @media print, screen and (max-width: 1060px){
-    section.conten{
+    section.content{
         padding: 30px 30px 50px 30px;
     }
 
