@@ -7,6 +7,7 @@ body > header{
     text-align: center;
 }
 #banner .fork{
+    margin-right: none;
     margin-left: none;
     position: initial;
 }
