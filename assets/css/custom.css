@@ -1,0 +1,9 @@
+body > header{
+display: none;
+}
+#banner{
+    top: 0;
+}
+.wrapper > nav {
+        top: 80px;
+}

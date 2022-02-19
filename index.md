@@ -27,9 +27,16 @@ Berikut ini tools ngoding local development
 ### Linux
 belum ada
 
-- 
-## Source External Helpful
+# Source External Helpful
+
+Tools online bermanfaat
+
+#### Tools
+- Cheatsheet [show](https://devhints.io/).
+
+#### Documentation
 
 - Cheatsheet [show](https://devhints.io/).
+- fontawesome 4.7.0 [show](https://fontawesome.com/v4.7.0/cheatsheet/).
 
 
