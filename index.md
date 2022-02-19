@@ -35,13 +35,13 @@ belum ada
 
 Tools online bermanfaat
 
-#### Tools
+### Tools
 - [json.parser](http://json.parser.online.fr/).
 
-#### Tools Generator
+### Generator
 - [Markdown Table generator](https://www.tablesgenerator.com/markdown_tables).
 
-#### Documentation
+### Documentation
 
 - [Cheatsheet](https://devhints.io/).
 - [fontawesome 4.7.0](https://fontawesome.com/v4.7.0/cheatsheet/).
