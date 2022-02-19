@@ -15,23 +15,23 @@ Berikut ini tools ngoding local development
 
 ### ALL OS
 
-- Postman [Download](https://www.postman.com/downloads/).
-- Sublimetext [Download](https://www.sublimetext.com/download).
-- Visualstudio [Download](https://code.visualstudio.com/download) : [Package](./txt/package/sublime.txt).
+- Postman [Download](https://www.postman.com/downloads/)
+- Sublimetext [Download](https://www.sublimetext.com/download) : [Package](./txt/package/sublime.txt)
+- Visualstudio [Download](https://code.visualstudio.com/download)
 
 #### Remote File Server
-- [File Zila](https://filezilla-project.org/download.php?type=client).
+- [File Zila](https://filezilla-project.org/download.php?type=client)
 
 ### Windows
 
 #### Local Web Server
-- Laragon [Download](https://laragon.org/download/index.html).
+- Laragon [Download](https://laragon.org/download/index.html)
 
 
 ### Linux
 
 #### Frontend
-- [Color Picker Gpick](https://pkgs.org/download/gpick).
+- [Color Picker Gpick](https://pkgs.org/download/gpick)
 
 ***
 
@@ -41,18 +41,18 @@ Berikut ini tools ngoding local development
 Tools online bermanfaat
 
 ### Collab User
-- [Google meet](https://meet.google.com/). 
-- [Markdown live code hackmd.io](https://hackmd.io/). 
+- [Google meet](https://meet.google.com/) 
+- [Markdown live code hackmd.io](https://hackmd.io/) 
 
 ### Tools
-- [Json.parser](http://json.parser.online.fr/).
+- [Json.parser](http://json.parser.online.fr/)
 
 ### Generator
-- [Markdown Table generator](https://www.tablesgenerator.com/markdown_tables).
+- [Markdown Table generator](https://www.tablesgenerator.com/markdown_tables)
 
 ### Documentation
 
-- [Cheatsheet](https://devhints.io/).
-- [Fontawesome 4.7.0](https://fontawesome.com/v4.7.0/cheatsheet/).
+- [Cheatsheet](https://devhints.io/)
+- [Fontawesome 4.7.0](https://fontawesome.com/v4.7.0/cheatsheet/)
 
 
