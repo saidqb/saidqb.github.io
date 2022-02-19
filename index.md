@@ -22,7 +22,7 @@ Berikut ini tools ngoding local development
 
 
 ### REST API
-- Postman [Download](https://www.postman.com/downloads/)
+- Postman (W,L) [Download](https://www.postman.com/downloads/)
 
 
 ### Frontend
