@@ -2,7 +2,7 @@
 layout: default
 title: package viscode
 ---
-[< back](./dev.html)
+[< back](/dev.html)
 
 # package Viscode
 
