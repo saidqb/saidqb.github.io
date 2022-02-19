@@ -15,18 +15,24 @@ Berikut ini tools ngoding local development
 
 ### ALL OS
 
+- [Postman Download](https://www.postman.com/downloads/).
 - [Sublimetext Download](https://www.sublimetext.com/download).
 - [Visualstudio Download](https://code.visualstudio.com/download).
 
 ### Windows
 
-##### Local Web Server
+#### Local Web Server
 - [Laragon Download](https://laragon.org/download/index.html).
 
 
 ### Linux
+
+#### Frontend
 - [Color Picker Gpick](https://pkgs.org/download/gpick).
 
+### Collab User
+- [Google meet](https://meet.google.com/). 
+- [Markdown live code hackmd.io](https://hackmd.io/). 
 
 ***
 
@@ -34,6 +40,7 @@ Berikut ini tools ngoding local development
 # Source External Helpful
 
 Tools online bermanfaat
+
 
 ### Tools
 - [Json.parser](http://json.parser.online.fr/).
