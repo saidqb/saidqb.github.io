@@ -1,2 +1,15 @@
 package
 ------------------
+
+Package Control
+SideBarEnhancements
+HTML-CSS-JS Prettify
+Babel Snippets
+GitGutter
+SublimeGit
+DocBlockr
+
+
+Laravel Blade Highlighter
+Color Highlighter
+Twig
