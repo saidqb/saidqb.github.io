@@ -15,9 +15,9 @@ Berikut ini tools ngoding local development
 
 ### ALL OS
 
-- [Postman Download](https://www.postman.com/downloads/).
-- [Sublimetext Download](https://www.sublimetext.com/download).
-- [Visualstudio Download](https://code.visualstudio.com/download).
+- Postman [Download](https://www.postman.com/downloads/).
+- Sublimetext [Download](https://www.sublimetext.com/download).
+- Visualstudio [Download](https://code.visualstudio.com/download).
 
 #### Remote File Server
 - [File Zila](https://filezilla-project.org/download.php?type=client).
@@ -25,7 +25,7 @@ Berikut ini tools ngoding local development
 ### Windows
 
 #### Local Web Server
-- [Laragon Download](https://laragon.org/download/index.html).
+- Laragon [Download](https://laragon.org/download/index.html).
 
 
 ### Linux
