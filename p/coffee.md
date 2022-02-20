@@ -14,6 +14,6 @@ Saya sangat berterimakasih pada teman-teman yang sudah memberikan coffee
 	<h5 class="card-header">Saweria</h5>
 	<div class="card-body">
 		<p class="card-text">Bagi yang ingin membelikan kopi di saweria.</p>
-		<a href="https://saweria.co/saidqb" class="btn btn-primary">Buy me</a>
+		<a href="https://saweria.co/saidqb" class="btn btn-outline-primary btn-sm">Buy me</a>
 	</div>
 </div>
