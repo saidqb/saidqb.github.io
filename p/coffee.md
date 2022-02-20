@@ -7,8 +7,13 @@ permalink: /coffee
 
 Saya sangat berterimakasih pada teman-teman yang sudah memberikan coffee
 
-#### Saweria
+#### Coffee
 
-Berbagi kopi dengan saya di saweria
 
-> [https://saweria.co/saidqb](https://saweria.co/saidqb)
+<div class="card">
+	<h5 class="card-header">Saweria</h5>
+	<div class="card-body">
+		<p class="card-text">Bagi yang ingin membelikan kopi di saweria.</p>
+		<a href="https://saweria.co/saidqb" class="btn btn-primary">Buy me</a>
+	</div>
+</div>
