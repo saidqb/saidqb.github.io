@@ -5,5 +5,10 @@ description: Coffee penambah semangat ngoding
 permalink: /coffee
 ---
 
-Saweria
+Saya sangat berterimakasih pada teman-teman yang sudah memberikan coffee
+
+#### Saweria
+
+Berbagi kopi dengan saya di saweria
+
 > [https://saweria.co/saidqb](https://saweria.co/saidqb)
