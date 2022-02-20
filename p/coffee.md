@@ -7,8 +7,6 @@ permalink: /coffee
 
 Saya sangat berterimakasih pada teman-teman yang sudah memberikan coffee
 
-#### Coffee
-
 
 <div class="card">
 	<h5 class="card-header">Saweria</h5>
