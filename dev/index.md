@@ -17,8 +17,8 @@ Berikut ini tools ngoding local development
 
 
 ### Text Editor
-- Sublimetext (W,L) [Download](https://www.sublimetext.com/download) : [Package](./p/package/sublime)
-- Visualstudio (W,L) [Download](https://code.visualstudio.com/download) : [Package](./p/package/viscode)
+- Sublimetext (W,L) [Download](https://www.sublimetext.com/download) : [Package](./dev/package/sublime)
+- Visualstudio (W,L) [Download](https://code.visualstudio.com/download) : [Package](./dev/package/viscode)
 
 
 ### REST API
