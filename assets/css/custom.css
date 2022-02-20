@@ -10,12 +10,20 @@ body > header{
     top: 0;
     width: 100%;
     text-align: center;
+    background: #7479c8;
+    border: 1px solid #356ec6;
 }
 #banner .fork{
     margin-right: unset;
     margin-left: unset;
     position: initial;
 }
+
+#banner .button, #banner .button:hover {
+    border: 1px solid #5f60cc;
+    background: linear-gradient(#bfbcdb, #9b9cc1);
+}
+
 .wrapper > nav {
     top: 80px;
 }
