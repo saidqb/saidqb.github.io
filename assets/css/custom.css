@@ -1,6 +1,11 @@
+hr:not([size]) {
+    height: unset;
+}
+
 body > header{
     display: none;
 }
+
 #banner{
     top: 0;
     width: 100%;
