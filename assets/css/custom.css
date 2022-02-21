@@ -39,6 +39,8 @@ footer.copyright{
     position: relative;
     margin: 0 auto;
     text-align: center;
+    width: 100%;
+    left: unset;
 }
 
 @media print, screen and (max-width: 1060px){
