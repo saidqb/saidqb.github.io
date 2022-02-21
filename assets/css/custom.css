@@ -30,6 +30,15 @@ body > header{
 
 .wrapper section.content{
     margin-top: 80px;
+    width: 100%;
+}
+
+
+
+footer.copyright{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
 }
 
 @media print, screen and (max-width: 1060px){
