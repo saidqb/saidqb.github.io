@@ -41,6 +41,7 @@ footer.copyright{
     text-align: center;
     width: 100%;
     left: unset;
+    bottom: unset;
 }
 
 @media print, screen and (max-width: 1060px){
