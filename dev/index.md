@@ -35,8 +35,11 @@ Berikut ini tools ngoding local development
 
 ### Other
 
-#### Screenshoot 
+#### Windows
+- WSL - (windows subsystem for linux)
 - Lightshoot [Download W.L](https://app.prntscr.com/en/download.html)
+
+#### Linux
 
 ***
 
