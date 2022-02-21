@@ -13,25 +13,30 @@ Semoga sehat ya, hajar langsung. jika ada saran list bisa kontak saya untuk namb
 Berikut ini tools ngoding local development
 
 ### Local Web Server
-- Laragon (W) [Download](https://laragon.org/download/index.html)
+- Laragon [Download W](https://laragon.org/download/index.html)
 
 
 ### Text Editor
-- Sublimetext (W,L) [Download](https://www.sublimetext.com/download) : [Package](./package/sublime)
-- Visualstudio (W,L) [Download](https://code.visualstudio.com/download) : [Package](./package/viscode)
+- Sublimetext [Download W.L](https://www.sublimetext.com/download) : [Package](./package/sublime)
+- Visualstudio [Download W.L](https://code.visualstudio.com/download) : [Package](./package/viscode)
 
 
 ### REST API
-- Postman (W,L) [Download](https://www.postman.com/downloads/)
+- Postman [Download W.L](https://www.postman.com/downloads/)
 
 
 ### Frontend
-- Color Picker Gpick (L) [Download](https://pkgs.org/download/gpick)
+- Color Picker Gpick [Download L](https://pkgs.org/download/gpick)
 
 
 ### Remote File Server
-- File Zila (W,L) [Download](https://filezilla-project.org/download.php?type=client)
+- File Zila [Download W.L](https://filezilla-project.org/download.php?type=client)
 
+
+### Other
+
+#### Screenshoot 
+- Lightshoot [Download W.L](https://app.prntscr.com/en/download.html)
 
 ***
 
