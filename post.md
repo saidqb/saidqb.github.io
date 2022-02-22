@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<ul>
 {% for cat in site.category-list %}
 ### {{ cat }}
   {% for page in site.pages %}
@@ -14,3 +15,4 @@ layout: default
     {% endif %}   <!-- post-p -->
   {% endfor %}  <!-- page -->
 {% endfor %}  <!-- cat -->
+</ul>
