@@ -21,6 +21,6 @@ permalink: /link
 		{% endfor %}  <!-- page-category -->
 		{% endif %}   <!-- post-p -->
 		{% endfor %}  <!-- page -->
-		{% endfor %}  <!-- cat -->
 	</ul>
+	{% endfor %}  <!-- cat -->
 </ul>
