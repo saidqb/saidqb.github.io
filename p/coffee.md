@@ -8,7 +8,7 @@ permalink: /coffee
 > Saya sangat berterimakasih pada teman-teman yang sudah memberikan coffee
 
 
-<div class="card">
+<div class="card mb-5">
 	<h5 class="card-header">Saweria</h5>
 	<div class="card-body">
 		<p class="card-text">Bagi yang ingin membelikan kopi di saweria.</p>
@@ -16,16 +16,11 @@ permalink: /coffee
 	</div>
 </div>
 
-<div class="card">
-	<h5 class="card-header">Paypal</h5>
-	<div class="card-body">
-		<p class="card-text">saidqb@gmail.com</p>
-	</div>
-</div>
+
 
 <div class="row">
 	<div class="col-sm-6">
-		<div class="card mb-3">
+		<div class="card mb-5">
 			<div class="card-header">Paypal</div>
 			<div class="card-body">
 				<p class="card-text">Muh Nurul Khomsa</p>
@@ -34,7 +29,7 @@ permalink: /coffee
 		</div>
 	</div>
 	<div class="col-sm-6">
-		<div class="card mb-3">
+		<div class="card mb-5">
 			<div class="card-header">Paypal</div>
 			<div class="card-body">
 				<p class="card-text">Muh Nurul Khomsa</p>
@@ -43,7 +38,7 @@ permalink: /coffee
 		</div>
 	</div>
 	<div class="col-sm-6">
-		<div class="card mb-3">
+		<div class="card mb-5">
 			<div class="card-header">Paypal</div>
 			<div class="card-body">
 				<p class="card-text">Muh Nurul Khomsa</p>
