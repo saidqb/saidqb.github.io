@@ -10,8 +10,8 @@ permalink: /link
 
 <ul>
 	{% for cat in site.category-list %}
-	<li class="mb-3"><h2>{{ cat }}</h2></li>
-	<ul>
+	<li><h2>{{ cat }}</h2></li>
+	<ul class="mb-3">
 		{% for page in site.pages %}
 		{% if page.post == true %}
 		{% for pc in page.categories %}
