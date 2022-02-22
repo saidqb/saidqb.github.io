@@ -9,7 +9,7 @@ permalink: /coffee
 
 
 <div class="card mb-4">
-	<h5 class="card-header">Saweria</h5>
+	<div class="card-header">Saweria</div>
 	<div class="card-body">
 		<p class="card-text">Bagi yang ingin membelikan kopi di saweria.</p>
 		<a href="https://saweria.co/saidqb" class="btn btn-outline-primary btn-sm">Buy me</a>
@@ -23,8 +23,8 @@ permalink: /coffee
 		<div class="card mb-4">
 			<div class="card-header">Paypal</div>
 			<div class="card-body">
-				<p class="card-text">Muh Nurul Khomsa</p>
-				<p class="card-text">saidqb@gmail.com</p>
+				<div class="card-text">Muh Nurul Khomsa</div>
+				<div class="card-text">saidqb@gmail.com</div>
 			</div>
 		</div>
 	</div>
@@ -32,8 +32,8 @@ permalink: /coffee
 		<div class="card mb-4">
 			<div class="card-header">BRI</div>
 			<div class="card-body">
-				<p class="card-text">Muh Nurul Khomsa</p>
-				<p class="card-text">674301011170537</p>
+				<div class="card-text">Muh Nurul Khomsa</div>
+				<div class="card-text">674301011170537</div>
 			</div>
 		</div>
 	</div>
@@ -41,8 +41,8 @@ permalink: /coffee
 		<div class="card mb-4">
 			<div class="card-header">BCA</div>
 			<div class="card-body">
-				<p class="card-text">Muh Nurul Khomsa</p>
-				<p class="card-text">8465315187</p>
+				<div class="card-text">Muh Nurul Khomsa</div>
+				<div class="card-text">8465315187</div>
 			</div>
 		</div>
 	</div>
