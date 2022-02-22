@@ -30,7 +30,7 @@ permalink: /coffee
 	</div>
 	<div class="col-sm-6">
 		<div class="card mb-5">
-			<div class="card-header">Paypal</div>
+			<div class="card-header">BRI</div>
 			<div class="card-body">
 				<p class="card-text">Muh Nurul Khomsa</p>
 				<p class="card-text">674301011170537</p>
@@ -39,7 +39,7 @@ permalink: /coffee
 	</div>
 	<div class="col-sm-6">
 		<div class="card mb-5">
-			<div class="card-header">Paypal</div>
+			<div class="card-header">BCA</div>
 			<div class="card-body">
 				<p class="card-text">Muh Nurul Khomsa</p>
 				<p class="card-text">8465315187</p>
