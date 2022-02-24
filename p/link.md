@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-list
 title: Link
 description: Daftar url
 permalink: /link
