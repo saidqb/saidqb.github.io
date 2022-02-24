@@ -29,7 +29,7 @@ layout: default
         <h5 class="card-title fs-6">Docs</h5>
         <h6 class="card-subtitle mb-2 text-muted">Catatan saja</h6>
         <p class="card-text">Catatan yang mungkin perlu saya catat saat ngoding biar gak lupa</p>
-        <a href="/list" class="card-link">Lihat Daftar</a>
+        <a href="/link" class="card-link">Lihat Daftar</a>
       </div>
     </div>
   </div>
