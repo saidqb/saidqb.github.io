@@ -28,9 +28,10 @@ body > header{
     top: 80px;
 }
 
-.wrapper section.content{
+section.content{
     margin-top: 80px;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 
