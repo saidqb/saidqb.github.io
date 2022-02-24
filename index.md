@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="card group">
+<div class="row">
   <div class="card col-md-4 mb-4">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
