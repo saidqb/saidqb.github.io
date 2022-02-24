@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<div class="grid">
-  <div class="card g-col-md-4 mb-4">
+<div class="row">
+  <div class="card col-md-4 mb-4 mx-4">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -12,7 +12,7 @@ layout: default
       <a href="#" class="card-link">Another link</a>
     </div>
   </div>
-  <div class="card g-col-md-4 mb-4">
+  <div class="card col-md-4 mb-4 mx-4">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -21,7 +21,7 @@ layout: default
       <a href="#" class="card-link">Another link</a>
     </div>
   </div>
-   <div class="card g-col-md-4 mb-4">
+   <div class="card col-md-4 mb-4 mx-4">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
