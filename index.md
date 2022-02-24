@@ -2,7 +2,32 @@
 layout: default
 ---
 
-<div class="d-grid gap-2">
-  <button class="btn btn-outline-primary" type="button">Tools</button>
-  <button class="btn btn-outline-primary" type="button">Labs</button>
+<div class="card group">
+  <div class="card col-md-4 mb-4">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a>
+    </div>
+  </div>
+  <div class="card col-md-4 mb-4">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a>
+    </div>
+  </div>
+   <div class="card col-md-4 mb-4">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="card-link">Card link</a>
+      <a href="#" class="card-link">Another link</a>
+    </div>
+  </div>
 </div>
