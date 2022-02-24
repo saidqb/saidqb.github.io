@@ -1,4 +1,9 @@
-
+---
+layout: default
+post: true
+title: Php build tree from flat data
+categories: [php]
+---
 
 
 ```
