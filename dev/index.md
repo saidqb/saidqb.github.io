@@ -14,6 +14,7 @@ Berikut ini tools ngoding local development
 
 ### Local Web Server
 - Laragon [Download W](https://laragon.org/download/index.html)
+- phpmyadmin [Download](https://www.phpmyadmin.net/downloads/) . sync with laragon . /etc/apps/(extrack phpmyadmin)
 
 
 ### Text Editor
@@ -28,6 +29,9 @@ Berikut ini tools ngoding local development
 ### Frontend
 - Color Picker Gpick [Download L](https://pkgs.org/download/gpick)
 
+
+### Mobile
+- Android studio [Download](https://developer.android.com/studio)
 
 ### Remote File Server
 - File Zila [Download W.L](https://filezilla-project.org/download.php?type=client)
