@@ -129,10 +129,10 @@ function canvasHome(){
 
 function profile__change(){
   $('[data-sqact="image--profile"]').click(function(v){
-    if ( v.target.currentSrc == sq_config.site_url + 'assets/images/photo.png' ) {
-      $('img',$(this)).attr('src', sq_config.site_url + 'assets/images/photo2.jpg');
+    if ( v.target.currentSrc == sq_config.site_url + 'assets/sq/images/photo.png' ) {
+      $('img',$(this)).attr('src', sq_config.site_url + 'assets/sq/images/photo2.jpg');
     } else  {
-      $('img',$(this)).attr('src', sq_config.site_url + 'assets/images/photo.png');
+      $('img',$(this)).attr('src', sq_config.site_url + 'assets/sq/images/photo.png');
     }
 
 
@@ -151,62 +151,62 @@ function homeMainIcon(){
   datafly = [
   {
     num : 1,
-    image: sq_config.site_url + 'assets/images/itech/nodejs.png',
+    image: sq_config.site_url + 'assets/sq/images/itech/nodejs.png',
     background: ''
   },
   {
     num : 2,
-    image: sq_config.site_url + 'assets/images/itech/vue.png',
+    image: sq_config.site_url + 'assets/sq/images/itech/vue.png',
     background: ''
   },
   {
     num : 3,
-    image: sq_config.site_url + 'assets/images/itech/nuxt.png',
+    image: sq_config.site_url + 'assets/sq/images/itech/nuxt.png',
     background: ''
   },
   {
     num : 4,
-    image: sq_config.site_url + 'assets/images/itech/python.png',
+    image: sq_config.site_url + 'assets/sq/images/itech/python.png',
     background: ''
   },
   {
     num : 5,
-    image: sq_config.site_url + 'assets/images/itech/git.png',
+    image: sq_config.site_url + 'assets/sq/images/itech/git.png',
     background: ''
   },
   {
     num : 6,
-    image: sq_config.site_url + 'assets/images/itech/laravel.png',
+    image: sq_config.site_url + 'assets/sq/images/itech/laravel.png',
     background: ''
   },
   {
     num : 11,
-    image: sq_config.site_url + 'assets/images/itech/javascript.png',
+    image: sq_config.site_url + 'assets/sq/images/itech/javascript.png',
     background: ''
   },
   {
     num : 12,
-    image: sq_config.site_url + 'assets/images/itech/php.png',
+    image: sq_config.site_url + 'assets/sq/images/itech/php.png',
     background: ''
   },
   {
     num : 13,
-    image: sq_config.site_url + 'assets/images/itech/html.png',
+    image: sq_config.site_url + 'assets/sq/images/itech/html.png',
     background: ''
   },
   {
     num : 14,
-    image: sq_config.site_url + 'assets/images/itech/css.png',
+    image: sq_config.site_url + 'assets/sq/images/itech/css.png',
     background: ''
   },
   {
     num : 15,
-    image: sq_config.site_url + 'assets/images/itech/codeigniter.png',
+    image: sq_config.site_url + 'assets/sq/images/itech/codeigniter.png',
     background: ''
   },
   {
     num : 16,
-    image: sq_config.site_url + 'assets/images/itech/wordpress.png',
+    image: sq_config.site_url + 'assets/sq/images/itech/wordpress.png',
     background: ''
   },
   ];
