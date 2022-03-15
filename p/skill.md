@@ -1,5 +1,5 @@
 ---
-layout: skill
+layout: about
 title: Skill
 permalink: /skill
 ---

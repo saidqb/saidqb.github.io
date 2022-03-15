@@ -1,5 +1,5 @@
 ---
-layout: portofolio
+layout: about
 title: Portofolio
 permalink: /portofolio
 ---
@@ -7,7 +7,7 @@ permalink: /portofolio
 <h1 class="fsr-125 fw-4">
 	Portofolio
 </h1>
-Preview : <a href="http://localhost/me/saidqb/r/pgdrive">Google drive</a>
+Preview : <a href="https://drive.google.com/open?id=0B__Y2dKW2klhM21UOG85TlBGRE0">Google drive</a>
 <div class="m-b-40">
 	<strong>Public Project</strong>
 	
@@ -39,3 +39,4 @@ Preview : <a href="http://localhost/me/saidqb/r/pgdrive">Google drive</a>
 		<li>2019 - k********** [Team]</li>
 		<li>2019 - a******** [Team]</li>
 	</ul>
+</div>
