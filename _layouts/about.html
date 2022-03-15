@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="/assets/sq/css/style.css">
 	<script src="/assets/sq/js/jquery.min.js"></script>
 	<script type="text/javascript">
-	sq_config = {"site_url":"http:\/\/localhost\/me\/saidqb\/","api_url":"http:\/\/localhost\/me\/saidqb\/api\/v1\/"}</script>
+	sq_config = {"site_url":"https:\/\/saidqb.id","api_url":"http:\/\/saidqb.id\/api\/v1\/"}</script>
 	<script src="/assets/sq/js/top.js"></script>
 </head>
 
@@ -73,7 +73,44 @@
 			<main class="bmd-layout-content dn">
 				
 				<div class="container p-t-20 sq_mcmxh">
-					{{ content }}
+
+					<div class="sq_me clearfix">
+						<div class="sq_me_l">
+							<div class="sq_me_l_box">
+
+								<div class=" m-b-20" data-sqact="image--profile">
+									<img class="img-fluid img-thumbnail" src="assets/sq/images/photo.png">
+								</div>
+
+								<div class="sq_me_l_nav mhide">
+									<ul>
+										<li><a href="/about" class="active">About</a></li>
+										<li><a href="/portofolio" class="">Portofolio</a></li>
+										<li><a href="/skill" class="">Skill</a></li>
+										<li><a href="/hire" class="">Hire Me</a></li>									
+									</ul>
+								</div>
+
+								<div class="clearfix dhide">
+									<div class="dropdown">
+										<button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										About										</button>
+										<div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+										</div>
+									</div>
+									<hr/>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="sq_me_r">
+							<div class="sq_me_r_w">
+								{{ content }}
+							</div>
+						</div>
+					</div>
+
 				</div>
 
 				<div class="container">
