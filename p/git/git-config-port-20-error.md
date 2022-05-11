@@ -5,7 +5,8 @@ title: Git Config Port 20 Error
 categories: [git]
 ---
 
-
+create file
+.ssh/config
 ```
 Host github.com
 Hostname ssh.github.com
