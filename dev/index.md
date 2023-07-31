@@ -14,10 +14,12 @@ Pemercepat development
 
 ### JAVASCRIPT  
 
-
+- Jquery [jquery.com](https://api.jquery.com/)
+- Alpin JS [alpinejs.dev](https://alpinejs.dev/start-here)
 
 ### PHP  
 - Laravel Filament [filamentphp.com](https://filamentphp.com/)
+- Laravel Livewire [laravel-livewire.com](https://laravel-livewire.com/docs/2.x/quickstart)
 
 ### CSS 
 - Tailwind Block Template [flowrift.com](https://flowrift.com/c/newsletter)
