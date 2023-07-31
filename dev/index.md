@@ -12,6 +12,10 @@ Semoga sehat ya, hajar langsung. jika ada saran list bisa kontak saya untuk namb
 
 Pemercepat development
 
+### JAVASCRIPT  
+
+
+
 ### PHP  
 - Laravel Filament [filamentphp.com](https://filamentphp.com/)
 
@@ -19,8 +23,9 @@ Pemercepat development
 - Tailwind Block Template [flowrift.com](https://flowrift.com/c/newsletter)
 - Tailwind Block Template [tailblocks.org](https://tailblocks.org)
 
-### FONT
-- Fontawesome [Fontawesome 4.7.0](https://fontawesome.com/v4.7.0/cheatsheet/)
+### ICON
+- Fontawesome [Version 4.7.0](https://fontawesome.com/v4.7.0/cheatsheet/)
+- Heroicons [Version 1](https://v1.heroicons.com/)
 	
 ### Assets
 - [Vector Image . undraw](https://undraw.co/)
