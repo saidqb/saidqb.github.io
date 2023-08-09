@@ -34,3 +34,10 @@ Pemercepat development
 
 ### Converter
 - tableconvert [excel-to-json](https://tableconvert.com/excel-to-json)
+
+### Online Editor
+
+- Code Editor [php](https://paiza.io/en/projects/new?language=php)
+- Code Editor [javascript](https://paiza.io/en/languages/javascript)
+- Code Editor [python3](https://paiza.io/en/projects/new?language=python3)
+- Code Editor [go](https://paiza.io/en/projects/new?language=go)
