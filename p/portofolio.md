@@ -12,6 +12,9 @@ Preview : <a href="https://drive.google.com/open?id=0B__Y2dKW2klhM21UOG85TlBGRE0
 	<strong>Public Project</strong>
 	
 	<ul class="sq_l-2">
+		<li>2023 - kehati.klaten.go.id [Team] [position: Backend (API)]</li>
+		<li>2023 - sitr.klaten.go.id [Team] [position: Backend (API)]</li>
+		<li>2022 - matur-dokter.klaten.go.id [Team] [position: Backend (API)]</li>
 		<li>2022 - sakura.dukcapil.klaten.go.id [Team] [position: Backend (API)]</li>
 		<li>2022 - mpp.klaten.go.id [Team] [position: Backend (API)]</li>
 		<li>2022 - pena-mas.klaten.go.id [Team] [position: Backend (API)]</li>
