@@ -22,8 +22,10 @@ Pemercepat development
 - Laravel Livewire [laravel-livewire.com](https://laravel-livewire.com/docs/2.x/quickstart)
 
 ### CSS 
-- Tailwind Block Template [flowrift.com](https://flowrift.com/c/newsletter)
-- Tailwind Block Template [tailblocks.org](https://tailblocks.org)
+- Tailwind Component Template [flowrift.com](https://flowrift.com/c/newsletter)
+- Tailwind Component Template [tailblocks.org](https://tailblocks.org)
+- Tailwind Component Template [tailwindcomponents.com](https://tailwindcomponents.com)
+- Tailwind Component Template [flowbite.com](https://flowbite.com)
 
 ### ICON
 - Fontawesome [Version 4.7.0](https://fontawesome.com/v4.7.0/cheatsheet/)
