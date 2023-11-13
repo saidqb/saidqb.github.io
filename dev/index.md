@@ -26,6 +26,7 @@ Pemercepat development
 - Tailwind Component Template [tailblocks.org](https://tailblocks.org)
 - Tailwind Component Template [tailwindcomponents.com](https://tailwindcomponents.com)
 - Tailwind Component Template [flowbite.com](https://flowbite.com)
+- Tailwind Component Template [tw-elements.com](https://tw-elements.com/docs/standard/components/modal/)
 
 ### ICON
 - Fontawesome [Version 4.7.0](https://fontawesome.com/v4.7.0/cheatsheet/)
