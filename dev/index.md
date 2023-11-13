@@ -44,3 +44,7 @@ Pemercepat development
 - Code Editor [javascript](https://paiza.io/en/languages/javascript)
 - Code Editor [python3](https://paiza.io/en/projects/new?language=python3)
 - Code Editor [go](https://paiza.io/en/projects/new?language=go)
+
+### TOOLS
+
+- keyboard key [keyboard key code](https://www.toptal.com/developers/keycode)
