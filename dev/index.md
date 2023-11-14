@@ -48,3 +48,4 @@ Pemercepat development
 ### TOOLS
 
 - keyboard key [keyboard key code](https://www.toptal.com/developers/keycode)
+- Generator Tailwin Sharing Button [tailsharing.com](https://www.tailsharing.com/)
