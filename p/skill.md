@@ -24,14 +24,18 @@ permalink: /skill
 <div class="m-b-40">
 	<h4 class="fw-6 fsr-125">FrameWork</h4>
 	<ul class="sq_l-code">
-		<li>CodeIgniter</li>
-		<li>Laravel</li>
-		<li>Bootstrap</li>
-		<li>Jquery</li>
-		<li>VueJs</li>
-		<li>NuxtJs</li>
-		<li>Fastify</li>
-		<li>Express</li>
+		<li>PHP - CodeIgniter</li>
+		<li>
+			PHP - Laravel<br/>
+			<small>Lumen, Filament, Livewire</small>
+		</li>
+		<li>JS - Jquery</li>
+		<li>JS - VueJs</li>
+		<li>JS - NuxtJs</li>
+		<li>JS - Fastify</li>
+		<li>JS - Express</li>
+		<li>CSS - Bootstrap</li>
+		<li>CSS - Tailwind</li>
 	</ul>
 </div>
 
@@ -65,6 +69,17 @@ permalink: /skill
 		<li>Cpanel</li>
 		<li>Liquid</li>
 		<li>Raja Ongkir</li>
+		<li>Bank Jateng</li>
+		<li>PT POS INDOESIA</li>
+	</ul>
+</div>
+
+<div class="m-b-40">
+	<h4 class="fw-6 fsr-125">Server</h4>
+	<ul class="sq_l-code">
+		<li>Pm2</li>
+		<li>Aapanel</li>
+		<li>Cpanel</li>
 	</ul>
 </div>
 
