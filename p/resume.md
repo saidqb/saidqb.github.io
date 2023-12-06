@@ -30,5 +30,5 @@ Stats: Full Stack Web Developer</p>
 
 <div class="m-b-40">
 	<p><strong>TEKNOLOGI YANG PERNAH DI GUNAKAN</strong></p>
-	<p>PHP, Wordpress,  CodeIgniter, Laravel, jQuery, Bootstrap, Firebase, Google maps, Agora, JavaScript,  NodeJs, Vue, NuxtJs, Fastify, Git, Composer, SSH, <a href="<?php echo site_url(); ?>skill">{Detail lainnya}</a></p>
+	<p>PHP, Wordpress,  CodeIgniter, Laravel, jQuery, Bootstrap, Firebase, Google maps, Agora, JavaScript,  NodeJs, Vue, NuxtJs, Fastify, Git, Composer, SSH, <a href="/skill">{Detail lainnya}</a></p>
 </div>

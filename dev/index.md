@@ -31,6 +31,9 @@ Pemercepat development
 ### ICON
 - Fontawesome [Version 4.7.0](https://fontawesome.com/v4.7.0/cheatsheet/)
 - Heroicons [Version 1](https://v1.heroicons.com/)
+- Remixicon (https://remixicon.com)
+- Boxicons (https://boxicons.com)
+- icons.getbootstrap (https://icons.getbootstrap.com/)
 	
 ### Assets
 - [Vector Image . undraw](https://undraw.co/)
