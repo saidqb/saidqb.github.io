@@ -716,14 +716,15 @@ ul.sq_l-2 li:before{
     background: #eaeaea;
   }
   .logo-t{
-/*    left :-10px;*/
+    left :-30px;
   }
   .logo-t-text{
-/*    margin-left: 15px;*/
+    margin-left: 60px;
+
   }
 
   .logo-text{
-    margin-left: 20px;
+    float: left;
   }
   .navbar-nav{
     padding: 0 0 0 15px;
