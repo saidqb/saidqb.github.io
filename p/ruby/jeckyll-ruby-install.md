@@ -1,7 +1,7 @@
 ---
 layout: default
 post: true
-title: jeckyll-ruby-install
+title: jeckyll ruby install
 categories: [ruby]
 ---
 
@@ -49,3 +49,4 @@ bundle add webrick
 bundle exec jekyll serve --watch
 ```
 
+[https://github.com/wowthemesnet/mediumish-theme-jekyll/](https://github.com/wowthemesnet/mediumish-theme-jekyll/)
