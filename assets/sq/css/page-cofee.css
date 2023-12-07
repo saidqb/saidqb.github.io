@@ -4,8 +4,8 @@
 	--size-accordion-content: 1rem;
 	--animation-speed: 100;
 	--slide-ease: cubic-bezier(0.86, 0, 0.07, 1);
-	--slide-duration: calc(400ms * 100 / var(--animation-speed));
-	--slide-delay: calc(450ms * 100 / var(--animation-speed));
+	--slide-duration: calc(100ms * 100 / var(--animation-speed));
+	--slide-delay: calc(150ms * 100 / var(--animation-speed));
 	--circle-duration: calc(900ms * 100 / var(--animation-speed));
 }
 
