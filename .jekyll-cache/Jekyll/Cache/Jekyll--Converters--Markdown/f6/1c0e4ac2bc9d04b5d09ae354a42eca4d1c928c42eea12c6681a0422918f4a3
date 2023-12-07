@@ -1,0 +1,7 @@
+I"<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>location /assets/dk/ {
+  location ~* (\.(?!(ttf|ttc|otf|eot|woff|font.css|css|woff2)))$ {
+    add_header Access-Control-Allow-Origin "*";
+  }
+}
+</code></pre></div></div>
+:ET

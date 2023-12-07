@@ -1,4 +1,9 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
+
+
+
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -8,7 +13,9 @@ source "https://rubygems.org"
 #
 #  bundle exec jekyll serve --watch
 # If you have any plugins, put them here!
+gemspec
 gem "jekyll"
+gem 'wdm', '>= 0.1.0'
 
 group :jekyll_plugins do
     gem 'jekyll-feed'
@@ -19,3 +26,5 @@ group :jekyll_plugins do
     gem 'kramdown'
     gem 'rouge'
 end
+
+gem "webrick", "~> 1.8"

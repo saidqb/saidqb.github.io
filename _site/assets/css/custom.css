@@ -1,0 +1,67 @@
+hr:not([size]) {
+    height: 10px;
+}
+
+body > header{
+    display: none;
+}
+
+#banner{
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background: #7479c8;
+    border: 1px solid #356ec6;
+}
+#banner .fork{
+    margin-right: unset;
+    margin-left: unset;
+    position: initial;
+}
+
+#banner .button, #banner .button:hover {
+    border: 1px solid #5f60cc;
+    background: linear-gradient(#bfbcdb, #9b9cc1);
+}
+
+.wrapper > nav {
+    top: 80px;
+}
+
+section.content{
+    margin-top: 80px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+footer.copyright{
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    left: unset;
+    bottom: unset;
+}
+
+@media print, screen and (max-width: 1060px){
+    section.content{
+        padding: 30px 30px 50px 30px;
+    }
+
+
+}
+@media print, screen and (max-width: 720px){
+
+    #banner .fork{
+        float: initial;
+    }
+}
+
+@media print, screen and (max-width: 480px){
+
+    #banner{
+        display: block;
+    }
+}

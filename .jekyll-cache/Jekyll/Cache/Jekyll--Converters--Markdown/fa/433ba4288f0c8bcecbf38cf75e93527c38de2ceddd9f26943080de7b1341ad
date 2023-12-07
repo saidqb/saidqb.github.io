@@ -1,0 +1,54 @@
+I",<p>https://dev.to/azophy/using-laravel-as-a-service-proxygateway-3ig9</p>
+
+<p>BASIC</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>use GuzzleHttp\Client as HttpClient;
+Route::any('/proxy/{path}', function(Request $req, $path) {
+  $client = new HttpClient([
+    'base_uri' =&gt; 'https://httpbin.org'
+  ]);
+
+  return $client-&gt;request($req-&gt;method(), $path);
+});
+
+</code></pre></div></div>
+
+<p>EXPERT</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;?php
+// you could use either routes/web.php or routes/api.php
+
+// simple helper function to filter header array on request &amp; response
+function filterHeaders($headers) {
+    $allowedHeaders = ['accept', 'content-type'];
+
+    return array_filter($headers, function($key) use ($allowedHeaders) {
+        return in_array(strtolower($key), $allowedHeaders);
+    }, ARRAY_FILTER_USE_KEY);
+}
+
+Route::any('/proxy_example/{path}', function(Request $request, $path) {
+    $client = new GuzzleHttp\Client([
+        // Base URI is used with relative requests
+        'base_uri' =&gt; 'https://pie.dev', // public dummy API for example
+        // You can set any number of default request options.
+        'timeout'  =&gt; 60.0,
+        'http_errors' =&gt; false, // disable guzzle exception on 4xx or 5xx response code
+    ]);
+
+    // create request according to our needs. we could add
+    // custom logic such as auth flow, caching mechanism, etc
+    $resp = $client-&gt;request($request-&gt;method(), $path, [
+        'headers' =&gt; filterHeaders($request-&gt;header()),
+        'query' =&gt; $request-&gt;query(),
+        'body' =&gt; $request-&gt;getContent(),
+    ]);
+
+    // recreate response object to be passed to actual caller 
+    // according to our needs.
+    return response($resp-&gt;getBody()-&gt;getContents(), $resp-&gt;getStatusCode())
+       -&gt;withHeaders(filterHeaders($resp-&gt;getHeaders()));
+
+})-&gt;where('path', '.*'); // required to allow $path to catch all sub-path
+
+
+</code></pre></div></div>
+:ET

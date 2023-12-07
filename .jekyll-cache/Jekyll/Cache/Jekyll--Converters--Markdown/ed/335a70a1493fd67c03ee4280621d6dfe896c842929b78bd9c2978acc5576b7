@@ -1,0 +1,64 @@
+I"<p>laravel 8.x</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;?php
+namespace App\Http\Middleware;
+
+use Closure;
+
+class CorsMiddleware
+{
+    /**
+     * Handle an incoming request.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \Closure  $next
+     * @return mixed
+     */
+    public function handle($request, Closure $next)
+    {
+        $headers = [
+            'Access-Control-Allow-Origin'      =&gt; '*',
+            'Access-Control-Allow-Methods'     =&gt; 'POST, GET, OPTIONS, PUT, DELETE',
+            'Access-Control-Allow-Credentials' =&gt; 'true',
+            'Access-Control-Max-Age'           =&gt; '86400',
+            'Access-Control-Allow-Headers'     =&gt; 'Content-Type, Authorization, X-Requested-With'
+        ];
+
+        if ($request-&gt;isMethod('OPTIONS'))
+        {
+            return response()-&gt;json('{"method":"OPTIONS"}', 200, $headers);
+        }
+
+        $response = $next($request);
+        foreach($headers as $key =&gt; $value)
+        {
+            $response-&gt;header($key, $value);
+        }
+
+        return $response;
+    }
+}
+</code></pre></div></div>
+
+<p>next register</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/*
+|--------------------------------------------------------------------------
+| Register Middleware
+|--------------------------------------------------------------------------
+|
+| Next, we will register the middleware with the application. These can
+| be global middleware that run before and after each request into a
+| route or middleware that'll be assigned to some specific routes.
+|
+*/
+$app-&gt;middleware([
+    App\Http\Middleware\CorsMiddleware::class
+ ]);
+</code></pre></div></div>
+
+<p>source:</p>
+<blockquote>
+  <p>https://www.initekno.com/cara-mengaktifkan-cors-pada-lumen-8-rest-api/</p>
+</blockquote>
+:ET
