@@ -28,6 +28,9 @@ Pemercepat development
 - Tailwind Component Template [flowbite.com](https://flowbite.com)
 - Tailwind Component Template [tw-elements.com](https://tw-elements.com/docs/standard/components/modal/)
 
+### Ruby 
+- Ruby Installer for laragon [Rubby rawgit](https://raw.githubusercontent.com/oneclick/rubyinstaller.org-website/master/_data/downloads.yaml)
+
 ### ICON
 - Fontawesome [Version 4.7.0](https://fontawesome.com/v4.7.0/cheatsheet/)
 - Heroicons [Version 1](https://v1.heroicons.com/)
