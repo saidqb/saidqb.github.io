@@ -58,6 +58,9 @@ main > h1 {
 	background-color: rgba(0, 0, 0, 0.4);
 }
 
+.heading-title{
+	color: #fff;
+}
 .accordion {
 	--circle-x: 1.8rem;
 	--circle-y: 0;
