@@ -1,4 +1,4 @@
-I"A<p><a href="https://jekyllrb.com/docs/ruby-101/">https://jekyllrb.com/docs/ruby-101/</a></p>
+I"Æ<p><a href="https://jekyllrb.com/docs/ruby-101/">https://jekyllrb.com/docs/ruby-101/</a></p>
 
 <p>Gemfile</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># frozen_string_literal: true
@@ -38,4 +38,5 @@ bundle add webrick
 bundle exec jekyll serve --watch
 </code></pre></div></div>
 
+<p><a href="https://github.com/wowthemesnet/mediumish-theme-jekyll/">https://github.com/wowthemesnet/mediumish-theme-jekyll/</a></p>
 :ET
