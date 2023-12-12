@@ -1,7 +1,63 @@
-theme: jekyll-theme-leap-day
-title: saidqb - hanya berbagi
-description: saidqb di github, berbagi pengalaman sebagai seorang programmer
-github_url: https://github.com/saidqb
-category-list: [laravel,php,css,.htaccess,browser,git,nginx,website,ruby]
-
+# Site
+name: "Saidqb"
+title: "saidqb - hanya berbagi"
+description: "saidqb di github, berbagi pengalaman sebagai seorang programmer."
+logo: 'assets/sq/images/logo_icon_saidqb.png'
+favicon: 'assets/sq/favicon.png'
 baseurl: ''
+google_analytics: ''
+disqus: ''
+mailchimp-list: ''
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  saidqb:
+    name: Saidqb
+    display_name: Saidqb
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: saidqb@gmail.com
+    web: https://saidqb.github.io
+    twitter: https://twitter.com/saidqb
+    description: "Hanya sekedar bercerita dengan damai"
+  
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: blog-archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /blog/page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: ""
+adsense-data-ad-slot: ""
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]

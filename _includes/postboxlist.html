@@ -1,0 +1,40 @@
+
+<div class="col-md-6">
+    <div class="card b-1 hover-shadow mb-20">
+        <div class="media card-body">
+
+            <div class="media-body">
+                <div class="mb-2">
+                  <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}"><h1 class="fs-20" style="font-weight: bold;">{{ post.title }}</h1></a>
+                  {% if post.rating %}
+                  <div class="mb-2 mt-2 font-weight-normal">
+                    {% include star_rating_postbox.html %}
+                </div>
+                {% endif %}
+            </div>
+            {% assign sortedCategories = post.categories | sort %}
+            {% for category in sortedCategories %}
+            <small class="fs-16 fw-300 ls-1"><a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a></small>
+            {% endfor %}
+        </div>
+        <div class="media-right text-right d-none d-md-block">
+
+        </div>
+    </div>
+    <footer class="card-footer flexbox align-items-center">
+        <div>
+            <strong>Applied on:</strong>
+            <span class="post-date fs-16"><time class="fs-16" datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date_to_string }}</time>
+            {% if post.last_modified_at %}
+            (Updated: <time datetime="{{ post.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{{ post.last_modified_at | date: "%b %-d, %Y" }}</time>)
+            {% endif %}
+            </span>
+
+        </div>
+        <div class="card-hover-show">
+            <a class="btn btn-xs fs-10 btn-bold btn-warning" href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+        </div>
+    </footer>
+</div>
+</div>
+

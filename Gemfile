@@ -11,7 +11,7 @@ source "https://rubygems.org"
 #
 #  bundle exec jekyll serve --watch
 # If you have any plugins, put them here!
-gemspec
+#gemspec
 gem "jekyll"
 gem 'wdm', '>= 0.1.0'
 
