@@ -103,12 +103,16 @@ ga('send', 'pageview');
 
 <!-- Site Title
 ================================================== -->
+{% if page.url == "/blog" %}
+
 <div class="mainheading">
     <h1 class="sitetitle">{{ site.name }}</h1>
     <p class="lead">
         {{ site.description }}
     </p>
 </div>
+{% endif %}
+
 
 <!-- Content
 ================================================== -->
