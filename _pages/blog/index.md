@@ -35,7 +35,7 @@ permalink: /blog
 
     <div class="section-title">
 
-        <h2><span>All Stories</span></h2>
+        <h2><span>All Note</span></h2>
 
     </div>
 

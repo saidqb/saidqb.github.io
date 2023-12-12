@@ -9,6 +9,7 @@
 <title>{{ page.title }} | {{site.name}}</title>
 
 {% seo %}
+<link rel="icon" href="/assets/sq/favicon.png">
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
@@ -22,7 +23,9 @@
 {% if page.url == "/categories" %}
 <link href="{{ site.baseurl }}/assets/blog/css/blog.css" rel="stylesheet">
 {% endif %}
-
+{% if page.url == "/tags" %}
+<link href="{{ site.baseurl }}/assets/blog/css/blog.css" rel="stylesheet">
+{% endif %}
 
 <script src="{{ site.baseurl }}/assets/blog/js/jquery.min.js"></script>
 
@@ -126,6 +129,7 @@ ga('send', 'pageview');
 <div class="alertbar">
 	<div class="container text-center">
 		<span><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Berjuang di era modern</span>
+        <a class="btn btn-primary btn-sm" href="/coffee">Coffee</a>
         
 	</div>
 </div>
