@@ -1,4 +1,4 @@
-I"…
+I"v&
 <!-- Featured
 ================================================== -->
 <section class="featured-posts">
@@ -6,6 +6,14 @@
         <h2><span>Featured</span></h2>
     </div>
     <div class="row">
+
+    
+
+        
+
+    
+
+        
 
     
 
@@ -79,6 +87,10 @@
 
     
 
+        
+
+    
+
     </div>
 </section>
 
@@ -93,6 +105,106 @@
     </div>
 
     <div class="row listrecent">
+
+        
+
+        
+<div class="col-md-6">
+    <div class="card b-1 hover-shadow mb-20">
+        <div class="media card-body">
+
+            <div class="media-body">
+                <div class="mb-2">
+                  <a class="text-dark" href="/laravel-lumen-cors/"><h1 class="fs-20" style="font-weight: bold;">Laravel Lumen Cors</h1></a>
+                  
+                  <div class="mb-2 mt-2 font-weight-normal">
+                    <div class="rating-holder">
+<div class="c-rating c-rating--regular" data-rating-value="4.5">
+  <button>1</button>
+  <button>2</button>
+  <button>3</button>
+  <button>4</button>
+  <button>5</button>
+</div>
+</div>
+                </div>
+                
+            </div>
+            
+            
+            <small class="fs-16 fw-300 ls-1"><a class="smoothscroll" href="/categories#Laravel">Laravel</a></small>
+            
+        </div>
+        <div class="media-right text-right d-none d-md-block">
+
+        </div>
+    </div>
+    <footer class="card-footer flexbox align-items-center">
+        <div>
+            <strong>Applied on:</strong>
+            <span class="post-date fs-16"><time class="fs-16" datetime="2023-10-14">14 Oct 2023</time>
+            
+            </span>
+
+        </div>
+        <div class="card-hover-show">
+            <a class="btn btn-xs fs-10 btn-bold btn-warning" href="/laravel-lumen-cors/">Read more</a>
+        </div>
+    </footer>
+</div>
+</div>
+
+
+
+        
+
+        
+<div class="col-md-6">
+    <div class="card b-1 hover-shadow mb-20">
+        <div class="media card-body">
+
+            <div class="media-body">
+                <div class="mb-2">
+                  <a class="text-dark" href="/mempercepat-loading-website-htaccess/"><h1 class="fs-20" style="font-weight: bold;">Mempercepat Loading website htaccess</h1></a>
+                  
+                  <div class="mb-2 mt-2 font-weight-normal">
+                    <div class="rating-holder">
+<div class="c-rating c-rating--regular" data-rating-value="5">
+  <button>1</button>
+  <button>2</button>
+  <button>3</button>
+  <button>4</button>
+  <button>5</button>
+</div>
+</div>
+                </div>
+                
+            </div>
+            
+            
+            <small class="fs-16 fw-300 ls-1"><a class="smoothscroll" href="/categories#.htaccess">.htaccess</a></small>
+            
+        </div>
+        <div class="media-right text-right d-none d-md-block">
+
+        </div>
+    </div>
+    <footer class="card-footer flexbox align-items-center">
+        <div>
+            <strong>Applied on:</strong>
+            <span class="post-date fs-16"><time class="fs-16" datetime="2023-10-13">13 Oct 2023</time>
+            
+            </span>
+
+        </div>
+        <div class="card-hover-show">
+            <a class="btn btn-xs fs-10 btn-bold btn-warning" href="/mempercepat-loading-website-htaccess/">Read more</a>
+        </div>
+    </footer>
+</div>
+</div>
+
+
 
         
 
@@ -137,6 +249,56 @@
         </div>
         <div class="card-hover-show">
             <a class="btn btn-xs fs-10 btn-bold btn-warning" href="/powerful-things-markdown-editor/">Read more</a>
+        </div>
+    </footer>
+</div>
+</div>
+
+
+
+        
+
+        
+<div class="col-md-6">
+    <div class="card b-1 hover-shadow mb-20">
+        <div class="media card-body">
+
+            <div class="media-body">
+                <div class="mb-2">
+                  <a class="text-dark" href="/blank/"><h1 class="fs-20" style="font-weight: bold;">blank</h1></a>
+                  
+                  <div class="mb-2 mt-2 font-weight-normal">
+                    <div class="rating-holder">
+<div class="c-rating c-rating--regular" data-rating-value="4.5">
+  <button>1</button>
+  <button>2</button>
+  <button>3</button>
+  <button>4</button>
+  <button>5</button>
+</div>
+</div>
+                </div>
+                
+            </div>
+            
+            
+            <small class="fs-16 fw-300 ls-1"><a class="smoothscroll" href="/categories#Starter">Starter</a></small>
+            
+        </div>
+        <div class="media-right text-right d-none d-md-block">
+
+        </div>
+    </div>
+    <footer class="card-footer flexbox align-items-center">
+        <div>
+            <strong>Applied on:</strong>
+            <span class="post-date fs-16"><time class="fs-16" datetime="2018-06-11">11 Jun 2018</time>
+            
+            </span>
+
+        </div>
+        <div class="card-hover-show">
+            <a class="btn btn-xs fs-10 btn-bold btn-warning" href="/blank/">Read more</a>
         </div>
     </footer>
 </div>
