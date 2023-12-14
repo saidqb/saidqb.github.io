@@ -1,0 +1,79 @@
+I"…<p><a href="https://jekyllrb.com/docs/ruby-101/">https://jekyllrb.com/docs/ruby-101/</a></p>
+
+<p>Gemfile</p>
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+</pre></td><td class="rouge-code"><pre><span class="c1"># frozen_string_literal: true</span>
+
+<span class="n">source</span> <span class="s2">"https://rubygems.org"</span>
+
+
+<span class="c1"># Hello! This is where you manage which Jekyll version is used to run.</span>
+<span class="c1"># When you want to use a different version, change it below, save the</span>
+<span class="c1"># file and run `bundle install`. Run Jekyll with `bundle exec`, like so:</span>
+<span class="c1">#</span>
+<span class="c1">#  bundle exec jekyll serve</span>
+<span class="c1">#</span>
+<span class="c1">#  bundle exec jekyll serve --watch</span>
+<span class="c1">#</span>
+<span class="c1"># If you have any plugins, put them here!</span>
+<span class="n">gemspec</span>
+<span class="n">gem</span> <span class="s2">"jekyll"</span>
+<span class="n">gem</span> <span class="s1">'wdm'</span><span class="p">,</span> <span class="s1">'&gt;= 0.1.0'</span>
+
+<span class="n">group</span> <span class="ss">:jekyll_plugins</span> <span class="k">do</span>
+    <span class="n">gem</span> <span class="s1">'jekyll-feed'</span>
+    <span class="n">gem</span> <span class="s1">'jekyll-sitemap'</span>
+    <span class="n">gem</span> <span class="s1">'jekyll-paginate'</span>
+    <span class="n">gem</span> <span class="s1">'jekyll-seo-tag'</span>
+    <span class="n">gem</span> <span class="s1">'jekyll-archives'</span>
+    <span class="n">gem</span> <span class="s1">'kramdown'</span>
+    <span class="n">gem</span> <span class="s1">'rouge'</span>
+<span class="k">end</span>
+
+<span class="n">gem</span> <span class="s2">"webrick"</span><span class="p">,</span> <span class="s2">"~&gt; 1.8"</span>
+
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre><span class="n">bundle</span> <span class="n">install</span>
+<span class="sr">//</span> <span class="n">untuk</span> <span class="n">run</span> <span class="n">watch</span>
+<span class="n">bundle</span> <span class="n">add</span> <span class="n">webrick</span>
+
+<span class="n">bundle</span> <span class="nb">exec</span> <span class="n">jekyll</span> <span class="n">serve</span> <span class="o">--</span><span class="n">watch</span>
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p><a href="https://github.com/wowthemesnet/mediumish-theme-jekyll/">https://github.com/wowthemesnet/mediumish-theme-jekyll/</a></p>
+:ET
