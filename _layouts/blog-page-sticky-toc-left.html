@@ -1,0 +1,51 @@
+---
+layout: blog-default
+---
+
+
+<section>
+    <div class="section-title">
+        <h2><span>{{ page.title }}</span></h2>
+    </div>
+
+    <div class="article-post">
+
+         {% assign author = site.authors[page.author] %}
+
+        
+
+        <div class="row justify-content-between">
+
+            <div class="col-md-4">
+                <div class="sticky-top sticky-top-80 mb-3">
+                    {% if page.toc %}
+                    <div class="toc mt-4 mb-4 lead">
+                        <h3 class="font-weight-bold">Summary</h3>
+                        {% include toc.html html=content %}
+                    </div>
+                    {% endif %}
+
+                </div>
+            </div>
+
+            <div class="col-md-8">
+
+                 {{content}}
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    {% if page.comments == true %}
+
+    <div id="comments" class="row mb-5">
+        <div class="col-md-8">
+            {% include disqus.html %}
+        </div>
+    </div>
+
+    {% endif %}
+</section>

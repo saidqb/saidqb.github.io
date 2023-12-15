@@ -772,7 +772,7 @@ iframe {
         margin-bottom: -50px;
         margin-top: 3rem;
         padding: 0;
-        height: 350px;
+        height: 250px;
         border-radius: 0;
 /*        background-image: url(../images/jumbotron.jpg);*/
         background-size: cover;
@@ -901,6 +901,20 @@ iframe {
 }
 
 
+/*
+.post-box-item-list 
+*/
+.post-box-item-list  h1{
+    text-overflow: ellipsis; 
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+.post-box-item-list .media-title{
+    height: 40px;
+}
 
 
 .post-box-item-list .pr-12 {
@@ -953,7 +967,7 @@ iframe {
 .post-box-item-list .card-body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    padding: 1.25rem;
+    padding: .5rem 1.25rem .25rem 1.25rem;
 }
 
 .post-box-item-list .media .avatar {
@@ -1088,4 +1102,151 @@ iframe {
 
 .post-box-item-list .fs-10 {
     font-size: 10px !important;
+}
+
+
+
+/*
+============================
+source
+============================
+*/
+
+.source-main .project .row {
+    margin: 0;
+    padding: 15px 0;
+    margin-bottom: 15px
+}
+
+.source-main .project div[class*='col-'] {
+    border-right: 1px solid #eee
+}
+
+.source-main .project .text h3 {
+    margin-bottom: 0;
+    color: #555
+}
+
+.source-main .project .text small {
+    color: #aaa;
+    font-size: 0.75em
+}
+
+.source-main .project .project-date span {
+    font-size: 0.9em;
+    color: #999
+}
+
+.source-main .project .image {
+    max-width: 50px;
+    min-width: 50px;
+    height: 50px;
+    margin-right: 15px
+}
+
+.source-main .project .time,
+.source-main .project .comments,
+.source-main .project .project-progress {
+    color: #999;
+    font-size: 0.9em;
+    margin-right: 20px
+}
+
+.source-main .project .time i,
+.source-main .project .comments i,
+.source-main .project .project-progress i {
+    margin-right: 5px
+}
+
+.source-main .project .project-progress {
+    width: 200px
+}
+
+.source-main .project .project-progress .progress {
+    height: 4px
+}
+
+.source-main .project .card {
+    margin-bottom: 0
+}
+
+@media (max-width: 991px) {
+    .source-main .project .right-col {
+        margin-top: 20px;
+        margin-left: 65px
+    }
+    .source-main .project .project-progress {
+        width: 150px
+    }
+}
+
+@media (max-width: 480px) {
+    .source-main .project .project-progress {
+        display: none
+    }
+}
+.source-main .has-shadow {
+    -webkit-box-shadow: 2px 2px 2px rgba(0,0,0,0.1), -1px 0 2px rgba(0,0,0,0.05);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.1), -1px 0 2px rgba(0,0,0,0.05);
+}
+.source-main .bg-white {
+    background: #fff !important;
+}
+
+.source-main .bg-red {
+    background: #ff7676 !important;
+    color: #fff
+}
+
+.source-main .bg-red:hover {
+    color: #fff
+}
+
+.source-main .bg-blue {
+    background: #85b4f2 !important;
+    color: #fff
+}
+
+.source-main .bg-blue:hover {
+    color: #fff
+}
+
+.source-main .bg-yellow {
+    background: #eef157 !important;
+    color: #fff
+}
+
+.source-main .bg-yellow:hover {
+    color: #fff
+}
+
+.source-main .bg-green {
+    background: #54e69d !important;
+    color: #fff
+}
+
+.source-main .bg-green:hover {
+    color: #fff
+}
+
+.source-main .bg-orange {
+    background: #ffc36d !important;
+    color: #fff
+}
+
+.source-main .bg-orange:hover {
+    color: #fff
+}
+
+.source-main .bg-violet {
+    background: #796AEE !important;
+    color: #fff
+}
+
+.source-main .bg-violet:hover {
+    color: #fff
+}
+
+.source-main .bg-gray {
+    background: #ced4da !important
 }
