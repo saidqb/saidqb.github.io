@@ -18,7 +18,7 @@ source_links:
 		{% for source in page.source_links %}
 
 		<div class="project">
-			<a href="{{ site.baseurl }}{{source.link}}">
+			<a href="{{ site.baseurl }}/source/{{source.link}}">
 				<div class="row bg-white has-shadow">
 					<div class="left-col col-lg-6 d-flex align-items-center justify-content-between">
 						<div class="project-title d-flex align-items-center">
