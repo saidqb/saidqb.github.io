@@ -1,6 +1,6 @@
 ---
 layout: blog-page-sticky-toc-left
-permalink: /source/free-themes
+permalink: /source/themes
 title:  "Free Teheme"
 author: saidqb
 toc: true

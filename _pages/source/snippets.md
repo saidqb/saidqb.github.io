@@ -1,6 +1,6 @@
 ---
 layout: blog-page-sticky-toc-left
-permalink: /source/free-snippets
+permalink: /source/snippets
 title:  "Free Snippets"
 author: saidqb
 toc: true
