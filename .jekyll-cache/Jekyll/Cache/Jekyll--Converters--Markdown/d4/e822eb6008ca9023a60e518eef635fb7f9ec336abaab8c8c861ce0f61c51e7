@@ -1,8 +1,0 @@
-I"�<p>BASIC
-```php
-use GuzzleHttp\Client as HttpClient;
-Route::any(‘/proxy/{path}’, function(Request $req, $path) {
-  $client = new HttpClient([
-    ‘base_uri’ =&gt; ‘https://httpbin.org’
-  ]);</p>
-:ET

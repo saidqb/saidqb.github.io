@@ -1,4 +1,0 @@
-I"_<p>```php
-function buildTree(array $elements, $parentId = 0) {
-    $branch = array();</p>
-:ET
