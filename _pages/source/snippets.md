@@ -15,7 +15,11 @@ toc: true
 
 ### Tailwind 
 
-
+- Tailwind Component Template [flowrift.com](https://flowrift.com/c/newsletter)
+- Tailwind Component Template [tailblocks.org](https://tailblocks.org)
+- Tailwind Component Template [tailwindcomponents.com](https://tailwindcomponents.com)
+- Tailwind Component Template [flowbite.com](https://flowbite.com)
+- Tailwind Component Template [tw-elements.com](https://tw-elements.com/docs/standard/components/modal/)
 
 
 ### HTML + CSS

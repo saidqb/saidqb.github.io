@@ -6,23 +6,23 @@ author: saidqb
 toc: true
 source_links:
 - title: Development Tools
-  description: 
   link: development
+  description: 
 - title: Framework
-  description: 
   link: framework
+  description: 
 - title: Theme
-  description: 
   link: themes
+  description: 
+- title: Assets
+  link: assets
+  description: 
 - title: Snippets
-  description: 
   link: snippets
-- title: Generator
   description: 
-  link: generator
 - title: Seo
-  description: 
   link: seo
+  description: 
 
 
 ---
