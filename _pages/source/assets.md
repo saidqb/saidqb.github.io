@@ -15,18 +15,10 @@ toc: true
 - [Boxicons](https://boxicons.com){:target="_blank"}
 - [icons.getbootstrap](https://icons.getbootstrap.com/){:target="_blank"}
 
-### Javascript
-
-- Jquery [jquery.com](https://api.jquery.com/)
-- Alpin JS [alpinejs.dev](https://alpinejs.dev/start-here)
-- [imask](https://imask.js.org/guide.html)
-
-### Css
-
 
 ### image
 
-- [Vector Image . undraw](https://undraw.co/)
+- [Vector Image . undraw](https://undraw.co/){:target="_blank"}
 
 
 
