@@ -8,13 +8,19 @@ toc: true
 
 
 ### Php
-
+- [Laravel](https://laravel.com/docs/10.x)
 - Laravel Filament [filamentphp.com](https://filamentphp.com/)
 - Laravel Livewire [laravel-livewire.com](https://laravel-livewire.com/docs/2.x/quickstart)
 
 ### Javascript
+
+
 ### Python
+
+
 ### Ruby
+
+
 ### Css
 
 

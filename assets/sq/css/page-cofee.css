@@ -214,3 +214,8 @@ main :last-child,
 .accordion:target .title a:focus-visible {
 	background-color: hsl(183, 100%, 93%);
 }
+
+.itlist, .itlist.list-group-item:first-child, .itlist.list-group-item:last-child {
+	border-radius: .5rem;
+}
+
