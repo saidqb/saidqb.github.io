@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Meta Tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	{% seo %}
+
+	<link rel="icon" href="/assets/sq/favicon.png">
+	<link rel="stylesheet" href="/assets/sq/css/normalize.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Unica+One&display=swap">
+	<link rel="stylesheet" href="/assets/sq/vendor/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/assets/sq/vendor/bootstrap-material-design/dist/css/bootstrap-material-design.css">
+	<link rel="stylesheet" href="/assets/sq/css/jquery-toast.min.css">
+	<link rel="stylesheet" href="/assets/sq/css/util.css">
+	<link rel="stylesheet" href="/assets/sq/css/style.css">
+	<script src="/assets/sq/js/jquery.min.js"></script>
+	<script type="text/javascript">
+	sq_config = {"site_url":"https:\/\/saidqb.github.io\/","api_url":"https:\/\/saidqb.github.io\/api\/v1\/"}</script>
+	<script src="/assets/sq/js/top.js"></script>
+</head>
+
+<body>
+	<div id="app">
+		<div class="bmd-layout-container bmd-drawer-f-l bmd-drawer-overlay">
+			{% include header-default.html %}
+
+			<main class="bmd-layout-content dn">
+				
+				<div class="container p-t-20 sq_mcmxh">
+
+					{{ content }}
+
+				</div>
+
+				<div class="container">
+					<footer id="footer" class="footer">
+						<section class="copyright text-center py-4 ">
+							<div class="">
+								<ul class="footer-menu clearfix">
+									<li><a href="/">Home</a></li>
+									<li><a href="/about">About</a></li>
+									<li><a href="/contact">Contact</a></li>
+									<li><a href="/blog">Blog</a></li>
+									<li><a href="/coffee">Coffee</a></li>
+								</ul>
+							</div>
+
+							<div>
+								<span>© 2014 - now - <a href="/">Saidqb</a>. All rights reserved, Hosted in <a href="#">github</a></span>
+							</div>
+
+						</section>
+					</footer>
+				</div>
+			</main>
+		</div>
+	</div>
+
+	<script src="/assets/sq/vendor/popper/popper.js"></script>
+	<script src="/assets/sq/vendor/bootstrap-material-design/dist/js/bootstrap-material-design.js"></script>
+
+
+	<script src="/assets/sq/js/clipboard.js"></script>
+	<script src="/assets/sq/js/jquery-toast.min.js"></script>
+	<script type="text/javascript">
+
+	</script>
+	<script src="/assets/sq/js/main.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126244943-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-126244943-1');
+	</script>
+
+</body>
+</html>

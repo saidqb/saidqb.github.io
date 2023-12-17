@@ -1,79 +1,206 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Cofee</title>
-	<link rel="stylesheet" href="/assets/sq/vendor/bootstrap-material-design/dist/css/bootstrap-material-design.css">
-	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" href="/assets/sq/css/util.css">
+---
+layout: default
+disqus: false
+archive: false
+---
 
-	<link rel="stylesheet" href="/assets/sq/css/page-cofee.css">
+<style type="text/css">
+	.contactme {
+		margin: 0;
+		padding: 10px;
+		display: flex;
+		/*	background: #f2f2f2;*/
+		color: rgba(0,0,0,.87);
+		/*	font-family: 'Roboto', sans-serif;*/
+	}
+	.contactme .accordion {
+		margin: auto;
+		width: 100%;
+		max-width: 400px;
+	}
+	.contactme .accordion input {
+		display: none;
+	}
+	.contactme .box {
+		position: relative;
+		background: white;
+		height: 48px;
+		transition: all .15s ease-in-out;
+		margin-bottom: 10px;
+		border-radius: 10px;
+	}
+	.contactme .box::before {
+		content: '';
+		position: absolute;
+		display: block;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		pointer-events: none;
+		box-shadow: 0 -1px 0 #e5e5e5,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+		border-radius: 10px;
+	}
+	.contactme header.box {
+		background: #785938;
+		z-index: 100;
+		cursor: initial;
+		box-shadow: 0 -1px 0 #e5e5e5,0 0 2px -2px rgba(0,0,0,.12),0 2px 4px -4px rgba(0,0,0,.24);
+	}
+	.contactme header .box-title {
+		margin: 0;
+		font-weight: normal;
+		font-weight: bold;
+		font-size: 16pt;
+		color: white;
+		cursor: initial;
+	}
+	.contactme .box-title {
+		font-weight: bold;
+		width: 100%;
+		height: 48px;
+		line-height: 48px;
+		padding: 0 20px;
+		display: inline-block;
+		cursor: pointer;
+		-webkit-touch-callout: none;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;
+	}
+	.contactme .box-content {
+		width: 100%;
+		padding: 20px 20px;
+		font-size: 11pt;
+		color: rgba(0,0,0,.54);
+		display: none;
+	}
+	.contactme .box-close {
+		position: absolute;
+		height: 64px;
+		width: 100%;
+		top: 0;
+		left: 0;
+		cursor: pointer;
+		display: none;
+	}
+	.contactme input:checked + .box {
+		height: auto;
+		margin: 25px 0;
+		box-shadow: 0 0 6px rgba(0,0,0,.16),0 6px 12px rgba(0,0,0,.32);
+	}
+	.contactme input:checked + .box .box-title {
+		border-bottom: 1px solid rgba(0,0,0,.18);
+	}
+	input:checked + .box .box-content,
+	.contactme input:checked + .box .box-close {
+		display: inline-block;
+	}
+	.contactme .arrows section .box-title {
+		padding-left: 44px;
+		width: 100%;
+	}
+	.contactme .arrows section .box-title:before {
+		position: absolute;
+		display: block;
+		content: '\203a';
+		font-size: 18pt;
+		left: 20px;
+		top: -2px;
+		transition: transform .15s ease-in-out;
+		color: rgba(0,0,0,.54);
+	}
+	.contactme input:checked + section.box .box-title:before {
+		transform: rotate(90deg);
+	}
+	.contactme .list-group-item.active {
+		z-index: 2;
+		color: #fff;
+		background-color: #545e5d;
+		border-color: #009688;
+		border-radius: 10px;
+		display: block;
+	}
+	.list-group-item :first-child{
+		margin: 0;
+	}
 
+	.contactme .box-title  {
+		justify-content: space-between;
+	}
+	.contactme .box-title .title-text {
+		display: inline-block;
+	}
+	.contactme .box-title .title-image {
+		display: inline-block;
+		float: right;
+	}
+	.contactme .box-title .title-image img{
+		height: 30px;
+	}
 
-</head>
-<body>
-	<main>
-		<div class="mb-4">
-			<div class="clearfix mb-3">
-				<h1 class="heading-title display-inline fs-30 float-left"><i class="fa fa-coffee"></i> Cofee</h1>
-				<div class="float-right text-danger fs-20 display-inline">
-					<a href="/" class="text-danger"><i class="fa fa-close"></i></a>
-				</div>
-			</div>
+</style>
 
-			<section class="accordion" id="saweria">
-				<h1 class="title"><a href="#saweria">Saweria</a></h1>
-				<div class="content">
-					<div class="wrapper">
-						<p>
-							<strong>Bagi yang ingin membelikan kopi di saweria.</strong>
-						</p>
-						<p>
-							<a href="https://saweria.co/saidqb" class="btn btn-outline-primary btn-sm">Buy me</a>
-						</p>
-					</div>
+<div class="contactme">
+	<nav class="accordion arrows">
+		<div class="m-b-20">
+			<header class="box">
+				<label for="acc-close" class="box-title">Coffee</label>
+			</header>
+			<input type="radio" name="accordion" id="cb1" />
+			<section class="box">
+				<label class="box-title" for="cb1"><span style="color:#cc8516" class="title-text">Saweria</span> <span class="title-image"><img src="/assets/sq/images/donate/saweria.svg"></span></label>
+				<label class="box-close" for="acc-close"></label>
+				<div class="box-content">
+					<p>
+						<strong>Bagi yang ingin membelikan kopi di saweria.</strong>
+					</p>
+					<p>
+						<a href="https://saweria.co/saidqb" class="btn btn-outline-primary btn-sm">Buy me</a>
+					</p>
 				</div>
 			</section>
+			<input type="radio" name="accordion" id="cb2" checked="checked" />
+			<section class="box">
+				<label class="box-title" for="cb2">Bank <span style="color:#1335f0">BCA</span> <span class="title-image" style="margin-right: 10px;"><img src="/assets/sq/images/donate/bca.png"></span></label>
+				<label class="box-close" for="acc-close"></label>
+				<div class="box-content">
+					<ul class="list-group">
+						<li class="list-group-item itlist active mb-1">
+							<strong>Muh Nurul Khomsa</strong>
+						</li>
+						<li class="list-group-item itlist active">
+							<span>8465315187</span>
+							<span href="" class="text-light float-right hov-pointer sq-copy copy-text" data-clipboard-text="8465315187"><i class="fa fa-copy"></i></span>
+						</li>
+					</ul>
 
-			<section class="accordion" id="bca">
-				<h1 class="title"><a href="#bca">Bank BCA</a></h1>
-				<div class="content">
-					<div class="wrapper">
-						<ul class="list-group">
-							<li class="list-group-item itlist active mb-1">
-								<strong>Muh Nurul Khomsa</strong>
-							</li>
-							<li class="list-group-item itlist active">
-								8465315187
-							</li>
-						</ul>
-					</div>
 				</div>
 			</section>
-			<section class="accordion" id="bri">
-				<h1 class="title"><a href="#bri">Bank BRI</a></h1>
-				<div class="content">
-					<div class="wrapper">
-						<ul class="list-group">
-							<li class="list-group-item itlist active mb-1">
-								<strong>Muh Nurul Khomsa</strong>
-							</li>
-							<li class="list-group-item itlist active">
-								674301011170537
-							</li>
-						</ul>
-					</div>
+			<input type="radio" name="accordion" id="cb3" />
+			<section class="box">
+				<label class="box-title" for="cb3">Bank <span style="color:#1335f0">BRI</span>  <span class="title-image" style="margin-right: 5px;"><img src="/assets/sq/images/donate/bri.png"></span></label>
+				<label class="box-close" for="acc-close"></label>
+				<div class="box-content">
+					<ul class="list-group">
+						<li class="list-group-item itlist active mb-1">
+							<strong>Muh Nurul Khomsa</strong>
+						</li>
+						<li class="list-group-item itlist active">
+							<span>674301011170537</span>
+							<span href="" class="text-light float-right hov-pointer sq-copy copy-text" data-clipboard-text="674301011170537" ><i class="fa fa-copy"></i></span>
+						</li>
+					</ul>
+
 				</div>
 			</section>
+			<input type="radio" name="accordion" id="acc-close" />
 
 		</div>
 		<div class="text-center">
+			<h3>Special Thanks</h3>
 
-			<a href="/" class="btn btn-outline-danger">Kembali</a>
+			<p>
+				Terimakasih kepada teman-teman yang telah membelikan cemilan kopi, Dengan apa yang teman-teman berikan bisa bermanfaat untuk saya agar lebih bersemangat saat berbagi informasi.
+			</p>
 		</div>
-	</main>
+	</nav>
 
-</body>
-</html>
+</div>

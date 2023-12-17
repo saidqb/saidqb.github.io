@@ -232,7 +232,7 @@ function homeMainIcon(){
 }
 
 
-copyData = ['coffee-cp1', 'coffee-cp2', 'coffee-cp3'];
+copyData = ['coffee-cp1', 'coffee-cp2', 'coffee-cp3','copy-text'];
 copyData.forEach(sqbClipboard);
 
 function sqbClipboard(item){
@@ -241,6 +241,12 @@ function sqbClipboard(item){
 
 function sqbClipboardRun(item){
   $('.sq-copy').click(function(){
+    $.toast({
+      heading: 'Notification',
+      text: 'Success Copying ',
+      position: 'top-center',
+      stack: false
+    })
     let $t = $(this);
     $t.addClass('text-secondary bg-dark')
     $t.attr('title', 'Copied!')

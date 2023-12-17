@@ -1,36 +1,8 @@
-:root {
-	--size-header: 2.25rem;
-	--size-accordion-title: 1.25rem;
-	--size-accordion-content: 1rem;
-	--animation-speed: 100;
-	--slide-ease: cubic-bezier(0.86, 0, 0.07, 1);
-	--slide-duration: calc(100ms * 100 / var(--animation-speed));
-	--slide-delay: calc(150ms * 100 / var(--animation-speed));
-	--circle-duration: calc(900ms * 100 / var(--animation-speed));
-}
 
-*,
-*::before,
-*::after {
-	position: relative;
-	left: 0;
-	top: 0;
-	box-sizing: border-box;
-}
 
-a,
-p,
-h1 {
-	margin: 0;
-}
-
-html {
-	height: 100%;
-}
-
-body {
-	background-color: #fafafa;
-	background-image: url('../images/coffee.jpg');
+.contactme {
+/*	background-color: #fafafa;*/
+/*	background-image: url('../images/coffee.jpg');*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: Nunito, Arial, Helvetica, sans-serif;
@@ -38,7 +10,7 @@ body {
 	margin: 0;
 	display: grid;
 	place-items: center;
-	padding: 2rem 2rem;
+/*	padding: 2rem 2rem;*/
 	min-height: 100%;
 }
 
