@@ -244,6 +244,7 @@ function sqbClipboardRun(item){
     $.toast({
       heading: 'Notification',
       text: 'Success Copying ',
+      hideAfter: 1000, 
       position: 'top-center',
       stack: false
     })
