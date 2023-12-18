@@ -14,10 +14,13 @@ toc: true
 
 ### Javascript
 
-- Jquery [jquery.com](https://api.jquery.com/){:target="_blank"}
-	- [jquery Toast](https://kamranahmed.info/toast){:target="_blank"} - [cdn](https://cdnjs.com/libraries/jquery-toast-plugin){:target="_blank"}
+- Jquery [jquery.com](https://api.jquery.com/){:target="_blank"}  
 - Alpin JS [alpinejs.dev](https://alpinejs.dev/start-here){:target="_blank"}
-- [imask](https://imask.js.org/guide.html){:target="_blank"}
+
+Library
+
+- [jquery Toast](https://kamranahmed.info/toast){:target="_blank"} - [cdn](https://cdnjs.com/libraries/jquery-toast-plugin){:target="_blank"} - notification action
+- [imask](https://imask.js.org/guide.html){:target="_blank"} - masking input form
 
 
 ### Python
