@@ -80,6 +80,10 @@ archive: false
 		color: rgba(0,0,0,.54);
 		display: none;
 	}
+
+	.mycoffee .box-content.ko-fi {
+		padding: 20px 0;
+	}
 	.mycoffee .box-close {
 		position: absolute;
 		height: 64px;
@@ -144,6 +148,12 @@ archive: false
 		height: 30px;
 	}
 
+	@media (max-width: 525px) { 
+		.mycoffee {
+
+			padding: 20px 10px;
+		}
+	}
 </style>
 
 <div class="box-main">
@@ -204,7 +214,7 @@ archive: false
 				<section class="box">
 					<label class="box-title" for="cb1a"><span style="color:#444" class="title-text">Ko-</span><span style="color:red;">fi</span> [Paypal] <span class="title-image"><img src="/assets/sq/images/donate/ko-fi.png"></span></label>
 					<label class="box-close" for="acc-close"></label>
-					<div class="box-content">
+					<div class="box-content ko-fi">
 						<p>
 							<iframe id='kofiframe' src='https://ko-fi.com/saidqb/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='saidqb'></iframe>
 						</p>
