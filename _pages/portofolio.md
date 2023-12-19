@@ -7,19 +7,20 @@ permalink: /portofolio
 <h1 class="fsr-125 fw-4">
 	Portofolio
 </h1>
-Preview : <a href="https://drive.google.com/open?id=0B__Y2dKW2klhM21UOG85TlBGRE0">Google drive</a>
+Preview : <a href="https://drive.google.com/drive/folders/0B__Y2dKW2klhM21UOG85TlBGRE0?resourcekey=0-ZO6ClLTe4XnGq9ScxJcUtQ&usp=sharing">Google drive</a>
 <div class="m-b-40">
-	<strong>Public Project</strong>
-	
+	<p>
+		<strong>Public Project</strong>
+	</p>
 	<ul class="sq_l-2">
-		<li>2023 - forumcsr.klaten.go.id [Team] [position: Fullstack]</li>
-		<li>2023 - aksidifa.klaten.go.id [Team] [position: Fullstack]</li>
-		<li>2023 - kehati.klaten.go.id [Team] [position: Backend (API)]</li>
-		<li>2023 - sitr.klaten.go.id [Team] [position: Backend (API)]</li>
-		<li>2022 - matur-dokter.klaten.go.id [Team] [position: Backend (API)]</li>
-		<li>2022 - sakura.dukcapil.klaten.go.id [Team] [position: Backend (API)]</li>
-		<li>2022 - mpp.klaten.go.id [Team] [position: Backend (API)]</li>
-		<li>2022 - pena-mas.klaten.go.id [Team] [position: Backend (API)]</li>
+		<li>2023 - <a href="https://forumcsr.klaten.go.id" target="_blank">forumcsr.klaten.go.id</a> [Team] [position: Fullstack]</li>
+		<li>2023 - <a href="https://aksidifa.klaten.go.id" target="_blank">aksidifa.klaten.go.id</a> [Team] [position: Fullstack]</li>
+		<li>2023 - <a href="https://kehati.klaten.go.id" target="_blank">kehati.klaten.go.id</a> [Team] [position: Backend (API)]</li>
+		<li>2023 - <a href="https://sitr.klaten.go.id" target="_blank">sitr.klaten.go.id</a> [Team] [position: Backend (API)]</li>
+		<li>2022 - <a href="https://matur-dokter.klaten.go.id" target="_blank">matur-dokter.klaten.go.id</a> [Team] [position: Backend (API)]</li>
+		<li>2022 - <a href="https://sakura.dukcapil.klaten.go.id" target="_blank">sakura.dukcapil.klaten.go.id</a> [Team] [position: Backend (API)]</li>
+		<li>2022 - <a href="https://mpp.klaten.go.id" target="_blank">mpp.klaten.go.id</a> [Team] [position: Backend (API)]</li>
+		<li>2022 - <a href="https://pena-mas.klaten.go.id" target="_blank">pena-mas.klaten.go.id</a> [Team] [position: Backend (API)]</li>
 		<li>2022 - sae.klaten.go.id [Team] [position: Backend (API)]</li>
 		<li>2022 - cdn.klaten.go.id [Team] [position: Backend (API)]</li>
 		<li>2022 - master.klaten.go.id [Team] [position: Backend (API)]</li>
@@ -35,18 +36,32 @@ Preview : <a href="https://drive.google.com/open?id=0B__Y2dKW2klhM21UOG85TlBGRE0
 		<li>2018 - Back-END di Kangendesa.com [Team]</li>
 		<li>2018 - Mobile Scan Barcode dan Push Notification Lakupay</li>
 		<li>2018 - romantistour.com</li>
+		<li>2017 - dabtheme.com</li>
 		<li>2017 - Shorten Url dengan CodeIgniter 3 (Support API)</li>
-		<li>2016 - Developing Wordpress Theme Kertaskosong</li>
-		<li>2016 - Developing Wordpress Theme Banyulaut</li>
-		<li>2016 - Developing Wordpress Theme Karung Images</li>
-		<li>2015 - Script Grab url image google</li>
-		<li>2014 - Developing Wordpress Theme Seruput Maya</li>
-		<li>2014 - Developing Wordpress Theme Ikipo</li>
+		<li>2016 - Developing Wordpress Theme Kertaskosong 
+			<a href="https://ads.id/forums/index.php?threads/260702" target="_blank">{Source}</a> 
+		</li>
+		<li>2016 - Developing Wordpress Theme Banyulaut
+			<a href="https://ads.id/forums/index.php?threads/260994" target="_blank">{Source}</a> 
+			</li>
+		<li>2016 - Developing Wordpress Theme Karung Images
+			<a href="https://ads.id/forums/index.php?threads/261489" target="_blank">{Source}</a> 
+		</li>
+		<li>2015 - Script Grab url image google
+			<a href="https://codeclerks.com/PHP/507/Script-Grab-url-image-google" target="_blank">{Source}</a> 
+			<a href="https://ads.id/forums/index.php?threads/211298/" target="_blank">{Source 2}</a> 
+			</li>
+		<li>2014 - Developing Wordpress Theme Seruput Maya
+			<a href="https://ads.id/forums/index.php?threads/164449" target="_blank">{Source}</a> 
+		</li>
+		<li>2014 - Developing Wordpress Theme Ikipo
+			<a href="https://ads.id/forums/index.php?threads/199876" target="_blank">{Source}</a> 
+		</li>
 		<li>2014 - Developing web cnfle.com</li>
 	</ul>
-
-	<strong>Secret Project</strong>
-
+	<p>
+		<strong>Secret Project</strong>
+	</p>
 	<ul class="sq_l-2">
 		<li>2019 - k********** [Team]</li>
 		<li>2019 - a******** [Team]</li>

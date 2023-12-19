@@ -25,7 +25,7 @@ Stats: Full Stack Web Developer</p>
 <div class="m-b-40">
 	<p><strong>KEGIATAN MENGISI WAKTU LUANG</strong></p>
 	<p>2014 - 2023 . <strong>Freelance Programmer</strong></p>
-	<p>2012 - 2018 .<strong> Publisher Google Adsense</strong></p>
+	<p>2012 - 2018 . <strong>SEO dan Publisher</strong></p>
 </div>
 
 <div class="m-b-40">
