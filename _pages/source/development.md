@@ -42,3 +42,6 @@ toc: true
 
 
 
+### Management
+
++ Trello [Link](https://trello.com){:target="_blank"}

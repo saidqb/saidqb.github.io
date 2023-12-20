@@ -84,7 +84,6 @@ permalink: /skill
 	</ul>
 </div>
 
-
 <div class="m-b-40">
 	<h4 class="fw-6 fsr-125">Tools</h4>
 	<ul class="sq_l-code">
@@ -94,7 +93,6 @@ permalink: /skill
 		<li>Visual Studio Code</li>
 		<li>Postman</li>
 	</ul>
-	
 </div>
 
 <div class="m-b-40">
@@ -102,5 +100,14 @@ permalink: /skill
 	<ul class="sq_l-code">
 		<li>SEO</li>
 	</ul>
-	
 </div>	
+
+<div class="m-b-40">
+	<h4 class="fw-6 fsr-125">Work With</h4>
+	<ul class="sq_l-code">
+		<li>Trello</li>
+		<li>Github</li>
+		<li>Gitlab</li>
+	</ul>
+</div>	
+
