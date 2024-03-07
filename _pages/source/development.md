@@ -45,3 +45,8 @@ toc: true
 ### Management
 
 + Trello [Link](https://trello.com){:target="_blank"}
+
+### Cheatsheet 
+
++ VSCODE [Link](https://quickref.me/vscode.html){:target="_blank"}
+
