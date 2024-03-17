@@ -1,9 +1,9 @@
 ---
 layout: blog-post
-title:  "Htaccess Untuk Web"
+title:  "Laravel Database"
 author: saidqb
-categories: [ .htaccess ]
-tags: [.htaccess]
+categories: [ .laravel ]
+tags: [.laravel]
 # image: assets/images/placeholder.png
 featured: false
 hidden: true
@@ -12,21 +12,25 @@ beforetoc: ""
 toc: grue
 ---
 
-## Remove Path and redirect to main directory
+## sql_mode=only_full_group_by in Laravel Laravel Eloquent?
 
-> [Source](https://stackoverflow.com/questions/18668612/remove-directory-from-url-with){:target="_blank"}
+> [Source](https://stackoverflow.com/questions/43776758/how-can-i-solve-incompatible-with-sql-mode-only-full-group-by-in-laravel-laravel){:target="_blank"}
 
-Try adding this to the htaccess file in your document root, preferably above any rules you may already have there:
-```
-RewriteEngine On
-RewriteRule ^shopping/(.*)$ /$1 [L]
-```
 
-If you want to redirect the browser so that the new URL appears in the location bar, add an R flag in square brackets:
+I solved this problem by adding the "modes" option and setting only the modes I wanted to be enabled in config => database.php:
 
 ```
-RewriteEngine On
-RewriteRule ^shopping/(.*)$ /$1 [L,R=301]
+'mysql' => [
+    ...
+    'modes' => [
+        'STRICT_ALL_TABLES',
+        'ERROR_FOR_DIVISION_BY_ZERO',
+        'NO_ZERO_DATE',
+        'NO_ZERO_IN_DATE',
+        'NO_AUTO_CREATE_USER',
+    ],
+],
+
 ```
 
 
