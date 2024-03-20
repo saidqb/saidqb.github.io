@@ -13,6 +13,8 @@ Preview : <a href="https://drive.google.com/drive/folders/0B__Y2dKW2klhM21UOG85T
 		<strong>Public Project</strong>
 	</p>
 	<ul class="sq_l-2">
+		<li>2024 - <a href="https://siekolak.klaten.go.id" target="_blank">siekolak.klaten.go.id</a> [Team] [position: Fullstack]</li>
+		<li>2024 - <a href="https://simetalik.klaten.go.id" target="_blank">simetalik.klaten.go.id</a> [Team] [position: Fullstack]</li>
 		<li>2023 - <a href="https://forumcsr.klaten.go.id" target="_blank">forumcsr.klaten.go.id</a> [Team] [position: Fullstack]</li>
 		<li>2023 - <a href="https://aksidifa.klaten.go.id" target="_blank">aksidifa.klaten.go.id</a> [Team] [position: Fullstack]</li>
 		<li>2023 - <a href="https://kehati.klaten.go.id" target="_blank">kehati.klaten.go.id</a> [Team] [position: Backend (API)]</li>
