@@ -14,6 +14,7 @@ toc: true
 - [Remixicon](https://remixicon.com){:target="_blank"}
 - [Boxicons](https://boxicons.com){:target="_blank"}
 - [icons.getbootstrap](https://icons.getbootstrap.com/){:target="_blank"}
+- [blade-ui-icons](https://blade-ui-kit.com/blade-icons?set=1#search){:target="_blank"}
 
 
 ### image
