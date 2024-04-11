@@ -21,7 +21,7 @@ location ~ /\.ht {
 }
 
 # Deny for accessing codes
-location ~ ^/(application|system|tests)/ {
+location ~ ^/(application|system|tests|vendor)/ {
 	return 403;
 }
 
