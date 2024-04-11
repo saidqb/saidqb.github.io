@@ -27,5 +27,25 @@ location ~ ^/(application|system|tests)/ {
 
 ```
 
+disable php
+
+
+URL match with another location. Post configure file.
+
+Interchanging location(regular expressions are checked in the order defined in the configuration file):
+
+
+```
+
+location ~ /views/(.+)\.php$ {
+ deny all;
+}
+
+location ~ \.php$ {
+.....
+
+
+```
+
 
 
