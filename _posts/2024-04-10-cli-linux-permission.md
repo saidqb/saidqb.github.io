@@ -1,9 +1,9 @@
 ---
 layout: blog-post
-title:  "Cli Linux change permission"
+title:  "NGINX Configuration Ci3"
 author: saidqb
-categories: [ .cli-linux ]
-tags: [.cli-linux]
+categories: [ .nginx ]
+tags: [.nginx]
 # image: assets/images/placeholder.png
 featured: false
 hidden: true
@@ -12,13 +12,18 @@ beforetoc: ""
 toc: grue
 ---
 
-mencari dan mengganti permission direktori
-
+![source](https://gist.github.com/yidas/30a611449992b0fac173267951e5f17f)
 ```
-#directory
-find * -type d -print0 | xargs -0 chmod 0755
-#file
-find . -type f -print0 | xargs -0 chmod 0644
+
+# Deny for accessing .htaccess files for Nginx
+location ~ /\.ht {
+	deny all;
+}
+
+# Deny for accessing codes
+location ~ ^/(application|system|tests)/ {
+	return 403;
+}
 
 ```
 
