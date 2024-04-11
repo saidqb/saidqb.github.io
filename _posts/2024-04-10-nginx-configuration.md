@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title:  "NGINX Configuration Ci3"
+title:  "NGINX Configuration"
 author: saidqb
 categories: [ .nginx ]
 tags: [.nginx]
@@ -12,6 +12,7 @@ beforetoc: ""
 toc: grue
 ---
 
+# Codeigniter 3
 [source](https://gist.github.com/yidas/30a611449992b0fac173267951e5f17f)
 ```
 
@@ -27,7 +28,7 @@ location ~ ^/(application|system|tests|vendor)/ {
 
 ```
 
-disable php
+## disable php
 
 
 URL match with another location. Post configure file.
@@ -52,6 +53,22 @@ location ~ \.php$ {
 ```
 #block access extension inside folder
 location ~ /(uploads|assets)/ {
+    location ~* \.(php|phtml|php3|php4|php5|pl|py|jsp|asp|html|htm|shtml|sh|cgi|suspected)$ {
+        deny all;
+    }
+}
+
+location ~ \.php$ {
+.....
+
+```
+
+
+# Laravel
+
+```
+#block access extension inside folder
+location ~ /(storage|assets|css|js|vendor)/ {
     location ~* \.(php|phtml|php3|php4|php5|pl|py|jsp|asp|html|htm|shtml|sh|cgi|suspected)$ {
         deny all;
     }
