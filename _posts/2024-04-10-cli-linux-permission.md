@@ -36,7 +36,7 @@ Interchanging location(regular expressions are checked in the order defined in t
 
 
 ```
-
+# block access extension php inside folder
 location ~ /views/(.+)\.php$ {
  deny all;
 }
@@ -50,10 +50,14 @@ location ~ \.php$ {
 
 
 ```
+#block access extension inside folder
 location ~ /(uploads|assets)/ {
     location ~* \.(php|phtml|php3|php4|php5|pl|py|jsp|asp|html|htm|shtml|sh|cgi|suspected)$ {
         deny all;
     }
 }
+
+location ~ \.php$ {
+.....
 
 ```
