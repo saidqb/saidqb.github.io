@@ -49,3 +49,11 @@ location ~ \.php$ {
 
 
 
+```
+location ~ /(uploads|assets)/ {
+    location ~* \.(php|phtml|php3|php4|php5|pl|py|jsp|asp|html|htm|shtml|sh|cgi|suspected)$ {
+        deny all;
+    }
+}
+
+```
