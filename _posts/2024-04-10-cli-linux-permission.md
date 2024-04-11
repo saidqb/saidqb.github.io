@@ -12,7 +12,7 @@ beforetoc: ""
 toc: grue
 ---
 
-![source](https://gist.github.com/yidas/30a611449992b0fac173267951e5f17f)
+[source](https://gist.github.com/yidas/30a611449992b0fac173267951e5f17f)
 ```
 
 # Deny for accessing .htaccess files for Nginx
