@@ -19,6 +19,18 @@ Header append X-Frame-Options: "SAMEORIGIN"
 
 # enable symbolic links
 Options -Indexes
+
+ErrorDocument 403 /notfound.html
+```
+# How to Hide the Subdomain Created by cPanel for Addon Domains?
+https://chemicloud.com/kb/article/subdomain-created-by-cpanel-for-addon-domains/
+
+```
+<IfModule mod_rewrite.c>
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} webhosting.chemicloud.com$ 
+RewriteRule ^(.*)$ "https://chemicloud.com/404" [R=301,L] 
+</IfModule>
 ```
 
 # Denied folder and child from script
