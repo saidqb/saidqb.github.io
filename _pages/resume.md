@@ -17,6 +17,7 @@ Stats: Full Stack Web Developer</p>
 </div>
 <div class="m-b-40">
 	<p><strong>PENGALAMAN KERJA</strong></p>
+	<p><em>2023 - 2024 .</em><strong> Full-Stack Web Developer di Diskominfo Klaten</strong></p>
 	<p><em>2022 - 2023 .</em><strong> Backend Web Developer di Diskominfo Klaten</strong></p>
 	<p><em>2017 - 2022 .</em><strong> Full-Stack Web Developer di Netsolmind</strong></p>
 	<p>2016 - 2016 . <strong>Developer Theme di Dabtheme</strong> membuat theme wordpress dan plugin</p>
