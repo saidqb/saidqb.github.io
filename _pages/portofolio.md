@@ -13,6 +13,8 @@ Preview : <a href="https://drive.google.com/drive/folders/0B__Y2dKW2klhM21UOG85T
 		<strong>Public Project</strong>
 	</p>
 	<ul class="sq_l-2">
+		<li>2024 - <a href="https://sipus.dlh.klaten.go.id" target="_blank">sipus.dlh.klaten.go.id</a> [Team] [position: Fullstack]</li>
+		<li>2024 - <a href="https://simwas.inspektorat.klaten.go.id" target="_blank">simwas.inspektorat.klaten.go.id</a> [Team] [position: Fullstack]</li>
 		<li>2024 - <a href="https://siekolak.klaten.go.id" target="_blank">siekolak.klaten.go.id</a> [Team] [position: Fullstack]</li>
 		<li>2024 - <a href="https://simetalik.klaten.go.id" target="_blank">simetalik.klaten.go.id</a> [Team] [position: Fullstack]</li>
 		<li>2023 - <a href="https://forumcsr.klaten.go.id" target="_blank">forumcsr.klaten.go.id</a> [Team] [position: Fullstack]</li>
