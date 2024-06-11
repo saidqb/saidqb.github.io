@@ -6,6 +6,12 @@ author: saidqb
 toc: true
 ---
 
+### BROWSER
+
+##### Multi login user Exstension
+- Chrome - [MultiLogin](https://chromewebstore.google.com/detail/ijfgglilaeakmoilplpcjcgjaoleopfi)
+
+- Firfox - [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
 
 ### Editor
 
@@ -72,7 +78,7 @@ toc: true
 	DocBlockr
 	```
 
-### Web Service
+### Development Environment.
 
 + Laragon [Download](https://laragon.org/download/index.html){:target="_blank"}
 	
@@ -81,7 +87,6 @@ toc: true
 ### Api
 
 + Postman [Download](https://www.postman.com/downloads){:target="_blank"}
-
 
 
 ### Management
