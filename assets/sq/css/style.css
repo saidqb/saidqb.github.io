@@ -696,6 +696,7 @@ ul.sq_l-2 li:before{
     position: fixed;
     top: 10px;
     margin-left: 10px;
+    width: 200px;
   }
 
 
