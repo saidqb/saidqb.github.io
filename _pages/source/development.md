@@ -24,24 +24,22 @@ toc: true
 	
 	package
 	```
-	
-
+	code --install-extension adonisjs.vscode-edge
 	code --install-extension akamud.vscode-theme-onedark
 	code --install-extension amiralizadeh9480.laravel-extra-intellisense
 	code --install-extension bmewburn.vscode-intelephense-client
 	code --install-extension cipchk.cssrem
 	code --install-extension codingyu.laravel-goto-view
 	code --install-extension damms005.devdb
-	code --install-extension dongido.sync-env
 	code --install-extension editorconfig.editorconfig
 	code --install-extension emilijanmb.sublime-text-4-theme
-	code --install-extension equinusocio.vsc-material-theme
-	code --install-extension equinusocio.vsc-material-theme-icons
 	code --install-extension fabiospampinato.vscode-highlight
 	code --install-extension github.copilot
+	code --install-extension github.copilot-chat
 	code --install-extension github.vscode-pull-request-github
 	code --install-extension glitchbl.laravel-create-view
 	code --install-extension ihunte.laravel-blade-wrapper
+	code --install-extension jripouteau.adonis-vscode-extension
 	code --install-extension matijao.vue-nuxt-snippets
 	code --install-extension mehedidracula.php-namespace-resolver
 	code --install-extension mikestead.dotenv
@@ -54,6 +52,7 @@ toc: true
 	code --install-extension onecentlin.laravel-extension-pack
 	code --install-extension onecentlin.laravel5-snippets
 	code --install-extension pgl.laravel-jump-controller
+	code --install-extension rexshi.phpdoc-comment-vscode-plugin
 	code --install-extension ryannaddy.laravel-artisan
 	code --install-extension shufo.vscode-blade-formatter
 	code --install-extension sleistner.vscode-fileutils
@@ -61,6 +60,7 @@ toc: true
 	code --install-extension undefined_publisher.tldat
 	code --install-extension vue.volar
 	code --install-extension xabikos.javascriptsnippets
+	code --install-extension yzhang.markdown-all-in-one
 	code --install-extension zhuangtongfa.material-theme
 	```
 + Sublime [Download](https://www.sublimetext.com/download){:target="_blank"}
