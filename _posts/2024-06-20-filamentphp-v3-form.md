@@ -22,3 +22,28 @@ Forms\Components\TextInput::make('rupiah')
 ->dehydrateStateUsing(fn ($state) =>  str_replace(['.', ','], ['', '.'], $state))
 ->afterStateHydrated(fn ($state) =>  number_format($value, $sep, ',', '.'))
 ```
+
+## hide button by query url tabs
+```
+->extraAttributes([
+	'x-init' => "
+	window.addEventListener(`DOMContentLoaded`, function(event) {
+		qtab = new URLSearchParams(location.search).get(`tab`);
+		if(typeof qtab != `undefined`){
+			if(qtab == `ort-laman-2-tab`){
+				show = true;
+			}
+		}
+		});
+		window.addEventListener(`click`, function(){
+			qtab = new URLSearchParams(location.search).get(`tab`);
+			show = false;
+			if(qtab == `ort-laman-2-tab`){
+				show = true;
+			}
+			});
+			",
+			'x-data' => "{ show: false }",
+			'x-show' => "show",
+			])
+```
