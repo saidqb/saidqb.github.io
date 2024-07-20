@@ -14,7 +14,7 @@ toc: grue
 
 # TextInput 
 
-## Masking Rupiah
+### Masking Rupiah
 
 ```
 Forms\Components\TextInput::make('rupiah')
@@ -23,8 +23,8 @@ Forms\Components\TextInput::make('rupiah')
 ->afterStateHydrated(fn ($state) =>  number_format($value, $sep, ',', '.'))
 ```
 
-## hide button by query url tabs
-```
+### hide button by query url tabs
+```php
 ->extraAttributes([
 	'x-init' => "
 	window.addEventListener(`DOMContentLoaded`, function(event) {
@@ -46,4 +46,16 @@ Forms\Components\TextInput::make('rupiah')
 			'x-data' => "{ show: false }",
 			'x-show' => "show",
 			])
+```
+
+### upload file with random last prefix
+
+```php
+ Forms\Components\FileUpload::make('lhp_final_dokumen')
+    ->inlineLabel()
+    ->getUploadedFileNameForStorageUsing(
+        fn (TemporaryUploadedFile $file): string => (string) str(
+            str($file->getClientOriginalName())->replaceEnd('.' . $file->guessExtension(), '')
+        )->append('-' . date('Ymdhis') . '.' . $file->guessExtension()),
+    )
 ```
