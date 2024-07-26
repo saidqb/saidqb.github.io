@@ -9,8 +9,6 @@ toc: true
 ### BROWSER
 
 ##### Multi login user Exstension
-- Chrome - [MultiLogin](https://chromewebstore.google.com/detail/ijfgglilaeakmoilplpcjcgjaoleopfi)
-
 - Firfox - [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
 
 ### Editor
