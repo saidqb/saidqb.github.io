@@ -25,6 +25,6 @@ Forms\Components\TextInput::make('rupiah')
         ->decimalPlaces(3) // Set the number of digits after the decimal point.
         ->decimalSeparator(','), // Add a separator for decimal numbers.
 )
-->dehydrateStateUsing(fn($state) =>  str_replace(['.', ','], [',', '.'], $state))
+->dehydrateStateUsing(fn($state) =>  str_replace(['.', ','], ['', '.'], $state))
 ->afterStateHydrated(fn(TextInput $component, $state) =>  $component->state(number_format($state, 3, ',', '.')))
 ```
