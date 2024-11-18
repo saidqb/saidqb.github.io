@@ -23,6 +23,10 @@ toc: true
 - [iconfinder.com](https://www.iconfinder.com){:target="_blank"}
 - [picsum.photos](https://www.picsum.photos){:target="_blank"} random image generator with sample
 
+### Maps
+
+- [https://nominatim.openstreetmap.org/ui/search.html](https://nominatim.openstreetmap.org/ui/search.html){:target="_blank"} polygon map https://nominatim.openstreetmap.org/search.php?q={location}&polygon_geojson=1&format=json
+
 
 
 
