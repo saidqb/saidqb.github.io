@@ -48,7 +48,7 @@ location ~ \.php$ {
 
 ```
 
-
+jika url terdapat uploads|assets
 
 ```
 #block access extension inside folder
@@ -64,11 +64,44 @@ location ~ \.php$ {
 ```
 
 
+jika setelah root uploads|assets
+```
+#block access extension inside folder
+location ~ ^/(uploads|assets)/ {
+    location ~* \.(php|phtml|php3|php4|php5|pl|py|jsp|asp|html|htm|shtml|sh|cgi|suspected)$ {
+        deny all;
+    }
+}
+
+location ~ \.php$ {
+.....
+
+```
+
 # Laravel
+
+jika url terdapat uploads|assetsstorage|assets|css|js|vendor
+
 
 ```
 #block access extension inside folder
 location ~ /(storage|assets|css|js|vendor)/ {
+    location ~* \.(php|phtml|php3|php4|php5|pl|py|jsp|asp|html|htm|shtml|sh|cgi|suspected)$ {
+        deny all;
+    }
+}
+
+location ~ \.php$ {
+.....
+
+```
+
+jika setelah root uploads|assetsstorage|assets|css|js|vendor
+
+
+```
+#block access extension inside folder
+location ~ ^/(storage|assets|css|js|vendor)/ {
     location ~* \.(php|phtml|php3|php4|php5|pl|py|jsp|asp|html|htm|shtml|sh|cgi|suspected)$ {
         deny all;
     }
