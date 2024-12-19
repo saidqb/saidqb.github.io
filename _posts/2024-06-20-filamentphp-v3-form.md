@@ -59,3 +59,14 @@ Forms\Components\TextInput::make('rupiah')
         )->append('-' . date('Ymdhis') . '.' . $file->guessExtension()),
     )
 ```
+
+###
+Forms\Components\TextInput::make('token')
+     ->label(__('Token ')), 
+Forms\Components\Actions::make([
+    Forms\Components\Actions\Action::make('Generate Token')
+        ->action(function (Forms\Get $get, Forms\Set $set) {
+            $set('token', str()->random(20));
+        })
+])
+###
