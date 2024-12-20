@@ -60,13 +60,16 @@ Forms\Components\TextInput::make('rupiah')
     )
 ```
 
-###
+### Add button inside form
+```php
 Forms\Components\TextInput::make('token')
      ->label(__('Token ')), 
+
 Forms\Components\Actions::make([
     Forms\Components\Actions\Action::make('Generate Token')
         ->action(function (Forms\Get $get, Forms\Set $set) {
             $set('token', str()->random(20));
         })
 ])
+```
 ###
