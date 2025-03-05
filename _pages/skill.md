@@ -11,7 +11,7 @@ permalink: /skill
 <div class="m-b-40">
 	<h4 class="fw-6 fsr-125">Programing</h4>
 	<ul class="sq_l-code">
-		<li>Sql</li>
+		<li>MSql</li>
 		<li>Php</li>
 		<li>Css</li>
 		<li>Html</li>
@@ -25,9 +25,10 @@ permalink: /skill
 	<h4 class="fw-6 fsr-125">FrameWork</h4>
 	<ul class="sq_l-code">
 		<li>PHP - CodeIgniter</li>
+		<li>PHP - Laravel Lumen</li>
 		<li>
 			PHP - Laravel<br/>
-			<small>Lumen, Filament, Livewire</small>
+			<small>Filament, Livewire</small>
 		</li>
 		<li>JS - Jquery</li>
 		<li>JS - VueJs</li>
@@ -78,6 +79,7 @@ permalink: /skill
 <div class="m-b-40">
 	<h4 class="fw-6 fsr-125">Server</h4>
 	<ul class="sq_l-code">
+		<li>Docker</li>
 		<li>Pm2</li>
 		<li>Aapanel</li>
 		<li>Cpanel</li>
