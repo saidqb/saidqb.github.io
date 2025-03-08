@@ -11,11 +11,11 @@ toc: true
 
 ### Diagram
 
-+ - [app.diagrams.net](https://app.diagrams.net){:target="_blank"}. - create diagrams such as flowcharts, wireframes, UML diagrams, organizational charts, and network diagrams
++ [app.diagrams.net](https://app.diagrams.net){:target="_blank"}. - create diagrams such as flowcharts, wireframes, UML diagrams, organizational charts, and network diagrams
 
 ### Online Compiler
 
-+ - [https://www.programiz.com/php/online-compiler/](https://www.programiz.com/php/online-compiler/){:target="_blank"}
++ [https://www.programiz.com/php/online-compiler/](https://www.programiz.com/php/online-compiler/){:target="_blank"}
 
 ### Converter
 
@@ -26,7 +26,13 @@ toc: true
 
 ### Referance
 
-+ [https://drawsql.app](drawsql.app){:target="_blank"}
++ [drawsql.app](https://drawsql.app){:target="_blank"}
 
+### Checker
+
++ [techstacks.io](https://techstacks.io){:target="_blank"}
+
+
+### AI
 --- 
 
