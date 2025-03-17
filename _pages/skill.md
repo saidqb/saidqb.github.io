@@ -11,25 +11,29 @@ permalink: /skill
 <div class="m-b-40">
 	<h4 class="fw-6 fsr-125">Programing</h4>
 	<ul class="sq_l-code">
-		<li>MSql</li>
 		<li>Php</li>
-		<li>Css</li>
 		<li>Html</li>
+		<li>Css</li>
 		<li>Javascript</li>
 		<li>Python</li>
 	</ul>
 </div>
-
+<div class="m-b-40">
+	<h4 class="fw-6 fsr-125">Database</h4>
+	<ul class="sq_l-code">
+		<li>MySql</li>
+	</ul>
+</div>
 
 <div class="m-b-40">
 	<h4 class="fw-6 fsr-125">FrameWork</h4>
 	<ul class="sq_l-code">
-		<li>PHP - CodeIgniter</li>
-		<li>PHP - Laravel Lumen</li>
 		<li>
 			PHP - Laravel<br/>
 			<small>Filament, Livewire</small>
 		</li>
+		<li>PHP - Laravel Lumen</li>
+		<li>PHP - CodeIgniter</li>
 		<li>JS - Jquery</li>
 		<li>JS - VueJs</li>
 		<li>JS - NuxtJs</li>
