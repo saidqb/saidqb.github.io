@@ -43,13 +43,8 @@
             <!-- Main Nav Start -->
             <nav>
                 <ul class="flex lg:items-center flex-col lg:flex-row gap-5 lg:gap-10">
-                    <li class="group relative lg:py-6.5 lg:py-4!" :class="{ 'lg:py-4!' : stickyMenu }"
-                        x-data="{ dropdown: false }">
-                        <a href="#" class="hover:text-dark flex items-center justify-between gap-3 text-dark!"
-                            @click.prevent="dropdown = !dropdown"
-                            :class="{ 'text-dark!': page === 'home' || page === 'home' }">
-                            Beranda
-                        </a>
+                    <li class="nav__menu lg:py-6.5 lg:py-4!" :class="{ 'lg:py-4!' : stickyMenu }">
+                        <a href="/" class="hover:text-dark">Beranda</a>
                     </li>
                     <li class="nav__menu lg:py-6.5 lg:py-4!" :class="{ 'lg:py-4!' : stickyMenu }">
                         <a href="/about" class="hover:text-dark">Tentang</a>
@@ -122,8 +117,7 @@
                         </svg>
                     </button>
 
-                    <a
-                        href="/coffee"
+                    <a href="/coffee"
                         class="rounded-md text-white font-medium flex py-2.5 px-5.5 bg-dark hover:opacity-90 lg:transition-all lg:ease-linear lg:duration-200">
                         Coffee
                     </a>
