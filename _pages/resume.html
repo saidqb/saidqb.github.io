@@ -49,6 +49,10 @@ description: Resume saya sebagai seorang programmer
                 background-color: #fff !important;
             }
 
+            #main-content {
+                background-color: #fff !important;
+            }
+
             .shadow-lg {
                 box-shadow: none !important;
             }
@@ -81,7 +85,11 @@ description: Resume saya sebagai seorang programmer
                 </div>
 
                 <div class="absolute right-0 ">
-                    <div class="flex space-x-4">
+                    <div class="flex space-x-2">
+                        <a href="/contact"
+                            class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white flex items-center cursor-pointer">
+                            <span class="">Kolaborasi</span>
+                        </a>
                         <a onclick="window.print();"
                             class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white flex items-center cursor-pointer">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -90,7 +98,7 @@ description: Resume saya sebagai seorang programmer
                                 <path
                                     d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1" />
                             </svg>
-                            <span class="ml-2">Print</span>
+                            <span class="ml-2 hidden sm:inline">Print</span>
                         </a>
 
                         <!-- <a onclick="generatePDF();" -->
@@ -113,10 +121,10 @@ description: Resume saya sebagai seorang programmer
     </nav>
 
 
-    <div class="bg-gray-100 p-4 flex flex-row min-h-screen justify-center items-center font-montserrat">
-        <div id="main-content" class="max-w-[1170px] bg-white">
+    <div class="bg-gray-100 p-4 flex flex-row min-h-screen justify-center font-montserrat">
+        <div id="main-content" class="max-w-[1170px]">
 
-            <div class=" shadow-lg shadow-gray-700 rounded-[5px]">
+            <div class=" shadow-lg shadow-gray-700 rounded-[5px]  bg-white">
 
                 <!-- top content -->
                 <div class="flex  bg-top-color sm:px-2 w-full px-2">
