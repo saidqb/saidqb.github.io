@@ -32,6 +32,15 @@ description: Resume saya sebagai seorang programmer
         }
 
         @media print {
+            body {
+                margin: 5mm .2mm 5mm .2mm;
+            }
+
+            @page {
+                size: A4;
+                margin: 5mm .2mm 5mm .2mm;
+            }
+
             #navigation-header {
                 display: none;
             }
@@ -111,11 +120,11 @@ description: Resume saya sebagai seorang programmer
 
                 <!-- top content -->
                 <div class="flex  bg-top-color sm:px-2 w-full px-2">
-                    <div class="h-40 sm:w-90 overflow-hidden sm:relative sm:p-0 top-10 left-5 p-3">
+                    <div class="h-40 sm:w-1/3 overflow-hidden sm:relative sm:p-0 top-10 left-5 p-3">
                         <img class="max-h-40" src="assets/sq/images/photo2.jpg" />
                     </div>
 
-                    <div class="w-2/3 text-left pl-5 mt-10 text-start font-montserrat">
+                    <div class="w-2/3 text-left mt-10 text-start font-montserrat">
                         <p class="font-poppins font-bold text-heading sm:text-4xl text-2xl mb-2">
                             Muhammad Nurul Khomsa
                         </p>
