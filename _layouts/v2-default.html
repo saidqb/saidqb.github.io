@@ -1,34 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: v2-app
+---
 
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saidqb - Profil Programmer</title>
-    <meta name='og:title' content='Saidqb - Profil Programmer' />
-    <meta name='twitter:title' content='Saidqb - Profil Programmer' />
-    <meta name='description' content='saidqb, seorang programmer' />
-    <meta name='og:description' content='saidqb, seorang programmer' />
-    <meta name='twitter:description' content='saidqb, seorang programmer' />
-    <meta name='keywords' content='saidqb, personal, profil, programmer, portofolio, resume, developer, Full Stack' />
-
-    <link rel="icon" href="/assets/sqv2/img/favicon.png">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link href="/assets/sqv2/css/style.css" rel="stylesheet">
-</head>
-
-<body
-    x-data="{ page: 'home', 'loaded': true,  'modalSearch': false, 'stickyMenu': false, 'navigationOpen': false, 'scrollTop': false }">
-    <!-- ===== Preloader Start ===== -->
-    <!-- <div x-show="loaded"
-        x-init="window.addEventListener('DOMContentLoaded', () =&gt; {setTimeout(() =&gt; loaded = false, 500)})"
-        class="fixed left-0 top-0 z-999999 flex h-screen w-screen items-center justify-center bg-white"
-        style="display: none;">
-        <div class="h-16 w-16 animate-spin rounded-full border-4 border-solid border-primary border-t-transparent">
-        </div>
-    </div> -->
 
     {% include v2-header.html %}
 
@@ -176,10 +149,3 @@
         </svg>
     </button>
 
-    <!-- ====== Back To Top End ===== -->
-    <script defer="defer" src="/assets/sqv2/js/bundle.js"></script>
-    <script defer="defer" src="/assets/sqv2/js/script.js"></script>
-
-</body>
-
-</html>
