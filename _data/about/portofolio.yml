@@ -1,0 +1,161 @@
+- title: Aplikasi Helpdesk, Management project, Task, Report
+  description:
+  used: Dinas kominfo klaten
+  year: 2024
+  position: Fullstack
+  work_with: Team
+  url: mi.diskominfo.klaten.go.id
+  is_active: true
+
+- title: Aplikasi Informasi Seputar Investasi
+  description: Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu Klaten
+  used:
+  year: 2024
+  position: Fullstack
+  work_with: Team
+  url: pasti.dpmptsp.klaten.go.id
+  is_active: true
+
+- title: Aplikasi Report Pengelolaan Sampah
+  description:
+  used: Dinas Lingkungan Hidup Klaten
+  year: 2024
+  position: Fullstack
+  work_with: Team
+  url: sipus.dlh.klaten.go.id
+  is_active: true
+
+- title: Aplikasi Sistem Informasi Pengawasan Intern dan Pemantauan Tindak Lanjut
+  description:
+  used:
+  year: 2024
+  position: Fullstack
+  work_with: Team
+  url:
+  is_active: true
+
+- title: Sistem Informasi Evaluasi Kelompok Opd Layak Anak
+  description:
+  used: Bagian Organisasi Setda Klaten
+  year: 2024
+  position: Fullstack
+  work_with: Team
+  url: siekolak.klaten.go.id
+  is_active: true
+
+- title: Sistem Monitoring Evaluasi Tatalaksana dan Pelayanan Publik
+  description:
+  used: Bagian Organisasi Setda Klaten
+  year: 2024
+  position: Fullstack
+  work_with: Team
+  url: simetalik.klaten.go.id
+  is_active: true
+
+- title: Aplikasi Sistem Informasi Pengelolaan CSR (Corporate Social Responsibility),
+  description:
+  used:
+  year: 2023
+  position: Fullstack
+  work_with: Team
+  url: forumcsr.klaten.go.id
+  is_active: true
+
+- title: Sistem Pengelolaan Data Penyandang Disabilitas Kota Klaten
+  description:
+  used: Dinas Sosial Klaten
+  year: 2023
+  position: Fullstack
+  work_with: Team
+  url: aksidifa.klaten.go.id
+  is_active: true
+
+- title: Aplikasi Sistem Informasi Jenis Tanaman
+  description:
+  used: Dinas Lingkungan Hidup Klaten
+  year: 2023
+  position: Backend Rest Api
+  work_with: Team
+  url: kehati.klaten.go.id
+  is_active: true
+
+- title: Aplikasi Pengajuan untuk Mendapatkan Keterangan Informasi Rencana Tata Ruang Kota Klaten
+  description:
+  used: Dinas PUPR Klaten
+  year: 2023
+  position: Backend Rest Api
+  work_with: Team
+  url: sitr.klaten.go.id
+  is_active: true
+
+- title: Aplikasi Forum Diskusi Penataan Ruang
+  description:
+  used: Dinas PUPR Klaten
+  year: 2023
+  position: Backend Rest Api
+  work_with: Team
+  url: rapatfpr.klaten.go.id
+  is_active: true
+
+- title: Aplikasi Sistem Informasi Kesehatan dan Telemedicine Dinas Kesehatan Klaten
+  description:
+  used: Dinas Kesehatan Klaten
+  year: 2022
+  position: Backend Rest Api
+  work_with: Team
+  url: matur-dokter.klaten.go.id
+  is_active: true
+
+- title: Aplikasi Sistem Pengelolaan Data Kependudukan Dinas Dukcapil Klaten
+  description:
+  used: Dinas Dukcapil Klaten
+  year: 2022
+  position: Backend Rest Api
+  work_with: Team
+  url: sakura.dukcapil.klaten.go.id
+  is_active: true
+
+- title: Aplikasi Sistem Informasi Pelayanan Publik
+  description:
+  used: Dinas Dpmptsp Klaten
+  year: 2022
+  position: Backend Rest Api
+  work_with: Team
+  url: mpp.klaten.go.id
+  is_active: true
+
+- title: Aplikasi Sistem Pelaporan Bencana Masyarakat
+  description:
+  used: Badan Penanggulangan Bencana Daerah Klaten
+  year: 2022
+  position: Backend Rest Api
+  work_with: Team
+  url: pena-mas.klaten.go.id
+  is_active: true
+
+- title: Sistem Upload Data untuk Semua Dinas
+  description:
+  used: Dinas Kominfo Klaten
+  year: 2022
+  position: Backend Rest Api
+  work_with: Team
+  url: cdn.klaten.go.id
+  is_active: true
+
+- title: Sistem Master Data untuk Semua Dinas
+  description:
+  used: Dinas Kominfo Klaten
+  year: 2022
+  position: Backend Rest Api
+  work_with: Team
+  url: master.klaten.go.id
+  is_active: true
+
+- title:
+  description:
+  used:
+  year:
+  position:
+  work_with:
+  url:
+  is_active: true
