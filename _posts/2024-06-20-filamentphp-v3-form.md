@@ -72,4 +72,24 @@ Forms\Components\Actions::make([
         })
 ])
 ```
+
+### current Url livewire
+
+namespace App\Providers\AppServiceProvider;
+```php
+use Illuminate\Support\Facades\URL;
+public function boot()
+{
+	URL::macro('livewire_current_url', function () {
+	    if (request()->route()->named('livewire.update')) {
+	        $previousUrl = url()->previous();
+	        return $previousUrl;
+	    } else {
+	        return request()->fullUrl();
+	    }
+	});
+}
+ ```
 ###
+
+
