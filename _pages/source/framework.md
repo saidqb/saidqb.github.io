@@ -1,12 +1,12 @@
 ---
-layout: blog-page-sticky-toc-left
+layout: doc
 permalink: /source/framework
 title:  "Daftar Framework"
 author: saidqb
 toc: true
 ---
 
-
+## Framework
 ### Php
 - [Laravel](https://laravel.com/docs/10.x)
 - Laravel Filament [filamentphp.com](https://filamentphp.com/)

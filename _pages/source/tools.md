@@ -1,11 +1,12 @@
 ---
-layout: blog-page-sticky-toc-left
+layout: doc
 permalink: /source/tools
 title:  "Tools, Generator,"
 author: saidqb
 toc: true
 ---
 
+## tools
 
 ### Generator
 

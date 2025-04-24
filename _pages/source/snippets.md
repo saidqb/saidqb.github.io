@@ -1,11 +1,12 @@
 ---
-layout: blog-page-sticky-toc-left
+layout: doc
 permalink: /source/snippets
 title:  "Free Snippets"
 author: saidqb
 toc: true
 ---
 
+## Snippets
 
 ### Bootstrap
 

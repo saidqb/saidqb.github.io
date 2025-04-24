@@ -16,6 +16,7 @@
 <link href="{{ site.baseurl }}/assets/blog/css/screen.css" rel="stylesheet">
 
 <link href="{{ site.baseurl }}/assets/blog/css/main.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/blog/css/doc.css" rel="stylesheet">
 
 
 <script src="{{ site.baseurl }}/assets/blog/js/jquery.min.js"></script>
@@ -56,6 +57,7 @@ ga('send', 'pageview');
     <!-- End Logo -->
 
     {% include blog-nav.html %}
+    
 
     </div>
 </nav>
@@ -82,7 +84,56 @@ ga('send', 'pageview');
 <!-- Content
 ================================================== -->
 <div class="main-content">
-    {{ content }}
+   
+        
+<section>
+    <div class="section-title">
+        <h2><span>{{ page.title }}</span></h2>
+    </div>
+
+    <div class="article-post">
+
+         {% assign author = site.authors[page.author] %}
+
+        
+
+        <div class="row justify-content-between">
+
+            <div class="col-md-4">
+                <div class=" mb-3">
+                    {% if page.toc %}
+                    <div class="toc lead">
+                        <h3 class="font-weight-bold">Summary</h3>
+                        {% include toc.html html=content %}
+                    </div>
+                    {% endif %}
+
+                </div>
+            </div>
+
+            <div class="col-md-8">
+
+                 {{content}}
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    {% if page.comments == true %}
+
+    <div id="comments" class="row mb-5">
+        <div class="col-md-8">
+            {% include disqus.html %}
+        </div>
+    </div>
+
+    {% endif %}
+</section>
+
+
 </div>
 
 {% if site.mailchimp-list %}
@@ -99,30 +150,6 @@ ga('send', 'pageview');
     
 </div>
 
-<!-- Categories Jumbotron
-================================================== -->
-<div class="jumbotron fortags">
-	<div class="d-md-flex h-100">
-		<div class="col-md-4 transpdark align-self-center text-center h-100">
-            <div class="d-md-flex align-items-center justify-content-center h-100">
-                <h2 class="d-md-block align-self-center py-1 font-weight-light">Explore <span class="d-none d-md-inline">→</span></h2>
-            </div>
-		</div>
-		<div class="col-md-8 p-5 align-self-center text-center">
-            {% assign categories_list = site.categories %}
-            {% if categories_list.first[0] == null %}
-                {% for category in categories_list %}
-                    <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a>
-                {% endfor %}
-            {% else %}
-                {% for category in categories_list %}
-                    <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a>
-                {% endfor %}
-            {% endif %}
-            {% assign categories_list = nil %}
-		</div>
-	</div>
-</div>
 
 <!-- Begin Footer
 ================================================== -->

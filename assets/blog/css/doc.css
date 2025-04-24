@@ -1,0 +1,254 @@
+@media screen and (min-width:1500px) {
+    html {
+        font-size: 16px;
+    }
+
+    /* Increase the font size on higher resolutions */
+    .container {
+        max-width: 80%;
+    }
+}
+
+body {
+    font-family: system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji" !important;
+    font-size: 14px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji" !important;
+}
+
+h1,
+.text-alpha {
+    font-weight: 300 !important;
+}
+
+h1,
+.text-alpha {
+    font-size: 2rem !important;
+    line-height: 1.25;
+}
+
+@media (min-width: 31.25rem) {
+
+    h1,
+    .text-alpha {
+        font-size: 2.25rem !important;
+    }
+}
+
+h2,
+.text-beta,
+#toctitle {
+    font-size: 1.125rem !important;
+}
+
+@media (min-width: 31.25rem) {
+
+    h2,
+    .text-beta,
+    #toctitle {
+        font-size: 1.5rem !important;
+        line-height: 1.25;
+    }
+}
+
+h3,
+.text-gamma {
+    font-size: 1rem !important;
+}
+
+@media (min-width: 31.25rem) {
+
+    h3,
+    .text-gamma {
+        font-size: 1.125rem !important;
+    }
+}
+
+h4,
+.text-delta {
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+h4,
+.text-delta {
+    font-size: 0.6875rem !important;
+}
+
+@media (min-width: 31.25rem) {
+
+    h4,
+    .text-delta {
+        font-size: 0.75rem !important;
+    }
+}
+
+h4 code {
+    text-transform: none;
+}
+
+h5,
+.text-epsilon {
+    font-size: 0.75rem !important;
+}
+
+@media (min-width: 31.25rem) {
+
+    h5,
+    .text-epsilon {
+        font-size: 0.875rem !important;
+    }
+}
+
+h6,
+.text-zeta {
+    font-size: 0.6875rem !important;
+}
+
+@media (min-width: 31.25rem) {
+
+    h6,
+    .text-zeta {
+        font-size: 0.75rem !important;
+    }
+}
+
+.text-small {
+    font-size: 0.6875rem !important;
+}
+
+@media (min-width: 31.25rem) {
+    .text-small {
+        font-size: 0.75rem !important;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .container {
+        max-width: 60%;
+    }
+}
+
+
+.article-post {
+    font-family: system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji" !important;
+    line-height: 1.6;
+}
+
+.layout-page .article-post {
+    font-family: system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji" !important;
+}
+
+.lead {
+    font-size: 1rem;
+}
+
+
+
+.toc {
+    --spacing: 1.5rem;
+    --radius: 10px;
+}
+
+.toc li {
+    display: block;
+    position: relative;
+    padding-left: calc(2 * var(--spacing) - var(--radius) - 10px);
+}
+
+.toc ul {
+    margin-left: calc(var(--radius) - var(--spacing));
+    padding-left: 0;
+}
+
+.toc ul li {
+    border-left: 2px solid #ddd;
+}
+
+.toc ul li:last-child {
+    border-color: transparent;
+}
+
+
+
+.toc ul li::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: calc(var(--spacing) / -2);
+    left: -2px;
+    width: calc(var(--spacing) + 2px);
+    height: calc(var(--spacing) + 1px);
+    border: solid #ddd;
+    border-width: 0 0 2px 2px;
+}
+
+.toc>ul>li:nth-child(1)::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: none;
+    height: none;
+    border: none;
+    border-width: 0;
+}
+
+.toc a {
+    display: block;
+    cursor: pointer;
+}
+
+.toc a::marker,
+.toc a::-webkit-details-marker {
+    display: none;
+}
+
+.toc a:focus {
+    outline: none;
+}
+
+.toc a:focus-visible {
+    outline: 1px dotted #000;
+}
+
+
+
+.toc a::before {
+    z-index: 1;
+    background: #696 url('expand-collapse.svg') 0 0;
+}
+
+.toc details[open]>a::before {
+    background-position: calc(-2 * var(--radius)) 0;
+}
+
+.toc>ul {
+    /* padding-left: 15px; */
+    /* padding-left: 12px;   */
+}
+
+.toc>ul>li {
+    font-weight: bold;
+    /* padding-left: 12px;   */
+}
+
+.article-post p,
+.article-post blockquote {
+    margin: 0 0 0.5rem 0;
+}

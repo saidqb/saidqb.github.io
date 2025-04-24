@@ -29,9 +29,6 @@ source_links:
 - title: Tutorial
   link: tutorial
   description: 
-
-
-
 ---
 
 <section class="source-main projects no-padding-top">

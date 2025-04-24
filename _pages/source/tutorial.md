@@ -1,12 +1,12 @@
 ---
-layout: blog-page-sticky-toc-left
+layout: doc
 permalink: /source/tutorial
 title:  "tutorial"
 author: saidqb
 toc: true
 ---
 
+## Tutorial
 
-Source Tutorial:
-
-[django-crud-mysql-rest-framework/](https://www.bezkoder.com/django-crud-mysql-rest-framework/){:target="blank"}
+### Django
+- [django-crud-mysql-rest-framework/](https://www.bezkoder.com/django-crud-mysql-rest-framework/){:target="blank"}
