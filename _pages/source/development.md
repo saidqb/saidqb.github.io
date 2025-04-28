@@ -1,17 +1,18 @@
 ---
-layout: blog-page-sticky-toc-left
+layout: doc
 permalink: /source/development
 title:  "Development Tools"
 author: saidqb
 toc: true
 ---
 
-### BROWSER
+# Development
+## BROWSER
 
-##### Multi login user Exstension
+### Multi login user Exstension
 - Firfox - [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)
 
-### Editor
+## Editor
 
 + Visual Studio Code [Download](https://code.visualstudio.com/download){:target="_blank"}
 
@@ -76,25 +77,25 @@ toc: true
 	DocBlockr
 	```
 
-### Development Environment.
+## Development Environment.
 
 + Laragon [Download](https://laragon.org/download/index.html){:target="_blank"}
 	
 	- Ruby Installer for laragon [Ruby list Version](https://raw.githubusercontent.com/oneclick/rubyinstaller.org-website/master/_data/downloads.yaml)
 
-### Api
+## Api
 
 + Postman [Download](https://www.postman.com/downloads){:target="_blank"}
 
 
-### Management
+## Management
 
 + Trello [Link](https://trello.com){:target="_blank"}
 
-### Cheatsheet 
+## Cheatsheet 
 
 + VSCODE [Link](https://quickref.me/vscode.html){:target="_blank"}
 
-### Architecture
+## Architecture
 
 + CLEAN ARCHITECTURE [Link](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html){:target="_blank"}

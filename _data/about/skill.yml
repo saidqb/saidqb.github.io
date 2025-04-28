@@ -1,0 +1,62 @@
+- title: Programming
+  skills:
+  - name: php
+  - name: JavaScript
+  - name: HTML
+  - name: CSS
+  - name: MySQL
+
+- title: FrameWork
+  skills:
+  - name: Laravel
+  - name: Lumen
+  - name: Bootstrap
+  - name: Tailwind
+  - name: CodeIgniter
+  - name: jackyll
+
+- title: CMS
+  skills:
+  - name: WordPress
+  - name: Htmly
+
+- title: Technology
+  skills:
+  - name: REST API
+  - name: JSON
+  - name: XML
+  - name: AJAX
+  - name: jQuery
+
+- title: API
+  skills:
+  - name: Firebase
+  - name: Push Notification
+  - name: Agora
+  - name: Google Map
+  - name: WHM
+  - name: Cpanel
+  - name: Liquid
+  - name: Raja Ongkir
+  - name: Bank Jateng
+  - name: PT POS INDOESIA
+
+- title: Server
+  skills:
+  - name: Apache
+  - name: Nginx
+  - name: MySQL
+  - name: MariaDB
+
+- title: Tools
+  skills:
+  - name: Git
+  - name: Docker
+  - name: Postman
+  - name: Figma
+  - name: Trello
+  - name: VSCode
+
+- title: Other
+  skills:
+  - name: SEO

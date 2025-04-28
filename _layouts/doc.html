@@ -1,0 +1,24 @@
+---
+layout: doc-app
+---
+<div class="row justify-content-between">
+
+    <div class="col-md-4">
+        <div class=" mb-3">
+            {% if page.toc %}
+            <div class="toc lead">
+                <h3 class="font-weight-bold">Summary</h3>
+                {% include toc.html html=content %}
+            </div>
+            {% endif %}
+
+        </div>
+    </div>
+
+    <div class="col-md-8">
+
+        {{content}}
+
+    </div>
+
+</div>

@@ -1,0 +1,230 @@
+---
+title: Portofolio
+permalink: /portofolio
+description: Portofolio
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	{% seo %}
+	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+	<link rel="stylesheet" type="text/css"
+		href="https://fonts.googleapis.com/css?family=Cardo|Montserrat:300,400,500&amp;subset=latin-ext"
+		crossorigin="anonymous" />
+
+	<style>
+		.font-montserrat {
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 400;
+		}
+
+		.text-top-color {
+			color: #1d5da1;
+		}
+
+		.border-top-color {
+			border-color: #1d5da1;
+		}
+
+		@media print {
+			body {
+				margin: 5mm .2mm 5mm .2mm;
+			}
+
+			@page {
+				size: A4;
+				margin: 5mm .2mm 5mm .2mm;
+			}
+
+			#navigation-header {
+				display: none;
+			}
+
+			#navigation-header {
+				background-color: #fff !important;
+			}
+
+			#main-content {
+				background-color: #fff !important;
+			}
+
+			.shadow-lg {
+				box-shadow: none !important;
+			}
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<nav class="bg-gray-800" id="navigation-header">
+		<div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+			<div class="relative flex h-16 items-center justify-between">
+				<div class="flex items-center justify-center sm:items-stretch sm:justify-start">
+
+					<div class="sm:block">
+						<div class="flex space-x-4">
+							<a href="/about"
+								class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white flex items-center">
+								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+									class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+									<path fill-rule="evenodd"
+										d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5" />
+								</svg>
+								<span class="ml-2">Kembali</span>
+							</a>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="absolute right-0 ">
+					<div class="flex space-x-2">
+						<a href="/contact"
+							class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white flex items-center cursor-pointer">
+							<span class="">Kolaborasi</span>
+						</a>
+						<a onclick="window.print();"
+							class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white flex items-center cursor-pointer">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+								class="bi bi-printer" viewBox="0 0 16 16">
+								<path d="M2.5 8a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1" />
+								<path
+									d="M5 1a2 2 0 0 0-2 2v2H2a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h1v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-1h1a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V3a2 2 0 0 0-2-2zM4 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v2H4zm1 5a2 2 0 0 0-2 2v1H2a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v-1a2 2 0 0 0-2-2zm7 2v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1" />
+							</svg>
+							<span class="ml-2 hidden sm:inline">Print</span>
+						</a>
+
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</nav>
+
+
+	<div class="bg-gray-100 p-4 flex flex-row min-h-screen justify-center font-montserrat">
+		<div id="main-content" class="max-w-[1170px]">
+
+			<div class=" shadow-lg shadow-gray-700 rounded-[5px]  bg-white">
+
+
+				<!-- main content -->
+				<div class="p-5">
+					<div class="flex flex-col sm:flex-row">
+
+						<!-- left -->
+						<div class="flex flex-col sm:w-1/3 sm:pr-5">
+
+							<!-- Skills -->
+							<div class="py-3 sm:order-none order-2">
+								<h2 class="text-lg font-poppins font-bold text-top-color">
+									Portofolio
+								</h2>
+								<div class="border-2 w-30 border-top-color my-3"></div>
+								<div>
+									<p>Screenshot atas portofolio yang sudah dikerjakan, untuk lebih lengkapnya bisa di
+										akses melalui link google drive di bawah</p>
+									<p>
+										Preview :
+										<a class="font-bold text-gray-700 hover:text-orange-600"
+											href="https://drive.google.com/drive/folders/0B__Y2dKW2klhM21UOG85TlBGRE0?resourcekey=0-ZO6ClLTe4XnGq9ScxJcUtQ&usp=sharing">
+											Google drive
+										</a>
+									</p>
+								</div>
+							</div>
+
+
+						</div>
+
+						<div class="flex flex-col sm:w-2/3 ">
+
+
+
+							<!-- Daftar Aplikasi -->
+							<div class="py-3">
+								<h2 class="text-lg font-poppins font-bold text-top-color">Daftar Aplikasi</h2>
+								<div class="border-2 w-50 border-top-color my-3"></div>
+
+								<div class="flex flex-col">
+
+									<div>
+										{% for porto in site.data.about.portofolio %}
+										{% if porto.title != null %}
+										<div class="mb-2">
+											<p>{{ porto.year }} - [{{ porto.work_with }}] [position: {{ porto.position
+												}}]
+											</p>
+											<p class="text-lg font-semibold text-gray-700">
+												{{ porto.title }}
+											</p>
+											<p class="italic">
+												{{ porto.used }}
+											</p>
+											<p>
+												<small>
+													<a href="https://{{ porto.url }}" target="_blank">
+														{{ porto.url }}
+													</a>
+												</small>
+											</p>
+										</div>
+										{% endif %}
+										{% endfor %}
+
+										<div class="border-1 w-full border-top-color my-3"></div>
+
+										<div>
+											{% for porto in site.data.about.portofolio-short %}
+											<p>
+												{{ porto.content }}
+												{% if porto.source != null %}
+												<a href="{{ porto.source }}" target="_blank">[Source]</a>
+												{% endif %}
+											</p>
+											{% endfor %}
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
+
+	<script type="text/javascript">
+		function generatePDF() {
+			let doc = new jsPDF('p', 'pt', 'a4');
+			doc.setFont('courier', 'normal');
+			html = document.getElementById('main-content');
+
+			doc.addHTML(html, function () {
+				doc.save('resume.pdf');
+			});
+
+		}
+
+	</script>
+</body>
+
+</html>

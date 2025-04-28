@@ -1,0 +1,151 @@
+---
+layout: v2-app
+---
+
+
+    {% include v2-header.html %}
+
+    <!-- ===== Header End ===== -->
+
+    <main>
+        {{ content }}
+
+    </main>
+    <!-- ===== Footer Start ===== -->
+    <!-- ====== Footer Section Start -->
+    <footer class="relative z-10 py-8 border-t border-gray-3 bg-white">
+        <div class="max-w-[1170px] mx-auto px-4 sm:px-8 xl:px-0">
+            <div
+                class="flex flex-wrap items-center justify-center flex-col gap-4 lg:gap-0 lg:flex-row lg:justify-between">
+                <div>
+                    <p class="text-center text-custom-sm">© 2025 saidqb. Hosted in <a href="#">github</a></p>
+                </div>
+
+                <div>
+                    <ul class="flex flex-wrap items-center gap-2.5">
+                        <li>
+                            <a href="/about"
+                                class="group leading-none flex text-custom-sm ease-in duration-200 hover:text-dark">
+                                <span
+                                    class="bg-linear-to-r from-dark to-dark bg-[length:0px_1px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_1px]">Tentang</span>
+                            </a>
+                        </li>
+                        <li>
+                            <span class="flex w-[3px] h-[3px] rounded-full bg-dark-2"></span>
+                        </li>
+                        <li>
+                            <a href="/coffee#saweria"
+                                class="group leading-none flex text-custom-sm ease-in duration-200 hover:text-dark">
+                                <span
+                                    class="bg-linear-to-r from-dark to-dark bg-[length:0px_1px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_1px]">Coffee</span>
+                            </a>
+                        </li>
+                        <li>
+                            <span class="flex w-[3px] h-[3px] rounded-full bg-dark-2"></span>
+                        </li>
+                        <li>
+                            <a href="/contact"
+                                class="group leading-none flex text-custom-sm ease-in duration-200 hover:text-dark">
+                                <span
+                                    class="bg-linear-to-r from-dark to-dark bg-[length:0px_1px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_1px]">Contact</span>
+                            </a>
+                        </li>
+                        <li>
+                            <span class="flex w-[3px] h-[3px] rounded-full bg-dark-2"></span>
+                        </li>
+                        <li>
+                            <a href="/blog"
+                                class="group leading-none flex text-custom-sm ease-in duration-200 hover:text-dark">
+                                <span
+                                    class="bg-linear-to-r from-dark to-dark bg-[length:0px_1px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 hover:bg-[length:100%_3px] group-hover:bg-[length:100%_1px]">Blog</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="flex items-center gap-3">
+                        <p class="font-medium text-custom-sm text-dark">Explore My Repo</p>
+
+                        <!-- Social Links start -->
+                        <div class="flex items-center gap-1.5">
+                            <a id="githubFooterBtn" aria-label="github social link" href="#"
+                                class="flex items-center justify-center w-7.5 h-7.5 rounded-full hover:bg-gray-2 lg:transition-all lg:ease-linear lg:duration-300 hover:text-dark">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-github" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                                </svg>
+                            </a>
+                        </div>
+                        <!-- Social Links end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ====== Footer Section End -->
+
+    <!-- ===== Footer End ===== -->
+
+
+
+    <div x-show="modalSearch" :class="modalSearch &amp;&amp; 'z-99999'"
+        class="fixed inset-0 flex items-center justify-center px-4 py-5" style="display: none;">
+        <div class="fixed inset-0 bg-[#000]/25 backdrop-blur-xs transition-opacity"></div>
+        <div x-show="modalSearch" x-transition="" @click.outside="modalSearch = false"
+            class="w-full max-w-[700px] rounded-lg overflow-hidden shadow-box-2 bg-white relative ease-in duration-200"
+            style="display: none;">
+            <div class="">
+                <form>
+                    <div class="relative">
+                        <button class="flex items-center justify-center absolute left-0 top-0 pl-7 pr-3 py-6.5">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.1875 17.4063L14.0313 13.2188C16.1563 10.3125 15.9375 6.15625 13.2813 3.53125C11.875 2.125 10 1.34375 8 1.34375C6 1.34375 4.125 2.125 2.71875 3.53125C-0.1875 6.4375 -0.1875 11.1875 2.71875 14.0938C4.125 15.5 6 16.2813 8 16.2813C9.90625 16.2813 11.6875 15.5625 13.0938 14.2813L18.3125 18.5C18.4375 18.5938 18.5938 18.6563 18.75 18.6563C18.9688 18.6563 19.1563 18.5625 19.2813 18.4063C19.5313 18.0938 19.5 17.6563 19.1875 17.4063ZM8 14.875C6.375 14.875 4.875 14.25 3.71875 13.0938C1.34375 10.7188 1.34375 6.875 3.71875 4.53125C4.875 3.375 6.375 2.75 8 2.75C9.625 2.75 11.125 3.375 12.2813 4.53125C14.6563 6.90625 14.6563 10.75 12.2813 13.0938C11.1563 14.25 9.625 14.875 8 14.875Z"
+                                    fill="#15171A"></path>
+                            </svg>
+                        </button>
+
+                        <input type="search" name="search" id="search" placeholder="Search posts, tags and authors"
+                            autocomplete="off"
+                            class="w-full rounded-t-lg bg-white text-body pl-15 pr-3 py-6 outline-hidden ease-in duration-300 placeholder:text-dark-3">
+
+                        <button @click="modalSearch = false"
+                            class="absolute top-4.5 right-7 flex items-center justify-center w-9 h-9 rounded-full ease-in duration-150 hover:text-dark hover:bg-gray-2">
+                            <svg class="fill-current" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_724_5430)">
+                                    <path
+                                        d="M7.7001 6.99998L13.0376 1.66248C13.2345 1.4656 13.2345 1.15935 13.0376 0.962476C12.8407 0.765601 12.5345 0.765601 12.3376 0.962476L7.0001 6.29998L1.6626 0.962476C1.46572 0.765601 1.15947 0.765601 0.962598 0.962476C0.765723 1.15935 0.765723 1.4656 0.962598 1.66248L6.3001 6.99998L0.962598 12.3375C0.765723 12.5344 0.765723 12.8406 0.962598 13.0375C1.0501 13.125 1.18135 13.1906 1.3126 13.1906C1.44385 13.1906 1.5751 13.1469 1.6626 13.0375L7.0001 7.69998L12.3376 13.0375C12.4251 13.125 12.5563 13.1906 12.6876 13.1906C12.8188 13.1906 12.9501 13.1469 13.0376 13.0375C13.2345 12.8406 13.2345 12.5344 13.0376 12.3375L7.7001 6.99998Z"
+                                        fill=""></path>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_724_5430">
+                                        <rect width="14" height="14" fill="white"></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals end -->
+
+    <!-- ====== Back To Top Start ===== -->
+    <button
+        class="hidden items-center justify-center w-10 h-10 rounded-[4px] shadow-solid-5 bg-dark hover:opacity-95 fixed bottom-8 right-8 z-999 flex!"
+        @click="window.scrollTo({top: 0, behavior: 'smooth'})"
+        @scroll.window="scrollTop = (window.pageYOffset &gt; 50) ? true : false" :class="{ 'flex!' : scrollTop }">
+        <svg class="fill-white w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <path
+                d="M233.4 105.4c12.5-12.5 32.8-12.5 45.3 0l192 192c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L256 173.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l192-192z">
+            </path>
+        </svg>
+    </button>
+

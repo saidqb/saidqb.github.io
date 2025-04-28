@@ -1,11 +1,12 @@
 ---
-layout: blog-page-sticky-toc-left
+layout: doc
 permalink: /source/themes
 title:  "Free Teheme"
 author: saidqb
 toc: true
 ---
 
+## Theme
 
 ### Html5
 
