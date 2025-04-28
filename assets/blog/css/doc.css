@@ -27,6 +27,7 @@ h4,
 h5,
 h6 {
     font-family: system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, sans-serif, "Segoe UI Emoji" !important;
+    margin-bottom: 0.5rem !important;
 }
 
 h1,

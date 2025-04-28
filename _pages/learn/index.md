@@ -6,18 +6,35 @@ author: saidqb
 toc: true
 ---
 
-## Learn
+# Learn
 
-### Framework
+## Framework
 
-#### Laravel
+### Laravel
+
+
+### Django
 - [django-crud-mysql-rest-framework](https://www.bezkoder.com/django-crud-mysql-rest-framework/){:target="blank"}
 
-### Programming
-#### PHP
-#### Css
-#### Js
+## Programming
 
+### Phyton
+- [python-untuk-pemula](https://www.duniailkom.com/tutorial-belajar-bahasa-pemrograman-python-untuk-pemula/){:target="_blank"}
 
-### Server
-#### Docker
+### PHP
+- [php dasar](https://www.duniailkom.com/tutorial-belajar-php-dan-index-artikel-php/){:target="_blank"}
+
+### Css
+- [css dasar](https://www.duniailkom.com/tutorial-belajar-css-dan-index-artikel-css/){:target="_blank"}
+
+### Js
+- [javascript dasar](https://www.duniailkom.com/tutorial-belajar-javascript-dan-index-artikel-javascript/){:target="_blank"}
+
+### Mysql
+- [mysql dasar](https://www.duniailkom.com/tutorial-belajar-mysql-dan-index-artikel-mysql/){:target="_blank"}
+
+### Html 
+- [Html dasar](https://www.duniailkom.com/tutorial-belajar-html-dan-index-artikel-html/){:target="_blank"}
+
+## Server
+### Docker

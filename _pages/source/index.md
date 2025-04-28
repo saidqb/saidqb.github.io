@@ -8,26 +8,17 @@ source_links:
 - title: Development Tools
   link: development
   description: 
-- title: Framework
-  link: framework
-  description: 
-- title: Theme
+- title: Theme (Free)
   link: themes
   description: 
-- title: Assets
+- title: Assets (Icon,Image)
   link: assets
   description: 
-- title: Snippets
+- title: Snippets (Html/Css)
   link: snippets
   description: 
 - title: Seo
   link: seo
-  description: 
-- title: Tools
-  link: tools
-  description: 
-- title: Tutorial
-  link: tutorial
   description: 
 ---
 

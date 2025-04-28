@@ -65,15 +65,12 @@
 
                         <!-- Dropdown Start -->
                         <ul class="dropdown flex" :class="{ 'flex': dropdown }">
+                            {% for tl in site.data.nav.tools %}
                             <li>
-                                <a href="/tools/generator"
-                                    class="flex rounded-md text-sm hover:text-primary hover:bg-gray py-2 px-4">Generator</a>
+                                <a href="{{tl.permalink}}"
+                                    class="flex rounded-md text-sm hover:text-primary hover:bg-gray py-2 px-4">{{tl.title}}</a>
                             </li>
-                            <li>
-                                <a href="/tools/ai"
-                                    class="flex rounded-md text-sm hover:text-primary hover:bg-gray py-2 px-4">AI</a>
-                            </li>
-                            
+                            {% endfor %}
 
                         </ul>
                         <!-- Dropdown End -->
@@ -85,7 +82,7 @@
                     <li class="nav__menu lg:py-6.5 lg:py-4!" :class="{ 'lg:py-4!' : stickyMenu }">
                         <a href="/blog" class="hover:text-dark">Blog</a>
                     </li>
-                     <li class="nav__menu lg:py-6.5 lg:py-4!" :class="{ 'lg:py-4!' : stickyMenu }">
+                    <li class="nav__menu lg:py-6.5 lg:py-4!" :class="{ 'lg:py-4!' : stickyMenu }">
                         <a href="/source" class="hover:text-dark">Source</a>
                     </li>
                 </ul>
