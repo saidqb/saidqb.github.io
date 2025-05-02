@@ -1,6 +1,6 @@
 ---
 layout: doc
-permalink: /tools/ai
+permalink: /tools/ai-development
 title:  "Ai"
 author: saidqb
 toc: true
