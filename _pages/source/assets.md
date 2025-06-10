@@ -29,5 +29,7 @@ toc: true
 - [https://nominatim.openstreetmap.org/ui/search.html](https://nominatim.openstreetmap.org/ui/search.html){:target="_blank"} polygon map https://nominatim.openstreetmap.org/search.php?q={location}&polygon_geojson=1&format=json
 
 
+### badges
 
+- [online badge](https://shields.io/badges/static-badge){:target="_blank"}
 
