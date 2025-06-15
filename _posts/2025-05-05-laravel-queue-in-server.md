@@ -1,6 +1,6 @@
 ---
 layout: blog-post
-title:  "Send Email Using Google Mail"
+title:  "Laravel Queue Server"
 author: saidqb
 categories: [ .email ]
 tags: [.email]
