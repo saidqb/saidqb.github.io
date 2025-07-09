@@ -24,6 +24,7 @@ toc: true
 - [iconfinder.com](https://www.iconfinder.com){:target="_blank"}
 - [picsum.photos](https://www.picsum.photos){:target="_blank"} random image generator with sample
 - [svgrepo.com](https://www.svgrepo.com/){:target="_blank"}
+- [flow-chart](https://vecta.io/symbols/0/flow-chart){:target="_blank"}
 
 ### Maps
 
