@@ -22,6 +22,8 @@ toc: true
 - Tailwind Component Template [flowbite.com](https://flowbite.com){:target="_blank"}
 - Tailwind Component Template [tw-elements.com](https://tw-elements.com/docs/standard/components/modal/){:target="_blank"}
 - Tailwind Component Template [tailwindflex.com](https://tailwindflex.com){:target="_blank"}
+- Tailwind Component Template [preline.co](https://preline.co){:target="_blank"}
+
 
 
 ### HTML + CSS
