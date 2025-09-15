@@ -3,96 +3,189 @@ layout: v2-app
 title: About Me
 permalink: /about
 ---
-<div class="w-full flex items-center justify-center py-5">
-	<div class="relative">
-		<a href="/" class="transition transform hover:-translate-y-0.5">
-			<img src="/assets/sqv2/img/logo.png" alt="Logo">
-		</a>
-	</div>
-</div>
 
-<div class="mx-auto max-w-[1170px] px-4 sm:px-8 xl:px-0 pb-12.5 pt-5">
-	<div class="p-8 bg-white shadow-[0_-2px_2px_rgba(23,97,189,0.8)] mt-24">
-		<div class="grid grid-cols-1 md:grid-cols-3">
+<div class="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+    <!-- Header with Logo -->
+    <div class="w-full flex items-center justify-center py-8">
+        <div class="relative">
+            <a href="/" class="transition transform hover:-translate-y-1 hover:scale-105">
+                <img src="/assets/sqv2/img/logo.png" alt="Logo" class="h-10 w-auto">
+            </a>
+        </div>
+    </div>
 
-			<div class="relative">
-				<div
-					class="w-48 h-48 bg-indigo-100 mx-auto rounded-full shadow-2xl absolute inset-x-0 top-0 -mt-24 flex items-center justify-center text-indigo-500">
-					<img src="/assets/sqv2/img/photo2.jpg" alt="" class="rounded-full  object-cover" />
-				</div>
-			</div>
+    <!-- Main Content -->
+    <div class="mx-auto max-w-6xl px-6 pb-20">
+        <!-- Profile Card -->
+        <div class="relative bg-white rounded-3xl shadow-2xl overflow-hidden">
+            <!-- Background Pattern -->
+            <div class="absolute inset-0 opacity-5">
+                <div class="absolute inset-0" style="background-image: radial-gradient(circle at 2px 2px, rgb(59 130 246 / 0.3) 1px, transparent 0); background-size: 30px 30px;"></div>
+            </div>
+            
+            <!-- Profile Header -->
+            <div class="relative">
+                <!-- Cover Background -->
+                <div class="h-48 bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600"></div>
+                
+                <!-- Profile Picture -->
+                <div class="absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                    <div class="w-32 h-32 bg-white rounded-full p-2 shadow-xl">
+                        <img src="/assets/sqv2/img/photo2.jpg" alt="M Nurul Khomsa" 
+                             class="w-full h-full rounded-full object-cover">
+                    </div>
+                </div>
+            </div>
 
-		</div>
-		<div class="flex flex-col">
-			<div class="space-x-8 flex justify-between mt-5 md:mt-0 md:justify-center order-2 sm:order-none">
-				<div class="gap-2 flex flex-col ">
-					<a
-						class="text-gray-700 text-5xl  py-2 px-4 uppercase rounded  transition transform hover:-translate-y-0.5">
-						<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-							class="bi bi-gear" viewBox="0 0 16 16">
-							<path
-								d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492M5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0" />
-							<path
-								d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115z" />
-						</svg>
-					</a>
-				</div>
-				<div class="gap-2 flex flex-col text-right">
-					<div class="flex justify-end items-center">
-						<a href="/resume"
-							class="text-white mb-2 text-sm py-2 px-4 uppercase rounded bg-gray-700 hover:bg-gray-800 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5">
-							Resume
-						</a>
-					</div>
-					<div class="flex justify-end items-center">
-						<a href="/portofolio"
-							class="text-white mb-2 text-sm py-2 px-4 uppercase rounded bg-gray-700 hover:bg-gray-800 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5">
-							Portofolio
-						</a>
-					</div>
-					<div class="flex justify-end items-center">
+            <!-- Profile Info -->
+            <div class="pt-20 pb-8 px-8 text-center">
+                <h1 class="text-4xl font-bold text-gray-900 mb-2">M Nurul Khomsa</h1>
+                <p class="text-lg text-gray-600 mb-1">PHP Developer & Software Engineer</p>
+                <p class="text-gray-500 flex items-center justify-center gap-1">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    </svg>
+                    Klaten, Jawa Tengah
+                </p>
 
-						<a href="/skill"
-							class="text-white mb-2 text-sm py-2 px-4 uppercase rounded bg-gray-700 hover:bg-gray-800 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5">
-							Keahlian
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="mt-30 sm:mt-20 text-center border-b border-gray-3 pb-12 order-1 sm:order-none">
-				<h1 class="text-4xl font-inter font-bold text-gray-700">M Nurul Khomsa</h1>
-				<p class="font-light text-gray-600 mt-3">Klaten, Jawa Tengah</p>
-			</div>
-		</div>
-		<div class="mt-12 flex flex-col justify-center">
-			<div class="">
-				<p class="mb-2">Assalamualaikum, salam untuk para programmer yang ada di seluruh dunia.</p>
-				<p class="mb-2">Perkenalkan nama saya adalah Muhammad Nurul Khomsa biasa dipanggil khomsa atau said,
-					saya adalah
-					orang desa yang
-					berkecimpung di dunia programmer. saya berasal dari desa yang dekat dengan perbatasan jogja dan jawa
-					tengah
-					tepatnya pinggiran kota klaten, sejak akhir kuliah tepatnya tahun 2014 saya sudah mulai terjun di
-					dunia
-					programmer mengerjakan berbagai proyek</p>
+                <!-- Stats -->
+                <div class="flex justify-center gap-8 mt-8 mb-8">
+                    <div class="text-center">
+                        <div class="text-2xl font-bold text-blue-600">8+</div>
+                        <div class="text-sm text-gray-600">Years Experience</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-2xl font-bold text-indigo-600">40+</div>
+                        <div class="text-sm text-gray-600">Projects</div>
+                    </div>
+                </div>
 
-				<p class="mb-2"><strong>Saidqb, siapa itu?</strong><br />
-					yah jika anda menemukan saya di forum-forum dengan id ini maka itu saya, tapi beberapa tahun ini
-					saya jarang
-					nongkrong di forum di sebabkan kesibukan saya pada pekerjaan, id atau nama alias di dunia maya
-					mungkin bagi
-					sebagian orang dianggap sebuah nama panggung mereka, seperti saya yang menggunakan nama saidqb
-					sebagai nama yang
-					ingin dikenal di dunia maya.</p>
+                <!-- Action Buttons -->
+                <div class="flex flex-wrap justify-center gap-4 mb-8">
+                    <a href="/resume" 
+                       class="group inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                        </svg>
+                        Resume
+                    </a>
+                    <a href="/portofolio" 
+                       class="group inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                        </svg>
+                        Portfolio
+                    </a>
+                    <a href="/skill" 
+                       class="group inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-xl font-semibold transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                        </svg>
+                        Skills
+                    </a>
+                </div>
+            </div>
 
-				<p class="mb-2"><strong>Framework yang digunakan?</strong><br />
-					Sekarang saya sedang menggunakan laravel sebagai core pembuatan website, ada pun framework lain
-					sesuai dengan kebutuhan.</p>
+            <!-- About Content -->
+            <div class="px-8 pb-12">
+                <div class="max-w-4xl mx-auto">
+                    <!-- Greeting Section -->
+                    <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 mb-8">
+                        <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                            <span class="text-2xl">👋</span>
+                            Assalamualaikum!
+                        </h2>
+                        <p class="text-gray-700 leading-relaxed">
+                            Salam untuk para programmer yang ada di seluruh dunia. Perkenalkan nama saya adalah 
+                            <strong>Muhammad Nurul Khomsa</strong>, biasa dipanggil <strong>Khomsa</strong> atau <strong>Said</strong>. 
+                            Saya adalah orang desa yang berkecimpung di dunia programmer, berasal dari desa yang dekat dengan 
+                            perbatasan Jogja dan Jawa Tengah, tepatnya pinggiran kota Klaten.
+                        </p>
+                    </div>
 
-			</div>
-			<div class="text-center py-2 px-4 mt-4">
-				<a href="/" class="text-indigo-500  font-medium  inline">Back to home!</a>
-			</div>
-		</div>
-	</div>
+                    <!-- Journey Section -->
+                    <div class="grid md:grid-cols-2 gap-8 mb-8">
+                        <div class="bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition-shadow duration-300">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
+                                    <svg class="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-xl font-bold text-gray-900">Journey Dimulai</h3>
+                            </div>
+                            <p class="text-gray-600 leading-relaxed">
+                                Sejak akhir kuliah tepatnya tahun <strong>2014</strong>, saya sudah mulai terjun di dunia 
+                                programmer dan mengerjakan berbagai proyek yang menantang dan mengasah kemampuan saya.
+                            </p>
+                        </div>
+
+                        <div class="bg-white border border-gray-200 rounded-2xl p-6 hover:shadow-lg transition-shadow duration-300">
+                            <div class="flex items-center gap-3 mb-4">
+                                <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
+                                    <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                                    </svg>
+                                </div>
+                                <h3 class="text-xl font-bold text-gray-900">Tentang Saidqb</h3>
+                            </div>
+                            <p class="text-gray-600 leading-relaxed">
+                                Jika Anda menemukan saya di forum-forum dengan ID ini, maka itu saya. <strong>Saidqb</strong> 
+                                adalah nama yang ingin saya kenal di dunia maya sebagai identitas profesional saya.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Tech Stack Section -->
+                    <div class="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-8 mb-8">
+                        <div class="flex items-center gap-3 mb-6">
+                            <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center">
+                                <svg class="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                                </svg>
+                            </div>
+                            <h3 class="text-2xl font-bold text-gray-900">Tech Stack & Framework</h3>
+                        </div>
+                        <p class="text-gray-700 leading-relaxed mb-6">
+                            Sekarang saya sedang menggunakan <strong>Laravel</strong> sebagai core pembuatan website. 
+                            Selain itu, saya juga menggunakan framework lain sesuai dengan kebutuhan proyek.
+                        </p>
+                        
+                        <!-- Tech Icons -->
+                        <div class="flex flex-wrap gap-4">
+                            <span class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-gray-200">
+                                <span class="w-2 h-2 bg-red-500 rounded-full"></span>
+                                Laravel
+                            </span>
+                            <span class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-gray-200">
+                                <span class="w-2 h-2 bg-blue-500 rounded-full"></span>
+                                PHP
+                            </span>
+                            <span class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-gray-200">
+                                <span class="w-2 h-2 bg-yellow-500 rounded-full"></span>
+                                JavaScript
+                            </span>
+                            <span class="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-lg border border-gray-200">
+                                <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+                                MySQL
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Call to Action -->
+                    <div class="text-center">
+                        <div class="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-semibold text-lg transition-colors group">
+                            <a href="/" class="flex items-center gap-2">
+                                <svg class="w-5 h-5 transition-transform group-hover:-translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                                </svg>
+                                Back to Home
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
