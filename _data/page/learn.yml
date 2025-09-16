@@ -1,0 +1,62 @@
+sections:
+  - title: "Frameworks"
+    icon_color: "blue-600"
+    items:
+      - name: "Laravel"
+        color: "red-500"
+        description: "PHP web application framework"
+        links: []
+      - name: "Django"
+        color: "green-500"
+        description: ""
+        links:
+          - title: "Django CRUD MySQL REST Framework"
+            url: "https://www.bezkoder.com/django-crud-mysql-rest-framework/"
+
+  - title: "Programming Languages"
+    icon_color: "purple-600"
+    items:
+      - name: "Python"
+        color: "blue-500"
+        description: ""
+        links:
+          - title: "Python untuk Pemula"
+            url: "https://www.duniailkom.com/tutorial-belajar-bahasa-pemrograman-python-untuk-pemula/"
+      - name: "PHP"
+        color: "indigo-500"
+        description: ""
+        links:
+          - title: "PHP Dasar"
+            url: "https://www.duniailkom.com/tutorial-belajar-php-dan-index-artikel-php/"
+      - name: "JavaScript"
+        color: "yellow-500"
+        description: ""
+        links:
+          - title: "JavaScript Dasar"
+            url: "https://www.duniailkom.com/tutorial-belajar-javascript-dan-index-artikel-javascript/"
+      - name: "CSS"
+        color: "blue-400"
+        description: ""
+        links:
+          - title: "CSS Dasar"
+            url: "https://www.duniailkom.com/tutorial-belajar-css-dan-index-artikel-css/"
+      - name: "HTML"
+        color: "orange-500"
+        description: ""
+        links:
+          - title: "HTML Dasar"
+            url: "https://www.duniailkom.com/tutorial-belajar-html-dan-index-artikel-html/"
+      - name: "MySQL"
+        color: "blue-700"
+        description: ""
+        links:
+          - title: "MySQL Dasar"
+            url: "https://www.duniailkom.com/tutorial-belajar-mysql-dan-index-artikel-mysql/"
+
+  - title: "Server & DevOps"
+    icon_color: "green-600"
+    items:
+      - name: "Docker"
+        color: "blue-600"
+        description: "Containerization platform"
+        links: []

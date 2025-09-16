@@ -1,0 +1,37 @@
+---
+layout: v2-default
+permalink: /source/themes
+title:  "Free Teheme"
+author: saidqb
+toc: true
+---
+
+
+<div class="max-w-4xl mx-auto px-6 py-32">
+    <!-- Header -->
+    <div class="mb-12 text-center">
+        <h1 class="text-4xl font-bold text-gray-900 mb-4">Free Code Snippets</h1>
+        <p class="text-lg text-gray-600">Curated collection of useful code snippets and components</p>
+    </div>
+
+    <!-- Dynamic Sections from YAML -->
+    {% for section in site.data.source.themes.data %}
+    <div class="mb-10">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-6 flex items-center">
+            <span
+                class="bg-{{ section.color }}-100 text-{{ section.color }}-800 px-3 py-1 rounded-lg text-sm font-medium mr-3">{{
+                section.name }}</span>
+        </h2>
+        <div class="grid md:grid-cols-3 gap-4">
+            {% for item in section.items %}
+            <a href="{{ item.url }}" target="_blank"
+                class="block p-4 bg-white border border-gray-200 rounded-lg hover:border-{{ section.color }}-300 hover:shadow-md transition-all duration-200">
+                <div class="font-medium text-gray-900">{{ item.title }}</div>
+                <div class="text-sm text-gray-500 mt-1">{{ item.domain }}</div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+

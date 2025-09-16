@@ -1,0 +1,41 @@
+data:
+  - name: "HTML5"
+    color: "orange"
+    items:
+      - title: "HTML5 UP"
+        url: "https://html5up.net"
+        domain: "html5up.net"
+      - title: "WowThemes HTML"
+        url: "https://wowthemes.net/freebies/html/"
+        domain: "wowthemes.net"
+      - title: "Bootstrap Made"
+        url: "https://bootstrapmade.com/"
+        domain: "bootstrapmade.com"
+
+  - name: "Jekyll"
+    color: "red"
+    items:
+      - title: "WowThemes Jekyll"
+        url: "https://wowthemes.net/freebies/jekyll/"
+        domain: "wowthemes.net"
+
+  - name: "WordPress"
+    color: "indigo"
+    items:
+      - title: "WowThemes WordPress"
+        url: "https://wowthemes.net/freebies/wordpress/"
+        domain: "wowthemes.net"
+
+  - name: "Blogger"
+    color: "yellow"
+    items:
+      - title: "Sora Templates"
+        url: "https://www.soratemplates.com/"
+        domain: "soratemplates.com"
+
+  - name: "Mixed"
+    color: "gray"
+    items:
+      - title: "BB Bootstrap"
+        url: "https://bbbootstrap.com/snippets"
+        domain: "bbbootstrap.com/snippets"
