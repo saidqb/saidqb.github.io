@@ -1,0 +1,11 @@
+title: "Video Converter Tools"
+icon:
+  text: "VC"
+  gradient: "from-blue-500 to-purple-600"
+
+tools:
+   - name: "HandBrake"
+     icon: "HB"
+     gradient: "from-red-500 to-yellow-500"
+     color: "red-600"
+     link: "https://handbrake.fr"

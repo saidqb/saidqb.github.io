@@ -1,12 +1,10 @@
 - title: AI
   permalink: /tools/ai
-- title: AI Development
-  permalink: /tools/ai-development
+- title: Development
+  permalink: /tools/development
 - title: Compailer
   permalink: /tools/compiler
 - title: Converter
   permalink: /tools/converter
-- title: Diagram
-  permalink: /tools/diagram
 - title: Generator
   permalink: /tools/generator

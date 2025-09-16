@@ -1,0 +1,11 @@
+title: "Image Generator Tools"
+icon:
+  text: "IG"
+  gradient: "from-blue-500 to-purple-600"
+
+tools:
+  - name: "ui-avatars.com"
+    icon: "UA"
+    gradient: "from-indigo-500 to-sky-400"
+    color: "indigo-600"
+    link: "https://ui-avatars.com/"

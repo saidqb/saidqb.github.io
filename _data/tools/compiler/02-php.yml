@@ -1,0 +1,11 @@
+title: "PHP Compailer Tools"
+icon:
+  text: "PHP"
+  gradient: "from-blue-500 to-purple-600"
+
+tools:
+  - name: "Programiz PHP Compiler"
+    icon: "P"
+    gradient: "from-purple-500 to-blue-600"
+    color: "purple-600"
+    link: "https://www.programiz.com/php/online-compiler/"

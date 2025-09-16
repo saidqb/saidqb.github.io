@@ -1,0 +1,11 @@
+title: "Text Generator Tools"
+icon:
+  text: "TC"
+  gradient: "from-blue-500 to-purple-600"
+
+tools:
+  - name: "lipsum.com"
+    icon: "L"
+    gradient: "from-yellow-400 to-orange-500"
+    color: "amber-600"
+    link: "https://www.lipsum.com/"

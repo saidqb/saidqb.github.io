@@ -1,0 +1,41 @@
+title: "AI Assistants (Chatbots)"
+icon:
+  text: "CB"
+  gradient: "from-blue-500 to-purple-600"
+
+tools:
+  - name: "ChatGPT"
+    icon: "C"
+    gradient: "from-blue-500 to-blue-600"
+    color: "blue-600"
+    link: "https://chat.openai.com"
+    
+  - name: "Claude"
+    icon: "Cl"
+    gradient: "from-green-500 to-green-600"
+    color: "green-600"
+    link: "https://claude.ai"
+    
+  - name: "Gemini"
+    icon: "G"
+    gradient: "from-purple-500 to-purple-600"
+    color: "purple-600"
+    link: "https://gemini.google.com"
+    
+  - name: "Perplexity"
+    icon: "P"
+    gradient: "from-red-500 to-red-600"
+    color: "red-600"
+    link: "https://perplexity.ai"
+    
+  - name: "GitHub Copilot"
+    icon: "GH"
+    gradient: "from-yellow-500 to-yellow-600"
+    color: "yellow-600"
+    link: "https://github.com/features/copilot"
+    
+  - name: "Midjourney"
+    icon: "M"
+    gradient: "from-indigo-500 to-indigo-600"
+    color: "indigo-600"
+    link: "https://midjourney.com"
