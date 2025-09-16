@@ -1,174 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="icon" href="{{ site.baseurl }}/assets/blog/images/logo.png">
+    <link rel="icon" href="{{ site.baseurl }}/assets/blog/images/logo.png">
+    <title>{{ page.title }} | {{site.name}}</title>
 
-<title>{{ page.title }} | {{site.name}}</title>
+    {% seo %}
+    <link rel="icon" href="/assets/sq/favicon.png">
 
-{% seo %}
-<link rel="icon" href="/assets/sq/favicon.png">
+    <!-- Tailwind CSS 4 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif'],
+                        'heading': ['Righteous', 'cursive'],
+                        'body': ['Merriweather', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
-<link href="{{ site.baseurl }}/assets/blog/css/screen.css" rel="stylesheet">
-
-<link href="{{ site.baseurl }}/assets/blog/css/main.css" rel="stylesheet">
-<link href="{{ site.baseurl }}/assets/blog/css/doc.css" rel="stylesheet">
 
 
-<script src="{{ site.baseurl }}/assets/blog/js/jquery.min.js"></script>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Righteous&family=Merriweather:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+    <link href="{{ site.baseurl }}/assets/blog/css/main.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/blog/css/doc.css" rel="stylesheet">
 </head>
 
 {% if jekyll.environment == 'production' %}
-<!-- change your GA id in _config.yml -->
+<!-- Google Analytics -->
 <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', '{{site.google_analytics}}', 'auto');
-ga('send', 'pageview');
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '{{site.google_analytics}}', 'auto');
+    ga('send', 'pageview');
 </script>
 {% endif %}
 
-{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
-<body class="{{layout}}">
-	<!-- defer loading of font and font awesome -->
-	<noscript id="deferred-styles">
-		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-	</noscript>
+<body class="bg-gray-50 font-sans antialiased">
+
+    <!-- Navigation -->
+    {% include v2-header.html %}
 
 
-<!-- Begin Menu Navigation
-================================================== -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+    <!-- Main Content -->
+    <div class="pt-16 min-h-screen">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-    <div class="container pr-0">
+            <!-- Site Title for Blog Page -->
+            {% if page.url == "/blog" %}
+            <div class="py-12 text-center">
+                <h1 class="text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-4">{{ site.name }}</h1>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">{{ site.description }}</p>
+            </div>
+            {% endif %}
 
-    <!-- Begin Logo -->
-    <a class="navbar-brand" href="{{ site.baseurl }}/">
-    <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
-    </a>
-    <!-- End Logo -->
+            <!-- Content Section -->
+            <main class="py-8">
+                <div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
 
-    {% include blog-nav.html %}
-    
+                    <!-- Article Header -->
+                    <div class="px-6 py-8 border-b border-gray-200">
+                        <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-2">{{ page.title }}</h1>
+                        {% assign author = site.authors[page.author] %}
+                        {% if author %}
+                        <div class="flex items-center text-sm text-gray-500">
+                            <span>By {{ author.display_name }}</span>
+                            {% if page.date %}
+                            <span class="mx-2">•</span>
+                            <time>{{ page.date | date: "%B %d, %Y" }}</time>
+                            {% endif %}
+                        </div>
+                        {% endif %}
+                    </div>
 
-    </div>
-</nav>
-<!-- End Navigation
-================================================== -->
+                    <!-- Article Content -->
+                    <div class="px-6 py-8">
+                        <div class="prose prose-lg max-w-none font-body">
+                            {{ content }}
+                        </div>
+                    </div>
 
-<div class="site-content">
+                </div>
 
-<div class="container">
+                <!-- Comments Section -->
+                {% if page.comments == true %}
+                <div class="mt-12 bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-6">Comments</h3>
+                    {% include disqus.html %}
+                </div>
+                {% endif %}
 
-<!-- Site Title
-================================================== -->
-{% if page.url == "/blog" %}
+            </main>
 
-<div class="mainheading">
-    <h1 class="sitetitle">{{ site.name }}</h1>
-    <p class="lead">
-        {{ site.description }}
-    </p>
-</div>
-{% endif %}
-
-
-<!-- Content
-================================================== -->
-<div class="main-content">
-   
-        
-<section>
-    <div class="section-title">
-        <h2><span>{{ page.title }}</span></h2>
-    </div>
-
-    <div class="article-post">
-
-        {% assign author = site.authors[page.author] %}
-
-        
-        {{content}}
-
-        
-
-
-    </div>
-
-    {% if page.comments == true %}
-
-    <div id="comments" class="row mb-5">
-        <div class="col-md-8">
-            {% include disqus.html %}
         </div>
+
+        <!-- Call to Action Bar -->
+        {% if site.mailchimp-list %}
+        <div class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+                <div class="flex flex-col sm:flex-row items-center justify-between">
+                    <div class="flex items-center mb-3 sm:mb-0">
+                        <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}" class="h-6 w-auto mr-3">
+                        <span class="font-medium">Berjuang di era modern</span>
+                    </div>
+                    <a href="/coffee"
+                        class="inline-flex items-center px-4 py-2 bg-white text-blue-600 font-medium rounded-lg hover:bg-gray-50 transition-colors duration-200">
+                        <i class="fas fa-coffee mr-2"></i>
+                        Coffee
+                    </a>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
     </div>
 
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="text-gray-600 mb-4 md:mb-0">
+                    <p>&copy; {{ site.time | date: "%Y" }} {{ site.name }}. All rights reserved.</p>
+                </div>
+                <div class="text-gray-500 text-sm">
+                    <a href="https://www.wowthemes.net/mediumish-free-jekyll-template/" target="_blank"
+                        class="hover:text-gray-700 transition-colors duration-200">
+                        Mediumish Jekyll Theme
+                    </a>
+                    <span class="mx-2">by</span>
+                    <a href="https://www.wowthemes.net/" target="_blank"
+                        class="hover:text-gray-700 transition-colors duration-200">
+                        WowThemes.net
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    {% if site.lazyimages == "enabled" %}
+    <script src="{{ site.baseurl }}/assets/blog/js/lazyload.js"></script>
     {% endif %}
-</section>
 
+    {% if page.layout == 'post' %}
+    <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
+    {% endif %}
 
-</div>
+    <!-- Mobile Menu Toggle Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const mobileMenuButton = document.querySelector('[data-mobile-menu-toggle]');
+            const mobileMenu = document.querySelector('[data-mobile-menu]');
 
-{% if site.mailchimp-list %}
-<!-- Bottom Alert Bar
-================================================== -->
-<div class="alertbar">
-	<div class="container text-center">
-		<span><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Berjuang di era modern</span>
-        <a class="btn btn-primary btn-sm" href="/coffee">Coffee</a>
-        
-	</div>
-</div>
-{% endif %}
-    
-</div>
-
-
-<!-- Begin Footer
-================================================== -->
-<footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
-            </div>
-            <div class="col-md-6 col-sm-6 text-center text-lg-right">    
-                <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- End Footer
-================================================== -->
-
-</div> <!-- /.site-content -->
-
-<!-- Scripts
-================================================== -->
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
-<script src="{{ site.baseurl }}/assets/blog/js/mediumish.js"></script>
-
-{% if site.lazyimages == "enabled" %}
-<script src="{{ site.baseurl }}/assets/blog/js/lazyload.js"></script>
-{% endif %}
-
-<script src="{{ site.baseurl }}/assets/blog/js/ie10-viewport-bug-workaround.js"></script> 
-
-{% if page.layout == 'post' %}
-<script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
-{% endif %}
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', function () {
+                    mobileMenu.classList.toggle('hidden');
+                });
+            }
+        });
+    </script>
 
 </body>
+
 </html>

@@ -1,24 +1,245 @@
 ---
-layout: doc-app
+layout: v2-default
 ---
-<div class="row justify-content-between">
+    <link href="{{ site.baseurl }}/assets/blog/css/main.css" rel="stylesheet">
+    <link href="{{ site.baseurl }}/assets/blog/css/doc.css" rel="stylesheet">
+    
 
-    <div class="col-md-4">
-        <div class=" mb-3">
-            {% if page.toc %}
-            <div class="toc lead">
-                <h3 class="font-weight-bold">Summary</h3>
-                {% include toc.html html=content %}
+<div class="flex flex-col lg:flex-row gap-6 lg:gap-8 max-w-7xl mx-auto px-4 py-20 lg:py-32">
+    
+    <!-- Table of Contents Sidebar -->
+    <aside class="lg:w-1/4 order-2 lg:order-1">
+        {% if page.toc %}
+        <div class="sticky top-24 bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">
+            <div class="bg-gradient-to-r from-blue-50 to-indigo-50 px-6 py-5 border-b border-gray-100">
+                <h3 class="text-lg font-semibold text-gray-900 flex items-center">
+                    <svg class="w-5 h-5 mr-3 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path>
+                    </svg>
+                    Table of Contents
+                </h3>
             </div>
-            {% endif %}
-
+            <div class="p-6">
+                <nav class="toc text-sm leading-relaxed">
+                    {% include toc.html html=content %}
+                </nav>
+            </div>
         </div>
-    </div>
+        {% endif %}
+    </aside>
 
-    <div class="col-md-8">
-
-        {{content}}
-
-    </div>
+    <!-- Main Content -->
+    <main class="lg:w-3/4 order-1 lg:order-2">
+        <article class="prose prose-lg prose-slate max-w-none">
+            <div class="bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">
+                <div class="p-6 sm:p-8 lg:p-12">
+                    {{content}}
+                </div>
+            </div>
+        </article>
+    </main>
 
 </div>
+
+<style>
+/* Custom Tailwind CSS for enhanced typography and TOC styling */
+.toc ul {
+    @apply space-y-1 list-none pl-0;
+}
+
+.toc li {
+    @apply border-l-2 border-transparent pl-3 py-2 transition-all duration-200 rounded-r-md;
+}
+
+.toc li:hover {
+    @apply border-blue-400 bg-blue-50/50;
+}
+
+.toc a {
+    @apply text-gray-700 hover:text-blue-600 no-underline font-medium transition-colors duration-200 block;
+}
+
+.toc li li {
+    @apply ml-4 text-sm;
+}
+
+.toc li li a {
+    @apply text-gray-600 font-normal;
+}
+
+.toc li li li {
+    @apply ml-3 text-xs;
+}
+
+.toc li li li a {
+    @apply text-gray-500;
+}
+
+/* Enhanced prose styling */
+.prose {
+    @apply text-gray-800 leading-relaxed;
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+    @apply text-gray-900 font-bold scroll-mt-24;
+}
+
+.prose h1 {
+    @apply text-3xl sm:text-4xl lg:text-5xl mb-8 pb-6 border-b border-gray-200 leading-tight;
+}
+
+.prose h2 {
+    @apply text-2xl sm:text-3xl lg:text-4xl mt-16 mb-6 leading-tight;
+}
+
+.prose h3 {
+    @apply text-xl sm:text-2xl lg:text-3xl mt-12 mb-4 leading-tight;
+}
+
+.prose h4 {
+    @apply text-lg sm:text-xl lg:text-2xl mt-8 mb-3 leading-tight;
+}
+
+.prose h5 {
+    @apply text-base sm:text-lg lg:text-xl mt-6 mb-2 leading-tight;
+}
+
+.prose h6 {
+    @apply text-sm sm:text-base lg:text-lg mt-4 mb-2 leading-tight;
+}
+
+.prose p {
+    @apply mb-6 leading-relaxed text-base lg:text-lg;
+}
+
+.prose code {
+    @apply bg-gray-100 text-gray-800 px-2 py-1 rounded-md text-sm font-mono border;
+}
+
+.prose pre {
+    @apply bg-gray-900 text-gray-100 p-4 lg:p-6 rounded-xl overflow-x-auto text-sm leading-relaxed border;
+}
+
+.prose pre code {
+    @apply bg-transparent text-inherit px-0 py-0 border-0;
+}
+
+.prose blockquote {
+    @apply border-l-4 border-blue-500 pl-6 italic text-gray-700 bg-blue-50/50 py-4 rounded-r-lg my-6;
+}
+
+.prose ul, .prose ol {
+    @apply mb-6 pl-6 space-y-2;
+}
+
+.prose li {
+    @apply leading-relaxed;
+}
+
+.prose ul > li {
+    @apply relative;
+}
+
+.prose ul > li::before {
+    @apply absolute -left-6 top-2 w-1.5 h-1.5 bg-blue-500 rounded-full;
+    content: '';
+}
+
+.prose ol > li {
+    @apply relative;
+}
+
+.prose a {
+    @apply text-blue-600 hover:text-blue-800 underline decoration-blue-300 hover:decoration-blue-500 decoration-2 underline-offset-2 transition-all duration-200 font-medium;
+}
+
+.prose img {
+    @apply rounded-xl shadow-lg my-8 border border-gray-200;
+}
+
+.prose figure {
+    @apply my-8;
+}
+
+.prose figcaption {
+    @apply text-center text-sm text-gray-600 mt-3 italic;
+}
+
+.prose table {
+    @apply w-full border-collapse border border-gray-300 rounded-xl overflow-hidden my-8 text-sm lg:text-base;
+}
+
+.prose th, .prose td {
+    @apply border border-gray-300 px-4 py-3 text-left;
+}
+
+.prose th {
+    @apply bg-gray-50 font-semibold text-gray-900;
+}
+
+.prose tbody tr:nth-child(even) {
+    @apply bg-gray-50/50;
+}
+
+.prose tbody tr:hover {
+    @apply bg-blue-50/50 transition-colors duration-200;
+}
+
+.prose hr {
+    @apply border-0 border-t border-gray-300 my-12;
+}
+
+.prose strong {
+    @apply font-semibold text-gray-900;
+}
+
+.prose em {
+    @apply italic text-gray-700;
+}
+
+/* Responsive improvements */
+@media (max-width: 640px) {
+    .prose h1 {
+        @apply text-2xl mb-6 pb-4;
+    }
+    
+    .prose h2 {
+        @apply text-xl mt-10 mb-4;
+    }
+    
+    .prose h3 {
+        @apply text-lg mt-8 mb-3;
+    }
+    
+    .prose p {
+        @apply text-sm mb-4;
+    }
+    
+    .prose pre {
+        @apply p-3 text-xs;
+    }
+}
+
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Focus states for accessibility */
+.toc a:focus-visible {
+    @apply outline-2 outline-blue-500 outline-offset-2;
+}
+
+.prose a:focus-visible {
+    @apply outline-2 outline-blue-500 outline-offset-2;
+}
+
+/* Animation for TOC active states */
+.toc a.active {
+    @apply text-blue-600 font-semibold;
+}
+
+.toc li.active {
+    @apply border-blue-500 bg-blue-50;
+}
+</style>

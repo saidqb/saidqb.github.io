@@ -15,8 +15,20 @@
 
     {% seo %}
     <link rel="icon" href="/assets/sqv2/img/favicon.png">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link href="/assets/sqv2/css/style.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif'],
+                        'heading': ['Righteous', 'cursive'],
+                        'body': ['Merriweather', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 
 <body
