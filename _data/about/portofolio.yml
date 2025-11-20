@@ -1,3 +1,30 @@
+- title: Aplikasi Sikendi
+  description:
+  used: Dinas Perindustrian dan Tenaga Kerja Klaten
+  year: 2025
+  position: Fullstack
+  work_with: Team
+  url: sikendi.disperinaker.klaten.go.id
+  is_active: true
+
+- title: Aplikasi Siapmental
+  description:
+  used: Inspektorat klaten
+  year: 2025
+  position: Fullstack
+  work_with: Team
+  url: siapmental.inspektorat.klaten.go.id
+  is_active: true
+
+- title: Disple - Landing page Builder
+  description:
+  used: Esoftdream
+  year: 2025
+  position: Fullstack
+  work_with: Team
+  url: disple.id
+  is_active: true
+
 - title: Aplikasi Helpdesk, Management project, Task, Report
   description:
   used: Dinas kominfo klaten
