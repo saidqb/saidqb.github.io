@@ -52,6 +52,12 @@ sections:
         links:
           - title: "MySQL Dasar"
             url: "https://www.duniailkom.com/tutorial-belajar-mysql-dan-index-artikel-mysql/"
+      - name: "Golang"
+        color: "red-700"
+        description: ""
+        links:
+          - title: "Golang Dasar"
+            url: "https://dasarpemrogramangolang.novalagung.com/"
 
   - title: "Server & DevOps"
     icon_color: "green-600"
