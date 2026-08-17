@@ -10,11 +10,14 @@
   <url><loc>https://saidqb.github.io/toolbox/json-editor</loc></url>
   <url><loc>https://saidqb.github.io/toolbox/qr-code</loc></url>
   <url><loc>https://saidqb.github.io/toolbox/base64</loc></url>
+  <url><loc>https://saidqb.github.io/toolbox/image-base64</loc></url>
   <url><loc>https://saidqb.github.io/toolbox/url-encoder</loc></url>
+  <url><loc>https://saidqb.github.io/toolbox/url-parser</loc></url>
   <url><loc>https://saidqb.github.io/toolbox/jwt-decoder</loc></url>
   <url><loc>https://saidqb.github.io/toolbox/cron-parser</loc></url>
   <url><loc>https://saidqb.github.io/toolbox/markdown-preview</loc></url>
   <url><loc>https://saidqb.github.io/toolbox/color-picker</loc></url>
+  <url><loc>https://saidqb.github.io/toolbox/color-palette</loc></url>
   <url><loc>https://saidqb.github.io/toolbox/case-converter</loc></url>
   <url><loc>https://saidqb.github.io/toolbox/text-counter</loc></url>
   <url><loc>https://saidqb.github.io/toolbox/hash-generator</loc></url>
@@ -23,6 +26,7 @@
   <url><loc>https://saidqb.github.io/toolbox/html-entity</loc></url>
   <url><loc>https://saidqb.github.io/toolbox/hmac-generator</loc></url>
   <url><loc>https://saidqb.github.io/toolbox/unix-timestamp</loc></url>
+  <url><loc>https://saidqb.github.io/toolbox/regex-tester</loc></url>
   <url><loc>https://saidqb.github.io/tools/converter</loc></url>
   <url><loc>https://saidqb.github.io/tools/generator</loc></url>
   <url><loc>https://saidqb.github.io/tools/ai-assist</loc></url>
