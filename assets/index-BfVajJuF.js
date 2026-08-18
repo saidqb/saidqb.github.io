@@ -1077,6 +1077,8 @@ git config --list                            # lihat semua config aktif
 \`\`\`bash
 git init
 git clone https://github.com/user/repo.git
+git clone -b production <url>                 # clone langsung checkout ke branch tertentu
+git clone -b production --single-branch <url> # clone hanya branch tertentu, tanpa branch lain
 git clone --depth 1 <url>                     # shallow clone, tanpa full history
 git remote add origin <url>
 git remote -v
@@ -1169,9 +1171,9 @@ git blame file.txt                            # siapa mengubah baris mana
 Deploy satu folder dari monorepo ke remote/branch terpisah, tanpa split repo penuh.
 
 \`\`\`bash
-git subtree push --prefix=app-laravel origin production
-git subtree pull --prefix=app-laravel origin production   # tarik balik perubahan dari remote
-git subtree split --prefix=app-laravel -b app-laravel-only # ekstrak folder jadi branch tersendiri
+git subtree push --prefix=project origin production
+git subtree pull --prefix=project origin production   # tarik balik perubahan dari remote
+git subtree split --prefix=project -b project-only # ekstrak folder jadi branch tersendiri
 \`\`\`
 
 ## Tag
@@ -1418,7 +1420,7 @@ sudo adduser --disabled-password --gecos "" fastapiapp
 
 \`\`\`bash
 sudo -iu fastapiapp
-git clone <url-repo-git> app
+git clone -b production --single-branch <url-repo-git> app   # clone hanya branch production, tanpa riwayat/branch lain
 cd app
 python3 -m venv venv
 source venv/bin/activate
@@ -1427,7 +1429,7 @@ pip install gunicorn uvicorn
 exit                       # kembali ke user SSH biasa
 \`\`\`
 
-\`sudo -iu fastapiapp\` masuk sebagai user itu dengan \`$HOME=/home/fastapiapp\`, jadi \`git clone ... app\` otomatis jadi \`/home/fastapiapp/app\` — seluruh isinya (termasuk \`venv/\`) otomatis kepemilikan \`fastapiapp\`.
+\`sudo -iu fastapiapp\` masuk sebagai user itu dengan \`$HOME=/home/fastapiapp\`, jadi \`git clone ... app\` otomatis jadi \`/home/fastapiapp/app\` — seluruh isinya (termasuk \`venv/\`) otomatis kepemilikan \`fastapiapp\`. \`-b production --single-branch\` supaya server cuma punya branch \`production\` (bukan \`main\` + seluruh branch lain) — cocok karena Langkah 5 juga selalu \`git pull origin production\`.
 
 ## 3. Buat systemd service
 
@@ -1681,7 +1683,7 @@ sudo adduser --disabled-password --gecos "" laravelapp
 
 \`\`\`bash
 sudo -iu laravelapp
-git clone <url-repo-git> app
+git clone -b production --single-branch <url-repo-git> app   # clone hanya branch production, tanpa riwayat/branch lain
 cd app
 composer install --no-dev --optimize-autoloader
 cp .env.example .env       # cuma sekali di awal, lalu isi manual sesuai server
@@ -1689,7 +1691,7 @@ php artisan key:generate
 exit                       # kembali ke user SSH biasa
 \`\`\`
 
-\`sudo -iu laravelapp\` masuk sebagai user itu dengan \`$HOME=/home/laravelapp\`, jadi \`git clone ... app\` otomatis jadi \`/home/laravelapp/app\` — seluruh isinya otomatis kepemilikan \`laravelapp\`, tidak perlu \`chown\` manual lagi di langkah manapun setelah ini.
+\`sudo -iu laravelapp\` masuk sebagai user itu dengan \`$HOME=/home/laravelapp\`, jadi \`git clone ... app\` otomatis jadi \`/home/laravelapp/app\` — seluruh isinya otomatis kepemilikan \`laravelapp\`, tidak perlu \`chown\` manual lagi di langkah manapun setelah ini. \`-b production --single-branch\` supaya server cuma punya branch \`production\` (bukan \`main\` + seluruh branch lain) — cocok karena Langkah 8 juga selalu \`git pull origin production\`.
 
 ## 3. Buat database & user MySQL
 
